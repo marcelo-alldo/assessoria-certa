@@ -20,21 +20,21 @@ const themeOptions = [
     },
   },
   {
-    id: 'eagles',
+    id: 'royalBlue',
     section: {
-      main: themesConfig.eagles,
-      navbar: themesConfig.eaglesDark,
-      toolbar: themesConfig.default,
-      footer: themesConfig.defaultDark,
+      main: themesConfig.royalBlue,
+      navbar: themesConfig.royalBlueDark,
+      toolbar: themesConfig.royalBlue,
+      footer: themesConfig.royalBlueDark,
     },
   },
   {
-    id: 'eaglesDark',
+    id: 'royalBlueDark',
     section: {
-      main: themesConfig.eaglesDark,
-      navbar: themesConfig.eaglesDark,
-      toolbar: themesConfig.eaglesDark,
-      footer: themesConfig.eaglesDark,
+      main: themesConfig.royalBlueDark,
+      navbar: themesConfig.royalBlueDark,
+      toolbar: themesConfig.royalBlueDark,
+      footer: themesConfig.royalBlueDark,
     },
   },
   {

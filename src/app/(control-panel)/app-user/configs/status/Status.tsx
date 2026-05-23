@@ -66,8 +66,8 @@ function Status() {
   }
 
   const steps = [
-    { key: 'about', label: '1. Sobre a empresa', configPath: '/configs/about' },
-    { key: 'products', label: '2. Produtos/Serviços', configPath: '/configs/products' },
+    { key: 'about', label: '1. Sobre o candidato', configPath: '/configs/about' },
+    { key: 'products', label: '2. Informativos', configPath: '/configs/products' },
     { key: 'keys', label: '3. Chaves', configPath: '/configs/keys' },
     { key: 'whatsapp', label: '4. WhatsApp', configPath: '/configs/whatsapp' },
   ];

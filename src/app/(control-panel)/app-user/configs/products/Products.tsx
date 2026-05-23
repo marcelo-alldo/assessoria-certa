@@ -375,7 +375,8 @@ function Products() {
             {!isLoadingConfigs && (
               <form className="flex flex-1 flex-col overflow-x-auto overflow-y-hidden h-full p-8 max-w-2xl">
                 <Typography variant="body1" className="mb-4">
-                  Cadastre seus produtos/serviços abaixo. Você pode adicionar quantos quiser. O Alldo usará essas informações para responder clientes.
+                  Cadastre os informativos da sua campanha para que o Alldo possa entregar para seus eleitores quando solicitado. Você pode cadastrar
+                  quantos quiser.
                 </Typography>
                 {fields.map((field, idx) => (
                   <div key={field.id} className="mb-6 border-b pb-4 border-gray-200 relative">
@@ -408,32 +409,6 @@ function Products() {
                           className="mb-2"
                           error={!!errors.products?.[idx]?.description}
                           helperText={errors.products?.[idx]?.description?.message}
-                        />
-                      )}
-                    />
-                    <Controller
-                      name={`products.${idx}.price`}
-                      control={control}
-                      render={({ field }) => (
-                        <TextField
-                          {...field}
-                          label="Preço"
-                          fullWidth
-                          className="mb-2"
-                          error={!!errors.products?.[idx]?.price}
-                          helperText={errors.products?.[idx]?.price?.message}
-                          InputProps={{
-                            startAdornment: <span style={{ marginRight: 4 }}>R$</span>,
-                            inputProps: {
-                              inputMode: 'numeric',
-                              pattern: '[0-9]*[.,]?[0-9]*',
-                              onInput: (e) => {
-                                const input = e.target as HTMLInputElement;
-                                input.value = input.value.replace(/[^0-9.,]/g, '');
-                                field.onChange(e);
-                              },
-                            },
-                          }}
                         />
                       )}
                     />

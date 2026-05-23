@@ -336,7 +336,7 @@ function BoardListHeader(props: BoardListHeaderProps) {
       <Box
         className={clsx('flex items-center justify-between h-12 sm:h-14 px-3', className)}
         sx={{
-          backgroundColor: (theme) => (list.type === 'DEFAULT' || list.type === 'OPTICO' ? theme.palette.secondary.main : '#FFFFF'),
+          backgroundColor: (theme) => (list.type === 'DEFAULT' || list.type === 'OPTICO' ? theme.palette.primary.main : '#FFFFF'),
         }}
       >
         <div className="flex items-center min-w-0">

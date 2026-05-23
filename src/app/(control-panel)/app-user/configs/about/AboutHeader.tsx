@@ -43,7 +43,7 @@ function AboutHeader({ refetch, setLoading, uid }: AboutHeaderProps) {
         uid,
         key: 'ABOUT',
         value: about,
-        name: 'Sobre a empresa',
+        name: 'Sobre o candidato',
       })
         .unwrap()
         .then((response) => {
@@ -77,7 +77,7 @@ function AboutHeader({ refetch, setLoading, uid }: AboutHeaderProps) {
       createConfig({
         key: 'ABOUT',
         value: about,
-        name: 'Sobre a empresa',
+        name: 'Sobre o candidato',
       })
         .unwrap()
         .then((response) => {
@@ -112,7 +112,7 @@ function AboutHeader({ refetch, setLoading, uid }: AboutHeaderProps) {
 
   return (
     <div className="p-6 sm:p-8 w-full flex items-center sm:justify-between">
-      <PageTitle title="Sobre sua empresa" />
+      <PageTitle title="Sobre o candidato" />
 
       <div className="flex flex-1 items-center justify-end space-x-0 sm:space-x-3">
         <Button

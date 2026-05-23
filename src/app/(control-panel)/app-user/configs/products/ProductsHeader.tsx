@@ -45,8 +45,8 @@ function ProductsHeader({ refetch, setLoading, uid, hasChanges, setHasChanges }:
       updateConfig({
         uid,
         key: 'PRODUCTS',
-        value: 'Produtos da empresa',
-        name: 'Sobre a empresa',
+        value: 'Informativos da campanha',
+        name: 'Informativos da campanha',
         data: parsedProducts,
       })
         .unwrap()
@@ -81,8 +81,8 @@ function ProductsHeader({ refetch, setLoading, uid, hasChanges, setHasChanges }:
     } else {
       createConfig({
         key: 'PRODUCTS',
-        value: 'Produtos da empresa',
-        name: 'Sobre a empresa',
+        value: 'Informativos da campanha',
+        name: 'Informativos da campanha',
         data: parsedProducts,
       })
         .unwrap()
@@ -119,7 +119,7 @@ function ProductsHeader({ refetch, setLoading, uid, hasChanges, setHasChanges }:
 
   return (
     <div className="p-6 sm:p-8 w-full flex items-center sm:justify-between">
-      <PageTitle title="Produtos da sua empresa" />
+      <PageTitle title="Informativos da campanha" />
 
       <div className="flex flex-1 items-center justify-end space-x-0 sm:space-x-3">
         <Button

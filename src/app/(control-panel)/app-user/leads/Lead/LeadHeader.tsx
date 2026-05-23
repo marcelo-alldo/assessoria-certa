@@ -146,7 +146,7 @@ function LeadHeader({ setLoading, refetch }: LeadHeaderProps) {
         refetch();
         dispatch(
           showMessage({
-            message: response?.msg || (currentArchived ? 'Lead desarquivado com sucesso' : 'Lead arquivado com sucesso'),
+            message: response?.msg || (currentArchived ? 'Eleitor desarquivado com sucesso' : 'Eleitor arquivado com sucesso'),
             autoHideDuration: 3000,
             variant: 'success',
             anchorOrigin: { vertical: 'top', horizontal: 'right' },
@@ -200,7 +200,7 @@ function LeadHeader({ setLoading, refetch }: LeadHeaderProps) {
     } catch (error: any) {
       dispatch(
         showMessage({
-          message: error?.data?.msg || error?.message || 'Erro ao transferir lead para Alldo.',
+          message: error?.data?.msg || error?.message || 'Erro ao transferir eleitor para Alldo.',
           autoHideDuration: 3000,
           variant: 'error',
           anchorOrigin: { vertical: 'top', horizontal: 'right' },
@@ -332,7 +332,7 @@ function LeadHeader({ setLoading, refetch }: LeadHeaderProps) {
           <Button
             variant="contained"
             className="whitespace-nowrap"
-            color={getValues('archived') ? 'primary' : 'secondary'}
+            color={getValues('archived') ? 'secondary' : 'primary'}
             onClick={handleToggleArchive}
             disabled={isLoadingToggleArchive}
           >
@@ -340,13 +340,13 @@ function LeadHeader({ setLoading, refetch }: LeadHeaderProps) {
             <span className="hidden sm:flex mx-2">{getValues('archived') ? 'Desarquivar' : 'Arquivar'}</span>
           </Button>
           {!aiAutomatic && (
-            <Button variant="contained" className="whitespace-nowrap" color="secondary" onClick={handleOpenTransferAlldoModal}>
+            <Button variant="contained" className="whitespace-nowrap" color="primary" onClick={handleOpenTransferAlldoModal}>
               <img src="/assets/images/logo/alldo-sem-fundo-face.png" alt="logo Alldo" width={25} style={{ display: 'block' }} />
               <span className="hidden sm:flex mx-2">Transferir para Alldo</span>
             </Button>
           )}
           {uid && (
-            <Button variant="contained" className="whitespace-nowrap" color="secondary" onClick={handleOpenModalSelectStep}>
+            <Button variant="contained" className="whitespace-nowrap" color="primary" onClick={handleOpenModalSelectStep}>
               <FuseSvgIcon size={20}>heroicons-outline:arrows-right-left</FuseSvgIcon>
               <span className="hidden sm:flex mx-2">Mudar Etapa</span>
             </Button>
@@ -354,7 +354,7 @@ function LeadHeader({ setLoading, refetch }: LeadHeaderProps) {
           <Button
             variant="contained"
             className="whitespace-nowrap"
-            color="secondary"
+            color="primary"
             disabled={_.isEmpty(dirtyFields) || !isValid || !uid || isLoadingUpdate}
             onClick={handleUpdateLead}
           >
@@ -366,8 +366,8 @@ function LeadHeader({ setLoading, refetch }: LeadHeaderProps) {
 
       <DefaultConfirmModal
         open={openTransferAlldoModal}
-        title="Transferir Lead para Alldo"
-        message={`Tem certeza que deseja transferir o lead "${name}" para o Alldo?`}
+        title="Transferir eleitor para Alldo"
+        message={`Tem certeza que deseja transferir o eleitor "${name}" para o Alldo?`}
         onConfirm={handleTransferToAlldo}
         onCancel={() => setOpenTransferAlldoModal(false)}
         confirmText="Transferir"
@@ -378,8 +378,8 @@ function LeadHeader({ setLoading, refetch }: LeadHeaderProps) {
 
       <DefaultConfirmModal
         open={modalConfirmNewClient}
-        title="Transformar lead em cliente?"
-        message="Tem certeza que deseja transformar este lead em cliente?"
+        title="Transformar eleitor em apoiador?"
+        message="Tem certeza que deseja transformar este eleitor em apoiador?"
         onConfirm={() => handleConfirmNewClient(true)}
         onCancel={() => handleConfirmNewClient(false)}
       />
@@ -387,11 +387,11 @@ function LeadHeader({ setLoading, refetch }: LeadHeaderProps) {
         onCancel={() => setOpenModalSelectStep(false)}
         onConfirm={handleChangeCardOrder}
         open={openModalSelectStep}
-        title="Mudar Etapa do Lead"
+        title="Mudar Etapa do Eleitor"
         message={
           <>
             <Typography variant="body2" color="textSecondary">
-              Aqui você pode selecionar a etapa em que quer mover seu Lead
+              Aqui você pode selecionar a etapa em que quer mover seu Eleitor
             </Typography>
             <FormControl fullWidth size="small" sx={{ mt: 2 }}>
               <InputLabel id="select-step-label">Etapa</InputLabel>
@@ -430,8 +430,8 @@ function LeadHeader({ setLoading, refetch }: LeadHeaderProps) {
         onCancel={() => setOpenDeleteLeadModal(false)}
         onConfirm={handleDeleteLead}
         open={openDeleteLeadModal}
-        title="Excluir lead"
-        message={`Tem certeza que deseja excluir o lead "${name}"? Esta ação não poderá ser desfeita.`}
+        title="Excluir eleitor"
+        message={`Tem certeza que deseja excluir o eleitor "${name}"? Esta ação não poderá ser desfeita.`}
         confirmText="Excluir"
         cancelText="Cancelar"
         confirmColor="error"

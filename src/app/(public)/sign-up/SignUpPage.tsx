@@ -15,7 +15,7 @@ function SignUpPage() {
     <div className="flex min-w-0 flex-1 flex-col items-center sm:flex-row sm:justify-center md:items-start md:justify-start">
       <Paper className="h-full w-full px-4 py-2 ltr:border-r-1 rtl:border-l-1 sm:h-auto sm:w-auto sm:rounded-xl sm:p-12 sm:shadow-sm md:flex md:h-full md:w-1/2 md:items-center md:justify-end md:rounded-none md:p-16 md:shadow-none">
         <div className="mx-auto w-full max-w-80 sm:mx-0 sm:w-80">
-          <img className="w-128" src={import.meta.env.VITE_APP_LOGO} alt="logo" />
+          <img src="assets/images/logo/assessoria-certa.png" alt="logo" />
 
           <Typography className="mt-8 text-4xl font-extrabold leading-[1.25] tracking-tight">Criar conta</Typography>
           <div className="mt-0.5 flex items-baseline font-medium">
@@ -64,11 +64,11 @@ function SignUpPage() {
         </Box>
 
         <div className="relative z-10 w-full max-w-4xl">
-          <div className="text-7xl font-bold leading-none" style={{ color: theme.palette.secondary.main }}>
+          <div className="text-7xl font-bold leading-none" style={{ color: 'white' }}>
             <div>Crie sua conta gratuita,</div>
             <div>utilize por 7 dias com limitações</div>
           </div>
-          <div className="mt-6 text-lg leading-6 tracking-tight ">
+          <div className="mt-6 text-lg leading-6 tracking-tight" style={{ color: theme.palette.secondary.main }}>
             Você pode criar conta gratuita para conhecer a ferramenta, não precisa cadastrar seu cartão. Vamos começar? <br />
           </div>
           {/* <div className="mt-8 flex items-center">

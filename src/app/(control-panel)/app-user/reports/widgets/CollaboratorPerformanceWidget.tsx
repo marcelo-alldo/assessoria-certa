@@ -168,9 +168,9 @@ function CollaboratorPerformanceWidget({ collaboratorStats, isLoading }: Collabo
   if (!collaboratorStats || collaboratorStats.length === 0) {
     return (
       <Paper className="flex flex-col flex-auto p-6 shadow-sm rounded-xl overflow-hidden">
-        <Typography className="text-xl font-medium tracking-tight leading-6 truncate">Performance dos Colaboradores</Typography>
+        <Typography className="text-xl font-medium tracking-tight leading-6 truncate">Performance dos assessores</Typography>
         <div className="flex flex-col flex-auto justify-center items-center p-8">
-          <Typography color="text.secondary">Nenhum dado de colaborador disponível</Typography>
+          <Typography color="text.secondary">Nenhum dado de assessor disponível</Typography>
         </div>
       </Paper>
     );
@@ -180,12 +180,12 @@ function CollaboratorPerformanceWidget({ collaboratorStats, isLoading }: Collabo
     <Paper className="flex flex-col flex-auto p-6 shadow-sm rounded-xl overflow-hidden">
       <div className="grid grid-cols-1 gap-6">
         <div className="flex flex-col sm:flex-row items-start justify-between">
-          <Typography className="text-xl font-medium tracking-tight leading-6 truncate">Performance dos Colaboradores</Typography>
+          <Typography className="text-xl font-medium tracking-tight leading-6 truncate">Performance dos assessores</Typography>
         </div>
 
         <div className="flex flex-col">
           <Typography className="font-medium mb-4" color="text.secondary">
-            Atendimentos por Colaborador
+            Atendimentos por assessor
           </Typography>
           <div className="flex flex-col flex-auto">
             <ReactApexChart

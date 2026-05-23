@@ -74,8 +74,8 @@ function About() {
             {!isLoadingConfigs && (
               <div className="flex flex-1 flex-col h-full p-8 max-w-2xl">
                 <Typography variant="body1" className="mb-4">
-                  Este texto será utilizado pelo Alldo para responder dúvidas dos clientes automaticamente. Seja claro, detalhado e inclua informações
-                  relevantes sobre sua empresa, serviços, diferenciais e missão.
+                  Este texto será utilizado pelo Alldo para responder dúvidas dos eleitores automaticamente. Seja claro, detalhado e inclua
+                  informações relevantes sobre sua campanha, propostas, diferenciais e missão.
                 </Typography>
                 <Controller
                   name="about"
@@ -89,7 +89,7 @@ function About() {
                       fullWidth
                       variant="outlined"
                       className="mb-4"
-                      placeholder="Descreva aqui sobre sua empresa..."
+                      placeholder="Descreva aqui sobre sua campanha..."
                       error={!!errors.about}
                       helperText={errors.about?.message || `${aboutValue.length}/2000 caracteres`}
                       inputProps={{

@@ -61,7 +61,7 @@ function DefaultTable({
             : undefined
         }
         muiPaginationProps={{
-          color: 'secondary',
+          color: 'primary',
           shape: 'rounded',
           variant: 'outlined',
           showRowsPerPage: false,
@@ -70,10 +70,10 @@ function DefaultTable({
               borderRadius: '12px',
               color: '#000000',
               fontWeight: 700,
-              border: `1px solid ${(theme) => theme.palette.secondary.main}`,
+              border: `1px solid ${(theme) => theme.palette.primary.main}`,
               '&.Mui-selected': {
-                backgroundColor: (theme) => theme.palette.secondary.main,
-                color: '#000000',
+                backgroundColor: (theme) => theme.palette.primary.main,
+                color: '#ffffff',
               },
             },
           },

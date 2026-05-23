@@ -24,18 +24,18 @@ function Logo() {
 
   return (
     <Root className="flex flex-1 items-center space-x-3">
-      <div className="flex flex-1 items-center ">
-        <div
-          className="flex items-center"
+      <div className="flex flex-1 items-center">
+        <img
+          src="/assets/images/logo/assessoria-certa.png"
+          alt="Assessoria Certa"
           style={{
-            width: navbar.foldedOpen ? 170 : 55,
-            height: 60,
-            backgroundImage: navbar.foldedOpen ? `url(${import.meta.env.VITE_APP_LOGO_MENU})` : `url(${import.meta.env.VITE_APP_LOGO_MENU_ICONE})`,
-            backgroundSize: 'cover', // ou 'cover'
-            backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center center',
+            width: 170,
+            height: 'auto',
+            objectFit: 'contain',
+            objectPosition: 'left center',
+            filter: 'brightness(0) invert(1)', // torna o logo branco
           }}
-        ></div>
+        />
         <div className="logo-text flex flex-col flex-auto gap-0.5"></div>
       </div>
     </Root>

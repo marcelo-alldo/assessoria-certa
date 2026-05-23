@@ -22,8 +22,8 @@ function BoardHeader({ refetch, type }: BoardHeaderProps) {
   return (
     <div className="p-6 sm:p-8 w-full flex items-center sm:justify-between">
       <div className="flex flex-col">
-        {type === 'clients' && <PageTitle title="Painel de Clientes" />}
-        {type === 'leads' && <PageTitle title="Painel de Leads" />}
+        {type === 'clients' && <PageTitle title="Painel de Apoiadores" />}
+        {type === 'leads' && <PageTitle title="Painel de Eleitores" />}
       </div>
 
       <div className="flex flex-1 items-center justify-end space-x-0 sm:space-x-3">
@@ -33,11 +33,11 @@ function BoardHeader({ refetch, type }: BoardHeaderProps) {
           }}
           variant="contained"
           className="whitespace-nowrap"
-          color="secondary"
+          color="primary"
         >
           <FuseSvgIcon size={20}>heroicons-outline:plus-circle</FuseSvgIcon>
-          {type === 'clients' && <span className="hidden sm:flex mx-2">Adicionar Cliente</span>}
-          {type === 'leads' && <span className="hidden sm:flex mx-2">Adicionar Lead</span>}
+          {type === 'clients' && <span className="hidden sm:flex mx-2">Adicionar Apoiador</span>}
+          {type === 'leads' && <span className="hidden sm:flex mx-2">Adicionar Eleitor</span>}
         </Button>
       </div>
 

@@ -9,7 +9,8 @@ const Layout2Config = {
     navbar: {
       display: true,
       style: 'fixed',
-      folded: true,
+      folded: false,
+      open: true,
     },
     toolbar: {
       display: true,

@@ -53,9 +53,9 @@ function Dashboard() {
                     <DefaultWidget
                       isLoading={false}
                       count={dashboardData?.data?.totalLeads || 0}
-                      header="Leads"
-                      title="Total de Leads"
-                      subtitle="Leads cadastrados no sistema"
+                      header="Eleitores"
+                      title="Total de Eleitores"
+                      subtitle="Eleitores cadastrados no sistema"
                       color={theme.palette.primary.main}
                     />
                   </motion.div>
@@ -63,9 +63,9 @@ function Dashboard() {
                     <DefaultWidget
                       isLoading={false}
                       count={dashboardData?.data?.totalClientsEnable || 0}
-                      header="Clientes"
-                      title="Clientes Ativos"
-                      subtitle={`Total de clientes inativos ${dashboardData?.data?.totalClientsDisable || 0}`}
+                      header="Apoiadores"
+                      title="Apoiadores Ativos"
+                      subtitle={`Total de apoiadores inativos ${dashboardData?.data?.totalClientsDisable || 0}`}
                       color={theme.palette.primary.main}
                     />
                   </motion.div>
@@ -73,9 +73,9 @@ function Dashboard() {
                     <DefaultWidget
                       isLoading={false}
                       count={dashboardData?.data?.totalCollaborators || 0}
-                      header="Colaboradores"
-                      title="Total de colaboradores"
-                      subtitle="Colaboradores ativos no sistema"
+                      header="Assessores"
+                      title="Total de assessores"
+                      subtitle="Assessores ativos no sistema"
                       color={theme.palette.primary.main}
                     />
                   </motion.div>
@@ -101,12 +101,12 @@ function Dashboard() {
                         series: {
                           year: [
                             {
-                              name: 'Leads',
+                              name: 'Eleitores',
                               type: 'line',
                               data: dashboardData?.data?.leadsPerMonth || [],
                             },
                             {
-                              name: 'Clientes',
+                              name: 'Apoiadores',
                               type: 'bar',
                               data: dashboardData?.data?.clientsPerMonth || [],
                             },

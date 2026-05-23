@@ -49,7 +49,6 @@ function NavbarStyle2Content(props: NavbarStyle2ContentProps) {
     <Root className={clsx('flex h-full flex-auto flex-col overflow-hidden', className)}>
       <div className="flex h-12 shrink-0 flex-row items-center px-3 md:h-19 gap-1.5">
         <Logo />
-
         <NavbarPinToggleButton className="h-8 w-8 p-0" />
       </div>
 

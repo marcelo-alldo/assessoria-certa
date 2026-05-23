@@ -3,8 +3,8 @@ import { FuseSettingsConfigType } from '@fuse/core/FuseSettings/FuseSettings';
 
 import i18n from '@i18n/i18n';
 
-const themeDefault = 'darkBlueSilver';
-const themeDefaultDark = 'darkBlueSilverDark';
+const themeDefault = 'royalBlue';
+const themeDefaultDark = 'royalBlueDark';
 
 /**
  * The settingsConfig object is a configuration object for the Fuse application's settings.
@@ -44,7 +44,7 @@ const settingsConfig: FuseSettingsConfigType = {
   theme: {
     main: themesConfig[themeDefault],
     navbar: themesConfig[themeDefaultDark],
-    toolbar: themesConfig[themeDefaultDark],
+    toolbar: themesConfig[themeDefault],
     footer: themesConfig[themeDefaultDark],
   },
 

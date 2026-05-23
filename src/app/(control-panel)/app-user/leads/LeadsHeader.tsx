@@ -18,16 +18,16 @@ function LeadsHeader({ refetch }: LeadsHeaderProps) {
   const [openImportLeadsModal, setOpenImportLeadsModal] = useState(false);
   return (
     <div className="p-6 sm:p-8 w-full flex items-center sm:justify-between">
-      <PageTitle title="Lista de Leads" />
+      <PageTitle title="Lista de Eleitores" />
 
       <div className="flex flex-1 items-center justify-end space-x-0 sm:space-x-3">
-        <Button variant="contained" onClick={() => setOpenCreateLeadModal(true)} className="whitespace-nowrap" color="secondary">
+        <Button variant="contained" onClick={() => setOpenCreateLeadModal(true)} className="whitespace-nowrap" color="primary">
           <FuseSvgIcon size={20}>heroicons-outline:plus-circle</FuseSvgIcon>
-          <span className="hidden sm:flex mx-2">Adicionar Lead</span>
+          <span className="hidden sm:flex mx-2">Adicionar Eleitor</span>
         </Button>
-        <Button variant="contained" onClick={() => setOpenImportLeadsModal(true)} className="whitespace-nowrap" color="secondary">
+        <Button variant="contained" onClick={() => setOpenImportLeadsModal(true)} className="whitespace-nowrap" color="primary">
           <FuseSvgIcon size={20}>heroicons-outline:arrow-up-tray</FuseSvgIcon>
-          <span className="hidden sm:flex mx-2">Importar Leads</span>
+          <span className="hidden sm:flex mx-2">Importar Eleitores</span>
         </Button>
         <Button variant="outlined" className="whitespace-nowrap" color="primary" component="a" href="/assets/excel-models/modelo_leads.xlsx" download>
           <FuseSvgIcon size={20}>heroicons-outline:arrow-down-tray</FuseSvgIcon>

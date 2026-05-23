@@ -15,7 +15,7 @@ export type FuseLoadingProps = {
 function FuseLoading(props: FuseLoadingProps) {
   const { delay = 0, className } = props;
   const [showLoading, setShowLoading] = useState(!delay);
-  const theme = themesConfig[import.meta.env.VITE_APP_THEME_DEFAULT];
+  const theme = themesConfig['royalBlue'];
 
   if (!theme) {
     return null;
@@ -26,7 +26,7 @@ function FuseLoading(props: FuseLoadingProps) {
   }, delay);
 
   return (
-    <Box sx={{ backgroundColor: theme.palette.secondary.main }} className="flex flex-1">
+    <Box sx={{ backgroundColor: '#ffffff' }} className="flex flex-1">
       <div
         className={clsx(
           className,
@@ -34,7 +34,7 @@ function FuseLoading(props: FuseLoadingProps) {
           !showLoading ? 'hidden' : '',
         )}
       >
-        <img width="200" src="assets/images/logo/alldo-sem-fundo-robot.png" alt="logo" />
+        <img width="400" src="assets/images/logo/assessoria-certa.png" alt="logo" />
         <Box
           id="spinner"
           sx={{

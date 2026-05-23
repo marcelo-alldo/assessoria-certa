@@ -9,9 +9,9 @@ const Layout1Config = {
     navbar: {
       display: true,
       style: 'style-1',
-      folded: true,
+      folded: false,
       position: 'left',
-      open: false,
+      open: true,
     },
     toolbar: {
       display: true,

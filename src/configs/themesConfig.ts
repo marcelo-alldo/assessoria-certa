@@ -932,6 +932,62 @@ export const themesConfig: FuseThemesType = {
       },
     },
   },
+  royalBlue: {
+    palette: {
+      mode: 'light',
+      divider: '#DDE6FF',
+      text: lightPaletteText,
+      primary: {
+        light: '#6AABFF', // tom mais claro do azul royal
+        main: '#1972ff', // azul royal principal
+        dark: '#0050CC', // tom mais escuro do azul royal
+        contrastText: '#ffffff',
+      },
+      secondary: {
+        light: '#1A4080', // navy médio
+        main: '#01153d', // navy escuro principal
+        dark: '#000D28', // navy mais escuro
+        contrastText: '#ffffff',
+      },
+      background: {
+        paper: '#FFFFFF',
+        default: '#F4F7FE',
+      },
+      error: {
+        light: '#ffcdd2',
+        main: '#f44336',
+        dark: '#b71c1c',
+      },
+    },
+  },
+  royalBlueDark: {
+    palette: {
+      mode: 'dark',
+      divider: 'rgba(255, 255, 255, 0.08)',
+      text: darkPaletteText,
+      primary: {
+        light: '#6AABFF', // tom mais claro do azul royal
+        main: '#1972ff', // azul royal principal
+        dark: '#0050CC', // tom mais escuro do azul royal
+        contrastText: darkPaletteText.primary,
+      },
+      secondary: {
+        light: '#3A6BCC', // navy claro visível no fundo escuro
+        main: '#0D3A8A', // navy médio com contraste adequado
+        dark: '#01153d', // navy escuro da marca
+        contrastText: darkPaletteText.primary,
+      },
+      background: {
+        paper: '#162040',
+        default: '#0D1B35',
+      },
+      error: {
+        light: '#ffcdd2',
+        main: '#f44336',
+        dark: '#b71c1c',
+      },
+    },
+  },
 };
 
 export default themesConfig;

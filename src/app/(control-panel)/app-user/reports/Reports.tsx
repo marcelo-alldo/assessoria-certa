@@ -258,7 +258,7 @@ function Reports() {
                 <Typography variant="h6" gutterBottom>
                   Erro ao carregar dados
                 </Typography>
-                <Typography variant="body2">Não foi possível carregar as estatísticas dos colaboradores. Tente novamente mais tarde.</Typography>
+                <Typography variant="body2">Não foi possível carregar as estatísticas dos assessores. Tente novamente mais tarde.</Typography>
               </Alert>
             </Box>
           </ContentContainer>
@@ -280,7 +280,7 @@ function Reports() {
                 Nenhum dado encontrado
               </Typography>
               <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 400 }}>
-                Não há estatísticas de colaboradores disponíveis no momento. Verifique se há atendimentos registrados no sistema.
+                Não há estatísticas de assessores disponíveis no momento. Verifique se há atendimentos registrados no sistema.
               </Typography>
             </EmptyState>
           </ContentContainer>
@@ -309,10 +309,10 @@ function Reports() {
                 </IconWrapper>
                 <Box>
                   <Typography variant="h4" component="h2" fontWeight="700" color="text.primary" sx={{ mb: 0.5 }}>
-                    Métricas por Colaborador
+                    Métricas por assessor
                   </Typography>
                   <Typography variant="body1" color="text.secondary">
-                    Acompanhe o desempenho individual de cada colaborador em tempo real
+                    Acompanhe o desempenho individual de cada assessor em tempo real
                   </Typography>
                 </Box>
               </SectionHeader>
@@ -353,7 +353,7 @@ function Reports() {
               <Divider sx={{ my: 6 }} />
             </motion.div>
 
-            {/* Seção de Performance dos Colaboradores */}
+            {/* Seção de Performance dos Assessores */}
             <motion.div variants={itemVariants}>
               <SectionHeader>
                 <IconWrapper>
@@ -364,7 +364,7 @@ function Reports() {
                     Análise de Performance
                   </Typography>
                   <Typography variant="body1" color="text.secondary">
-                    Visualização comparativa do desempenho entre colaboradores
+                    Visualização comparativa do desempenho entre assessores
                   </Typography>
                 </Box>
               </SectionHeader>
