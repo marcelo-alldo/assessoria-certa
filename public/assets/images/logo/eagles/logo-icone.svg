@@ -1,0 +1,13 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg preserveAspectRatio="xMidYMid meet" data-bbox="0.622 0.17 294.478 295.98" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 296 297" height="297" width="296" data-type="ugc" role="presentation" aria-hidden="true" aria-label="">
+    <g>
+        <path fill="#ffffff" d="M146.83 214.32c-36.44 0-63.49-26.35-62.02-66.15 1.47-39.8 30.48-66.15 66.92-66.15 17.18 0 32.26 5.86 43.26 16.22 10.28 9.68 24.02 14.94 38.4 14.94h61.71C282.04 47.3 225.22.17 154.76.17 72.36.17 3.82 64.64.73 148.16-2.36 231.69 61.4 296.15 143.8 296.15c46.75 0 89.04-20.76 117.44-53.97l-47.38-31.04c-11.22-7.35-25.69-8.65-38.28-2.91-8.68 3.95-18.41 6.08-28.75 6.08v.01Z"></path>
+        <path fill="url(#4176ee18-8a30-491c-bc3f-dc57e73089ff_comp-ma3usum4_r_comp-lrqkib84)" d="m147.7 124.45 145.37 5.64-141.3 41.26c-12.74 3.72-25.7-3.55-28.93-16.24-4.22-15.35 9.01-31.53 24.86-30.66Z"></path>
+        <defs fill="none">
+            <linearGradient gradientUnits="userSpaceOnUse" y2="148.37" x2="293.07" y1="148.37" x1="122.05" id="4176ee18-8a30-491c-bc3f-dc57e73089ff_comp-ma3usum4_r_comp-lrqkib84">
+                <stop stop-color="#F32121"></stop>
+                <stop stop-color="#9A0404" offset="1"></stop>
+            </linearGradient>
+        </defs>
+    </g>
+</svg>

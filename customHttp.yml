@@ -1,0 +1,22 @@
+customHeaders:
+  # index.html nunca deve ser cacheado — garante que o usuário sempre recebe
+  # a versão mais recente após um novo deploy
+  - pattern: '/'
+    headers:
+      - key: 'Cache-Control'
+        value: 'no-cache, no-store, must-revalidate'
+      - key: 'Pragma'
+        value: 'no-cache'
+  - pattern: '/index.html'
+    headers:
+      - key: 'Cache-Control'
+        value: 'no-cache, no-store, must-revalidate'
+      - key: 'Pragma'
+        value: 'no-cache'
+
+  # Arquivos de assets com hash no nome podem ser cacheados por 1 ano
+  # (o hash muda a cada build, então nunca ficam desatualizados)
+  - pattern: '/assets/**'
+    headers:
+      - key: 'Cache-Control'
+        value: 'public, max-age=31536000, immutable'

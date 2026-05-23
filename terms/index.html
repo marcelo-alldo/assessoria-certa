@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Política de Privacidade & Termos de Uso — Alldo</title>
+    <meta
+      name="description"
+      content="Política de Privacidade e Termos de Uso da Alldo Assistente. Saiba como coletamos, usamos e protegemos seus dados e as condições para uso da plataforma."
+    />
+    <link rel="canonical" href="https://assistente.alldohost.com.br/terms-privacy/" />
+    <meta property="og:title" content="Política de Privacidade & Termos de Uso — Alldo" />
+    <meta property="og:description" content="Como tratamos seus dados e as condições de uso do Alldo Assistente." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://assistente.alldohost.com.br/terms-privacy/" />
+    <style>
+      :root {
+        --bg: #0b0d10;
+        --card: #111418;
+        --muted: #a6adbb;
+        --text: #e5e7eb;
+        --brand: #f5c518;
+        --brand-2: #ffd857;
+        --accent: #2b3340;
+        --ok: #16a34a;
+        --warn: #f59e0b;
+        --err: #ef4444;
+        --radius: 14px;
+        --maxw: 920px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        background:
+          radial-gradient(1200px 600px at 10% -10%, #1a202c 0%, transparent 60%),
+          radial-gradient(900px 500px at 110% -20%, #0f172a 0%, transparent 60%), var(--bg);
+        color: var(--text);
+        font:
+          500 16px/1.65 ui-sans-serif,
+          system-ui,
+          -apple-system,
+          Segoe UI,
+          Roboto,
+          Inter,
+          'Helvetica Neue',
+          Arial,
+          'Noto Sans',
+          'Apple Color Emoji',
+          'Segoe UI Emoji';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      a {
+        color: #dbeafe;
+        text-decoration: underline;
+      }
+      header {
+        position: sticky;
+        top: 0;
+        backdrop-filter: saturate(120%) blur(8px);
+        background: rgba(12, 14, 18, 0.65);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        z-index: 10;
+      }
+      .wrap {
+        max-width: var(--maxw);
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .brand .dot {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--brand), var(--brand-2));
+        box-shadow: 0 0 0 6px rgba(245, 197, 24, 0.15);
+      }
+      .brand h1 {
+        font-size: 18px;
+        margin: 0;
+        letter-spacing: 0.2px;
+      }
+      .pill {
+        display: inline-block;
+        padding: 0.2rem 0.6rem;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 999px;
+        color: var(--muted);
+        font-weight: 600;
+        font-size: 12px;
+      }
+      main {
+        padding: 28px 20px;
+      }
+      .card {
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.015));
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: var(--radius);
+        box-shadow:
+          0 10px 30px rgba(0, 0, 0, 0.35),
+          inset 0 1px 0 rgba(255, 255, 255, 0.03);
+        overflow: hidden;
+      }
+      .hero {
+        padding: 26px 24px 8px 24px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      }
+      .hero h2 {
+        margin: 0 0 8px 0;
+        font-size: 28px;
+        line-height: 1.25;
+      }
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .grid {
+        display: grid;
+        gap: 18px;
+        padding: 20px;
+      }
+      @media (min-width: 900px) {
+        .grid {
+          grid-template-columns: 260px 1fr;
+        }
+      }
+      .toc {
+        position: sticky;
+        top: 84px;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        border-radius: 12px;
+        padding: 14px;
+      }
+      .toc h3 {
+        margin: 4px 0 10px 0;
+        font-size: 14px;
+        color: var(--muted);
+      }
+      .toc ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 6px;
+      }
+      .toc a {
+        display: block;
+        padding: 6px 8px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #cbd5e1;
+        border: 1px solid transparent;
+      }
+      .toc a:hover {
+        background: rgba(255, 255, 255, 0.05);
+        border-color: rgba(255, 255, 255, 0.09);
+      }
+      section {
+        scroll-margin-top: 90px;
+        padding: 2px 4px;
+      }
+      section h3 {
+        margin: 12px 0 8px 0;
+        font-size: 20px;
+      }
+      section h4 {
+        margin: 10px 0 6px 0;
+        font-size: 16px;
+        color: #cbd5e1;
+      }
+      .callout {
+        margin: 14px 0;
+        padding: 12px 14px;
+        border: 1px solid rgba(255, 255, 255, 0.09);
+        border-left: 4px solid var(--brand);
+        background: rgba(255, 255, 255, 0.02);
+        border-radius: 10px;
+      }
+      .kbd {
+        font:
+          600 12px/1 ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Consolas,
+          'Liberation Mono',
+          monospace;
+        background: #0a0e14;
+        border: 1px solid #273241;
+        border-radius: 6px;
+        padding: 0.1rem 0.35rem;
+      }
+      .list {
+        margin: 8px 0 14px 18px;
+      }
+      .list li {
+        margin: 0.25rem 0;
+      }
+      code {
+        background: #0a0e14;
+        border: 1px solid #273241;
+        border-radius: 6px;
+        padding: 2px 6px;
+      }
+      footer {
+        margin: 26px 0 40px 0;
+        color: var(--muted);
+        font-size: 14px;
+        text-align: center;
+      }
+      .sep {
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.08), transparent);
+        margin: 18px 0;
+      }
+      .btn {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 0.55rem 0.8rem;
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        text-decoration: none;
+        font-weight: 700;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+        color: #e2e8f0;
+      }
+      .btn:hover {
+        transform: translateY(-1px);
+      }
+      .muted {
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap">
+        <div class="brand">
+          <span class="dot" aria-hidden="true"></span>
+          <h1>Alldo Assistente</h1>
+          <span class="pill" style="margin-left: 8px">Política de Privacidade & Termos</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <article class="card">
+        <div class="hero">
+          <h2>Política de Privacidade &amp; Termos de Uso</h2>
+          <div class="meta">
+            <span>Empresa: <strong>Alldo Tecnologia Ltda — CNPJ 57.804.074/0001-06</strong></span>
+            <span>•</span>
+            <span>Última atualização: <time datetime="2025-05-30">30 de maio de 2025</time></span>
+            <span>•</span>
+            <span>Contato: <a href="mailto:contato@alldohost.com.br">contato@alldohost.com.br</a></span>
+          </div>
+        </div>
+
+        <div class="grid">
+          <nav class="toc" aria-label="Sumário">
+            <h3>Navegue</h3>
+            <ul>
+              <li><a href="#privacidade">Política de Privacidade</a></li>
+              <li><a href="#dados-coletados">Quais dados coletamos</a></li>
+              <li><a href="#bases-legais">Bases legais (LGPD)</a></li>
+              <li><a href="#uso-dos-dados">Como usamos os dados</a></li>
+              <li><a href="#compartilhamento">Compartilhamento</a></li>
+              <li><a href="#seguranca">Segurança</a></li>
+              <li><a href="#retencao">Retenção</a></li>
+              <li><a href="#direitos">Direitos do titular</a></li>
+              <li><a href="#cookies">Cookies</a></li>
+              <li>
+                <a href="#transferencias">Transferências internacionais</a>
+              </li>
+              <li><a href="#excluir-dados">Exclusão de dados</a></li>
+              <li><a href="#termos">Termos de Uso</a></li>
+              <li><a href="#foro">Foro e disposições finais</a></li>
+            </ul>
+          </nav>
+
+          <div style="min-width: 0">
+            <section id="privacidade">
+              <h3>Política de Privacidade</h3>
+              <p>
+                Esta Política descreve como coletamos, usamos e protegemos dados pessoais no uso do <strong>Alldo Assistente</strong>, incluindo
+                interações realizadas por WhatsApp por meio de integrações com a API do WhatsApp/Meta (Cloud API/BSP, quando aplicável).
+              </p>
+              <div class="callout">
+                <strong>Resumo rápido:</strong> coletamos dados de conta e de uso para operar o serviço; não vendemos dados; você pode solicitar
+                exclusão a qualquer momento.
+              </div>
+            </section>
+
+            <section id="dados-coletados">
+              <h4>1) Quais dados coletamos</h4>
+              <ul class="list">
+                <li><strong>Dados de conta:</strong> nome, e-mail, telefone/WhatsApp e dados cadastrais informados por você.</li>
+                <li>
+                  <strong>Dados de conversas e uso:</strong> mensagens trocadas com o assistente, horários de atendimento, registros técnicos (IP,
+                  navegador/dispositivo) e metadados necessários à operação.
+                </li>
+                <li>
+                  <strong>Cookies e similares:</strong> usados para autenticação, preferências e métricas de uso (você pode desativá-los no navegador,
+                  com possíveis impactos).
+                </li>
+              </ul>
+            </section>
+
+            <section id="bases-legais">
+              <h4>2) Bases legais (LGPD)</h4>
+              <p>
+                Tratamos dados com fundamento em: (i)
+                <em>execução de contrato</em> e procedimentos preliminares; (ii) <em>legítimo interesse</em> na melhoria e segurança do serviço; (iii)
+                <em>cumprimento de obrigação legal/regulatória</em>; e, quando aplicável, (iv) <em>consentimento</em>.
+              </p>
+            </section>
+
+            <section id="uso-dos-dados">
+              <h4>3) Como usamos os dados</h4>
+              <ul class="list">
+                <li>Operar e manter o serviço, inclusive automações de atendimento via WhatsApp.</li>
+                <li>Suporte, comunicação e notificações sobre o serviço.</li>
+                <li>Melhorias técnicas, prevenção de fraudes e abusos.</li>
+                <li>Cumprimento de obrigações legais e requisições de autoridades.</li>
+              </ul>
+            </section>
+
+            <section id="compartilhamento">
+              <h4>4) Compartilhamento de dados</h4>
+              <p>
+                Podemos compartilhar dados com
+                <strong>fornecedores de infraestrutura e comunicações</strong>
+                (por exemplo, provedores de nuvem e a API do WhatsApp/Meta) estritamente para viabilizar o serviço, sob contratos e medidas de
+                segurança. Também poderemos compartilhar quando exigido por lei.
+              </p>
+            </section>
+
+            <section id="seguranca">
+              <h4>5) Segurança</h4>
+              <p>
+                Adotamos controles técnicos e organizacionais adequados, incluindo criptografia em trânsito (HTTPS), controle de acesso e registros de
+                auditoria. Nenhum sistema é 100% seguro; trabalhamos continuamente para reduzir riscos.
+              </p>
+            </section>
+
+            <section id="retencao">
+              <h4>6) Retenção</h4>
+              <p>
+                Mantemos dados pelo tempo necessário às finalidades desta Política e conforme exigências legais ou regulatórias, eliminando ou
+                anonimizando quando deixarem de ser necessários.
+              </p>
+            </section>
+
+            <section id="direitos">
+              <h4>7) Direitos do titular</h4>
+              <p>
+                Nos termos da LGPD, você pode solicitar: acesso, correção, portabilidade, anonimização, bloqueio, eliminação, informação sobre
+                compartilhamento e revisão de decisões automatizadas. Para exercer, escreva para
+                <a href="mailto:contato@alldohost.com.br">contato@alldohost.com.br</a>.
+              </p>
+            </section>
+
+            <section id="cookies">
+              <h4>8) Cookies</h4>
+              <p>
+                Usamos cookies estritamente necessários e, quando aplicável, cookies de desempenho. Você pode gerenciá-los nas configurações do
+                navegador.
+              </p>
+            </section>
+
+            <section id="transferencias">
+              <h4>9) Transferências internacionais</h4>
+              <p>
+                Quando houver processamento fora do Brasil por provedores de infraestrutura e comunicações, adotamos salvaguardas adequadas e
+                cláusulas contratuais aplicáveis.
+              </p>
+            </section>
+
+            <section id="excluir-dados">
+              <h4>10) Exclusão de dados</h4>
+              <p>
+                Você pode solicitar a exclusão dos seus dados enviando um e-mail para
+                <a href="mailto:contato@alldohost.com.br">contato@alldohost.com.br</a>. Informe o número de telefone utilizado, o e-mail da conta e o
+                identificador da empresa, se houver. Após validarmos sua identidade, iniciaremos a exclusão dentro dos prazos legais.
+              </p>
+            </section>
+
+            <div class="sep"></div>
+
+            <section id="termos">
+              <h3>Termos de Uso</h3>
+              <h4>1) Aceitação</h4>
+              <p>Ao utilizar o Alldo Assistente, você concorda com estes Termos. Se não concordar, não utilize a plataforma.</p>
+
+              <h4>2) Descrição do serviço</h4>
+              <p>
+                Aplicação baseada em inteligência artificial que interage com leads e contatos via WhatsApp de forma automatizada, conforme
+                configurações do cliente.
+              </p>
+
+              <h4>3) Cadastro e acesso</h4>
+              <p>Forneça informações verídicas e mantenha seus dados atualizados. As credenciais são de uso pessoal e intransferível.</p>
+
+              <h4>4) Uso adequado</h4>
+              <p>
+                É proibido spam, envio de mensagens não solicitadas ou qualquer uso que viole políticas do WhatsApp/Meta e leis aplicáveis. Bloqueios
+                por uso indevido são de responsabilidade do titular da conta.
+              </p>
+
+              <h4>5) Restrições</h4>
+              <p>
+                É vedado usar a plataforma para fins ilegais, abusivos ou fraudulentos; tentar acesso não autorizado; ou realizar engenharia reversa
+                do software.
+              </p>
+
+              <h4>6) Suspensão e encerramento</h4>
+              <p>Poderemos suspender ou encerrar contas que violem estes Termos ou causem prejuízos ao serviço.</p>
+
+              <h4>7) Alterações</h4>
+              <p>
+                Podemos atualizar estes Termos e a Política periodicamente. O uso contínuo após mudanças indica concordância com as novas versões.
+              </p>
+
+              <h4>8) Propriedade intelectual</h4>
+              <p>
+                Marcas, nomes, códigos, layouts e conteúdos relacionados ao serviço são de titularidade da Alldo ou licenciados. É proibido o uso não
+                autorizado.
+              </p>
+
+              <h4>9) Limitação de responsabilidade</h4>
+              <p>
+                O serviço é fornecido “como está”. Dentro dos limites legais, não nos responsabilizamos por lucros cessantes, danos indiretos ou
+                decorrentes de integrações de terceiros.
+              </p>
+            </section>
+
+            <section id="foro">
+              <h4>Foro e contato</h4>
+              <p>
+                Fica eleito o foro da comarca de
+                <strong>Novo Hamburgo/RS</strong> para dirimir controvérsias, com renúncia a qualquer outro, por mais privilegiado que seja.
+              </p>
+              <p>
+                Dúvidas:
+                <a href="mailto:contato@alldohost.com.br">contato@alldohost.com.br</a>
+              </p>
+            </section>
+          </div>
+        </div>
+      </article>
+
+      <footer>© 2025 Alldo Tecnologia Ltda. Todos os direitos reservados.</footer>
+    </main>
+  </body>
+</html>
