@@ -3,8 +3,8 @@ import { FuseSettingsConfigType } from '@fuse/core/FuseSettings/FuseSettings';
 
 import i18n from '@i18n/i18n';
 
-const themeDefault = import.meta.env.VITE_APP_THEME_DEFAULT || 'default';
-const themeDefaultDark = import.meta.env.VITE_APP_THEME_DEFAULT_DARK || 'defaultDark';
+const themeDefault = 'darkBlueSilver';
+const themeDefaultDark = 'darkBlueSilverDark';
 
 /**
  * The settingsConfig object is a configuration object for the Fuse application's settings.
@@ -44,8 +44,8 @@ const settingsConfig: FuseSettingsConfigType = {
   theme: {
     main: themesConfig[themeDefault],
     navbar: themesConfig[themeDefaultDark],
-    toolbar: themesConfig.default,
-    footer: themesConfig.defaultDark,
+    toolbar: themesConfig[themeDefaultDark],
+    footer: themesConfig[themeDefaultDark],
   },
 
   /**
