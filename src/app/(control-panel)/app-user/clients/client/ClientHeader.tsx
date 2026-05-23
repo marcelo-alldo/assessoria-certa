@@ -175,7 +175,7 @@ function ClientHeader({ refetch, setLoading }: ClientHeaderProps) {
         refetch();
         dispatch(
           showMessage({
-            message: response?.msg || (currentArchived ? 'Cliente desarquivado com sucesso' : 'Cliente arquivado com sucesso'),
+            message: response?.msg || (currentArchived ? 'Apoiador desarquivado com sucesso' : 'Apoiador arquivado com sucesso'),
             autoHideDuration: 3000,
             variant: 'success',
             anchorOrigin: { vertical: 'top', horizontal: 'right' },
@@ -208,7 +208,7 @@ function ClientHeader({ refetch, setLoading }: ClientHeaderProps) {
         refetch();
         dispatch(
           showMessage({
-            message: getValues('enable') ? 'Cliente desativado com sucesso' : 'Cliente ativado com sucesso',
+            message: getValues('enable') ? 'Apoiador desativado com sucesso' : 'Apoiador ativado com sucesso',
             autoHideDuration: 3000,
             variant: 'success',
             anchorOrigin: {
@@ -236,7 +236,7 @@ function ClientHeader({ refetch, setLoading }: ClientHeaderProps) {
 
   return (
     <div className="p-6 sm:p-8 w-full flex items-center sm:justify-between">
-      <PageTitle title={uid === 'new' ? 'Novo Cliente' : name} backNavigation />
+      <PageTitle title={uid === 'new' ? 'Novo Apoiador' : name} backNavigation />
 
       {!state?.isView && (
         <div className="flex flex-1 items-center justify-end space-x-0 sm:space-x-3">
@@ -270,7 +270,7 @@ function ClientHeader({ refetch, setLoading }: ClientHeaderProps) {
               <Button
                 variant="contained"
                 className="whitespace-nowrap"
-                color={getValues('archived') ? 'primary' : 'secondary'}
+                color={getValues('archived') ? 'secondary' : 'primary'}
                 onClick={handleToggleArchiveClient}
                 disabled={isLoadingToggleArchive}
               >

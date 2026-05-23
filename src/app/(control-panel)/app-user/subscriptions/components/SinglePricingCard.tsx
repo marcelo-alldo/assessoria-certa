@@ -108,23 +108,23 @@ function SinglePricingCard({
       </div>
       <Box
         sx={{
-          backgroundColor: activedSubscription ? theme.palette.primary.main : theme.palette.grey[200],
-          color: activedSubscription ? theme.palette.primary.contrastText : theme.palette.text.disabled,
+          backgroundColor: activedSubscription ? theme.palette.secondary.main : theme.palette.grey[200],
+          color: activedSubscription ? theme.palette.secondary.contrastText : theme.palette.text.disabled,
         }}
         className="flex flex-col w-96 items-center p-2 lg:px-10 lg:py-12 self-stretch justify-center"
       >
         <div className="flex items-center whitespace-nowrap">
-          <Typography className="text-10xl font-extrabold tracking-tight" color={activedSubscription ? 'primary.contrastText' : 'text.disabled'}>
+          <Typography className="text-10xl font-extrabold tracking-tight" color={activedSubscription ? 'secondary.contrastText' : 'text.disabled'}>
             R$ {price}
           </Typography>
         </div>
         {!isTrialTier ? (
-          <Typography className="text-center font-medium mb-6" color={activedSubscription ? 'primary.contrastText' : 'text.disabled'}>
+          <Typography className="text-center font-medium mb-6" color={activedSubscription ? 'secondary.contrastText' : 'text.disabled'}>
             Assinatura Mensal
           </Typography>
         ) : (
           <>
-            <Typography className="text-center font-medium mb-6" color={activedSubscription ? 'primary.contrastText' : 'text.disabled'}>
+            <Typography className="text-center font-medium mb-6" color={activedSubscription ? 'secondary.contrastText' : 'text.disabled'}>
               Assinatura Teste
             </Typography>
             {isLastItem && (
@@ -144,7 +144,7 @@ function SinglePricingCard({
             {!isCanceled && !isExpired && (
               <Button
                 variant="contained"
-                color="secondary"
+                color="primary"
                 onClick={() => navigate(`/subscriptions/${subscriptionUid}`)}
                 className="mt-8 w-full lg:mt-auto"
               >

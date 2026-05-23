@@ -154,7 +154,7 @@ function CollaboratorHeader({ refetch, setLoading }: CollaboratorHeaderProps) {
         setOpenConfirmModal(false);
         dispatch(
           showMessage({
-            message: getValues('enable') ? 'Colaborador desativado com sucesso' : 'Colaborador ativado com sucesso',
+            message: getValues('enable') ? 'Assessor desativado com sucesso' : 'Assessor ativado com sucesso',
             autoHideDuration: 3000,
             variant: 'success',
             anchorOrigin: {
@@ -183,7 +183,7 @@ function CollaboratorHeader({ refetch, setLoading }: CollaboratorHeaderProps) {
 
   return (
     <div className="p-6 sm:p-8 w-full flex items-center sm:justify-between">
-      <PageTitle title={uid === 'new' ? 'Novo Colaborador' : name} backNavigation />
+      <PageTitle title={uid === 'new' ? 'Novo Assessor' : name} backNavigation />
 
       {!state?.isView && (
         <div className="flex flex-1 items-center justify-end space-x-0 sm:space-x-3">
@@ -233,8 +233,8 @@ function CollaboratorHeader({ refetch, setLoading }: CollaboratorHeaderProps) {
         onCancel={() => setOpenConfirmModal(false)}
         onConfirm={handleToggleEnableCollaborator}
         open={openConfirmModal}
-        title={enable ? 'Desativar Colaborador' : 'Ativar Colaborador'}
-        message={enable ? `Tem certeza que deseja desativar o Colaborador "${name}"?` : `Tem certeza que deseja ativar o Colaborador "${name}"?`}
+        title={enable ? 'Desativar Assessor' : 'Ativar Assessor'}
+        message={enable ? `Tem certeza que deseja desativar o Assessor "${name}"?` : `Tem certeza que deseja ativar o Assessor "${name}"?`}
         confirmText={enable ? 'Desativar' : 'Ativar'}
         cancelText="Cancelar"
         confirmColor={enable ? 'error' : 'success'}

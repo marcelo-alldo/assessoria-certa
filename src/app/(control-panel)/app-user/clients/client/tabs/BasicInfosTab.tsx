@@ -194,7 +194,7 @@ function BasicInfosTab() {
                 color="primary"
               />
             }
-            label="Cliente Empresarial"
+            label="Empresa"
           />
         )}
       />

@@ -91,7 +91,7 @@ function Collaborators() {
 
         dispatch(
           showMessage({
-            message: `Colaborador "${selectedCollaborator.user.profile.name}" ${selectedCollaborator.enable ? 'desativado' : 'ativado'} com sucesso`,
+            message: `Assessor "${selectedCollaborator.user.profile.name}" ${selectedCollaborator.enable ? 'desativado' : 'ativado'} com sucesso`,
             autoHideDuration: 3000,
             variant: 'success',
             anchorOrigin: {
@@ -106,7 +106,7 @@ function Collaborators() {
         setOpenConfirmModal(false);
         dispatch(
           showMessage({
-            message: `Erro ao ${selectedCollaborator.enable ? 'desativar' : 'ativar'} o Colaborador "${selectedCollaborator.user.profile.name}"`,
+            message: `Erro ao ${selectedCollaborator.enable ? 'desativar' : 'ativar'} o Assessor "${selectedCollaborator.user.profile.name}"`,
             autoHideDuration: 3000,
             variant: 'error',
             anchorOrigin: {
@@ -215,11 +215,11 @@ function Collaborators() {
                 onCancel={() => setOpenConfirmModal(false)}
                 onConfirm={handleToggleEnableCollaborator}
                 open={openConfirmModal}
-                title={selectedCollaborator?.enable ? 'Desativar Colaborador' : 'Ativar Colaborador'}
+                title={selectedCollaborator?.enable ? 'Desativar Assessor' : 'Ativar Assessor'}
                 message={
                   selectedCollaborator?.enable
-                    ? `Tem certeza que deseja desativar o Colaborador "${selectedCollaborator?.user.profile.name}"?`
-                    : `Tem certeza que deseja ativar o Colaborador "${selectedCollaborator?.user.profile.name}"?`
+                    ? `Tem certeza que deseja desativar o Assessor "${selectedCollaborator?.user.profile.name}"?`
+                    : `Tem certeza que deseja ativar o Assessor "${selectedCollaborator?.user.profile.name}"?`
                 }
                 confirmText={selectedCollaborator?.enable ? 'Desativar' : 'Ativar'}
                 cancelText="Cancelar"

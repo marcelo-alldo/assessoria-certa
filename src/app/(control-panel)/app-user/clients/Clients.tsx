@@ -101,7 +101,7 @@ function Clients() {
 
         dispatch(
           showMessage({
-            message: `Cliente "${selectedClient.clientProfile.name}" ${selectedClient.enable ? 'desativado' : 'ativado'} com sucesso`,
+            message: `Apoiador "${selectedClient.clientProfile.name}" ${selectedClient.enable ? 'desativado' : 'ativado'} com sucesso`,
             autoHideDuration: 3000,
             variant: 'success',
             anchorOrigin: {
@@ -116,7 +116,7 @@ function Clients() {
         setOpenConfirmModal(false);
         dispatch(
           showMessage({
-            message: `Erro ao ${selectedClient.enable ? 'desativar' : 'ativar'} o cliente "${selectedClient.clientProfile.name}"`,
+            message: `Erro ao ${selectedClient.enable ? 'desativar' : 'ativar'} o apoiador "${selectedClient.clientProfile.name}"`,
             autoHideDuration: 3000,
             variant: 'error',
             anchorOrigin: {
@@ -168,7 +168,7 @@ function Clients() {
         refetchClients();
         dispatch(
           showMessage({
-            message: response?.msg || `Cliente ${!client.archived ? 'arquivado' : 'desarquivado'} com sucesso`,
+            message: response?.msg || `Apoiador ${!client.archived ? 'arquivado' : 'desarquivado'} com sucesso`,
             autoHideDuration: 3000,
             variant: 'success',
             anchorOrigin: {
@@ -181,7 +181,7 @@ function Clients() {
       .catch((error) => {
         dispatch(
           showMessage({
-            message: error?.data?.msg || `Erro ao ${!client.archived ? 'arquivar' : 'desarquivar'} o cliente`,
+            message: error?.data?.msg || `Erro ao ${!client.archived ? 'arquivar' : 'desarquivar'} o apoiador`,
             autoHideDuration: 3000,
             variant: 'error',
             anchorOrigin: {
@@ -357,11 +357,11 @@ function Clients() {
                 onCancel={() => setOpenConfirmModal(false)}
                 onConfirm={handleToggleEnableClient}
                 open={openConfirmModal}
-                title={selectedClient?.enable ? 'Desativar cliente' : 'Ativar cliente'}
+                title={selectedClient?.enable ? 'Desativar o apoiador' : 'Ativar o apoiador'}
                 message={
                   selectedClient?.enable
-                    ? `Tem certeza que deseja desativar o cliente "${selectedClient?.clientProfile.name}"?`
-                    : `Tem certeza que deseja ativar o cliente "${selectedClient?.clientProfile.name}"?`
+                    ? `Tem certeza que deseja desativar o apoiador "${selectedClient?.clientProfile.name}"?`
+                    : `Tem certeza que deseja ativar o apoiador "${selectedClient?.clientProfile.name}"?`
                 }
                 confirmText={selectedClient?.enable ? 'Desativar' : 'Ativar'}
                 cancelText="Cancelar"

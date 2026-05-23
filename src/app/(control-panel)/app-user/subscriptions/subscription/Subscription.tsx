@@ -386,13 +386,13 @@ function Subscription() {
                     </Grid>
                     <Box
                       sx={{
-                        backgroundColor: theme.palette.primary.main,
-                        color: theme.palette.primary.contrastText,
+                        backgroundColor: theme.palette.secondary.main,
+                        color: theme.palette.secondary.contrastText,
                       }}
                       className="flex flex-col w-96 items-center p-2 lg:px-10 lg:py-12 self-stretch justify-center lg:ml-auto"
                     >
                       <Box className="flex flex-col w-full gap-4">
-                        <Button variant="text" onClick={handleOpenCancelModal} className="whitespace-nowrap" color="secondary">
+                        <Button variant="text" onClick={handleOpenCancelModal} className="whitespace-nowrap" color="primary">
                           <FuseSvgIcon size={20}>heroicons-outline:x-circle</FuseSvgIcon>
                           <span className="hidden sm:flex mx-2">Cancelar assinatura</span>
                         </Button>
@@ -401,7 +401,7 @@ function Subscription() {
                           <Button
                             key="change"
                             variant="contained"
-                            color="secondary"
+                            color="primary"
                             className="mt-8 w-full lg:mt-auto"
                             onClick={() => handleChangeSubscription()}
                           >

@@ -11,10 +11,10 @@ function CollaboratorsHeader() {
   const navigate = useNavigate();
   return (
     <div className="p-6 sm:p-8 w-full flex items-center sm:justify-between">
-      <PageTitle title="Lista de Colaboradores" />
+      <PageTitle title="Lista de Assessores" />
 
       <div className="flex flex-1 items-center justify-end space-x-0 sm:space-x-3">
-        <Button variant="contained" onClick={() => navigate('/collaborators/new')} className="whitespace-nowrap" color="secondary">
+        <Button variant="contained" onClick={() => navigate('/collaborators/new')} className="whitespace-nowrap" color="primary">
           <FuseSvgIcon size={20}>heroicons-outline:plus-circle</FuseSvgIcon>
           <span className="hidden sm:flex mx-2">Adicionar</span>
         </Button>
