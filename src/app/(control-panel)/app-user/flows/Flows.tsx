@@ -53,8 +53,8 @@ function Flows() {
                 </Typography>
 
                 <Typography variant="body2" color="text.secondary" className="max-w-2xl mb-8">
-                  Ative fluxos com inteligência artificial que conversam com seus clientes, tiram dúvidas, qualificam leads e aumentam suas vendas
-                  automaticamente.
+                  Ative fluxos com inteligência artificial que conversam com seus apoiadores, tiram dúvidas, qualificam eleitores e aumentam seu
+                  engajamento automaticamente.
                   <br />
                   <br />
                   Além disso, automatize tarefas repetitivas e ganhe mais tempo para focar no que realmente importa.

@@ -311,12 +311,12 @@ function ChatsDefault({ chats, total, setChatsLimit, chatsLimit, isLoading }: Ch
                             padding: '2px 7px',
                             borderRadius: 10,
                             background: chat.type === 'lead' ? `${theme.palette.secondary.main}` : `${theme.palette.primary.main}`,
-                            color: chat.type === 'lead' ? '#000' : '#fff',
+                            color: '#fff',
                             letterSpacing: '0.3px',
                             textTransform: 'uppercase',
                           }}
                         >
-                          {chat.type === 'client' ? 'Cliente' : 'Lead'}
+                          {chat.type === 'client' ? 'Apoiador' : 'Eleitor'}
                         </span>
                       )}
                       {chat?.tags?.map((tag: any) => (

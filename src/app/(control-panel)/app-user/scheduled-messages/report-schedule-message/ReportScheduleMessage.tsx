@@ -250,7 +250,7 @@ function ReportScheduledMessage() {
                     const phone = recipient.remoteJid?.replace('@s.whatsapp.net', '').replace('@c.us', '') || '-';
                     const isLead = !!recipient.leadUid;
                     const isClient = !!recipient.clientUid;
-                    const typeLabel = isLead ? 'Lead' : isClient ? 'Cliente' : 'Número';
+                    const typeLabel = isLead ? 'Eleitor' : isClient ? 'Apoiador' : 'Número';
                     const recipientName = recipient.name;
 
                     const navigateTo = isClient

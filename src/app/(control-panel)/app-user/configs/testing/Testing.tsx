@@ -135,7 +135,7 @@ function Testing() {
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       <br />
-                      Ao desativar o teste, o agente passa a responder todos os leads e clientes normalmente, conforme o seu plano.
+                      Ao desativar o teste, o agente passa a responder todos os eleitores e apoiadores normalmente, conforme o seu plano.
                     </Typography>
                   </Box>
 

@@ -68,7 +68,7 @@ function ConfirmAccountPage() {
             <div>seu assistente virtual</div>
           </div>
           <div className="mt-6 text-lg leading-6 tracking-tight">
-            Fui criado para ajudar você no seu dia a dia, como controlar sua agenda, falar com seus clientes e muito mais.
+            Fui criado para ajudar você no seu dia a dia, como controlar sua agenda, falar com seus apoiadores e muito mais.
           </div>
           {/* <div className="mt-8 flex items-center">
             <AvatarGroup

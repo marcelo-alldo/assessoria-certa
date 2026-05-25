@@ -792,8 +792,8 @@ function Board({ aiAutomatic: _aiAutomatic }: BoardProps) {
       />
       <DefaultConfirmModal
         open={modalConfirmNewClient}
-        title="Transformar lead em cliente?"
-        message="Tem certeza que deseja transformar este lead em cliente?"
+        title="Transformar eleitor em apoiador?"
+        message="Tem certeza que deseja transformar este eleitor em apoiador?"
         onConfirm={() => handleConfirmNewClient(true)}
         onCancel={() => handleConfirmNewClient(false)}
       />

@@ -234,13 +234,13 @@ function Origins() {
                 <>
                   <Box className="flex flex-col pl-6 pb-6 mt-4">
                     <Typography variant="subtitle1" color="text.secondary">
-                      Cadastre as origens dos seus leads para saber exatamente de onde eles vieram, como anúncios, redes sociais ou indicações.
+                      Cadastre as origens dos seus contatos para saber exatamente de onde eles vieram, como anúncios, redes sociais ou indicações.
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
                       <br />
                       Para identificar cada origem, utilize uma palavra ou frase específica nos seus anúncios direcionados ao WhatsApp.
                       <br />
-                      Quando o cliente enviar essa mensagem, o Alldo Assistente reconhece automaticamente a origem do lead.
+                      Quando o contato enviar essa mensagem, o Alldo Assistente reconhece automaticamente a origem do lead.
                     </Typography>
                   </Box>
 

@@ -180,7 +180,7 @@ export default function Preview() {
     {
       icon: <CalendarMonthOutlinedIcon sx={{ fontSize: 40 }} />,
       title: 'Mensagens Agendadas',
-      description: 'Programe campanhas, lembretes e follow-ups. Envie no momento perfeito para cada cliente.',
+      description: 'Programe campanhas, lembretes e follow-ups. Envie no momento perfeito para cada contato.',
     },
     {
       icon: <GroupOutlinedIcon sx={{ fontSize: 40 }} />,
@@ -300,7 +300,7 @@ export default function Preview() {
 
             <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
               {[
-                { icon: <GroupOutlinedIcon sx={{ fontSize: '32px' }} />, value: '+5', label: 'Clientes Ativos' },
+                { icon: <GroupOutlinedIcon sx={{ fontSize: '32px' }} />, value: '+10', label: 'Clientes Ativos' },
                 { icon: <MapsUgcOutlinedIcon sx={{ fontSize: '32px' }} />, value: '+200K', label: 'Mensagens Enviadas' },
                 { icon: <StarBorderOutlinedIcon sx={{ fontSize: '32px' }} />, value: '4.9/5', label: 'Avaliação' },
               ].map((stat, idx) => (
@@ -347,7 +347,7 @@ export default function Preview() {
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               Por que utilizar a API <span className="text-yellow-400">Oficial</span> do Whatsapp?
             </h2>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto">Tecnologia certificada para proteger dados, clientes e reputação.</p>
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">Tecnologia certificada para proteger dados, contatos e reputação.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">

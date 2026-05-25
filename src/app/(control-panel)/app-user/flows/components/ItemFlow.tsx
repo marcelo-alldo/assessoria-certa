@@ -122,7 +122,7 @@ function ItemFlow({ data }: ItemFlowProps) {
         </Box>
         <Box display={'flex'}>
           <Box p={2} display={'flex'} alignItems={'center'}>
-            <Tooltip title={'Fluxo configurado para lista de clientes.'}>
+            <Tooltip title={'Fluxo configurado para lista de apoiadores.'}>
               <Typography variant="body2" sx={{ color: theme.palette.text.secondary }}>
                 Execução: <b>{content?.execution}</b>
               </Typography>

@@ -211,8 +211,8 @@ function ScheduledMessage() {
               >
                 <Tabs value={tabValue} onChange={handleTabChange} aria-label="basic tabs example">
                   <Tab value="basic-info" label="Informações" />
-                  <Tab value="clients" label="Clientes" />
-                  <Tab value="leads" label="Leads" />
+                  <Tab value="clients" label="Apoiadores" />
+                  <Tab value="leads" label="Eleitores" />
                   <Tab value="recipients" label="Outros contatos" />
                 </Tabs>
                 <Box sx={{ width: '100%', height: '100%' }}>

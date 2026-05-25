@@ -447,14 +447,14 @@ function BoardListHeader(props: BoardListHeaderProps) {
           <div style={{ display: 'flex', gap: 16, flexDirection: 'column' }}>
             <div>
               <Typography style={{ marginBottom: '12px' }}>
-                Configure uma mensagem automática que será enviada via WhatsApp quando o cliente entrar nesta etapa do CRM. Configure uma mensagem
-                automática que será enviada via WhatsApp quando o cliente entrar nesta etapa do CRM.
+                Configure uma mensagem automática que será enviada via WhatsApp quando o contato entrar nesta etapa do CRM. Configure uma mensagem
+                automática que será enviada via WhatsApp quando o contato entrar nesta etapa do CRM.
               </Typography>
               <MessageTemplateAutocomplete value={selectedTemplate} onChange={setSelectedTemplate} label="Selecionar Template" />
             </div>
 
             <div>
-              <Typography>Selecione em quanto tempo a mensagem deve ser enviada após o cliente entrar na etapa.</Typography>
+              <Typography>Selecione em quanto tempo a mensagem deve ser enviada após o contato entrar na etapa.</Typography>
 
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '12px', marginTop: '12px' }}>
                 <TextField

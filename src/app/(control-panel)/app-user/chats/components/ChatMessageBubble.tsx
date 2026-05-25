@@ -1327,8 +1327,8 @@ function ChatMessageBubble({ message, me }: ChatMessageBubbleProps) {
             }}
           >
             {(message as any)?.user
-              ? ` Contato convertido para cliente por  ${(message as any)?.user?.profile?.name}`
-              : ' Contato convertido para cliente.'}
+              ? ` Eleitor convertido para apoiador por  ${(message as any)?.user?.profile?.name}`
+              : ' Eleitor convertido para apoiador.'}
           </div>
         );
       default:

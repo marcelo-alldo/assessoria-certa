@@ -729,7 +729,7 @@ function ChatScreen({ config }: ChatScreenProps) {
         setOpenUnregisteredContact(false);
         dispatch(
           showMessage({
-            message: 'Contato transformado em Cliente com sucesso!',
+            message: 'Contato transformado em apoiador com sucesso!',
             autoHideDuration: 3000,
             variant: 'success',
             anchorOrigin: { vertical: 'top', horizontal: 'right' },
@@ -769,7 +769,7 @@ function ChatScreen({ config }: ChatScreenProps) {
       if (targetType === 'client') {
         const clientUid = clientSearch?.data?.[0]?.uid;
 
-        if (!clientUid) throw new Error('Cliente não encontrado para este contato.');
+        if (!clientUid) throw new Error('Apoiador não encontrado para este contato.');
 
         await addTagToClient({ clientUid, tagUid: tag.uid }).unwrap();
         // Refetch para atualizar lista de tags do cliente
@@ -844,7 +844,7 @@ function ChatScreen({ config }: ChatScreenProps) {
       if (targetType === 'client') {
         const clientUid = clientSearch?.data?.[0]?.uid;
 
-        if (!clientUid) throw new Error('Cliente não encontrado para este contato.');
+        if (!clientUid) throw new Error('Apoiador não encontrado para este contato.');
 
         await updateClient({ uid: clientUid, profileUpdate: true, notes: notesValue }).unwrap();
       } else {
@@ -1368,7 +1368,7 @@ function ChatScreen({ config }: ChatScreenProps) {
                     setOpenConfirmModal(true);
                   }}
                 >
-                  Transformar em Cliente
+                  Transformar em Apoiador
                 </MenuItem>
                 <MenuItem
                   onClick={() => {
@@ -1505,11 +1505,11 @@ function ChatScreen({ config }: ChatScreenProps) {
               sx={{ marginY: 2 }}
               autoFocus
             />
-            Você tem certeza que deseja transformar este contato em Cliente?
+            Você tem certeza que deseja transformar este contato em Apoiador?
           </>
         }
         loading={isLoadingCreateClient}
-        title={`Transformar contato em Cliente`}
+        title={`Transformar contato em Apoiador`}
         onCancel={() => {
           setOpenConfirmModal(false);
           setContactName(chat?.pushName || '');
@@ -1534,7 +1534,7 @@ function ChatScreen({ config }: ChatScreenProps) {
         message={
           <>
             <div style={{ marginBottom: 12 }}>
-              Este contato não está cadastrado como Lead ou Cliente. Você pode cadastrar agora ou apenas atender.
+              Este contato não está cadastrado como leitor ou apoiador. Você pode cadastrar agora ou apenas atender.
             </div>
             <TextField
               label="Nome do contato"
@@ -1547,7 +1547,7 @@ function ChatScreen({ config }: ChatScreenProps) {
             <FormControl component="fieldset" sx={{ mb: 2 }}>
               <RadioGroup value={contactType} onChange={(e) => setContactType(e.target.value as 'lead' | 'client' | 'attend')}>
                 <FormControlLabel value="attend" control={<Radio />} label="Atender" />
-                <FormControlLabel value="client" control={<Radio />} label="Transformar em Cliente" />
+                <FormControlLabel value="client" control={<Radio />} label="Transformar em Apoiador" />
               </RadioGroup>
             </FormControl>
           </>

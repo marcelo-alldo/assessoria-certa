@@ -574,7 +574,7 @@ function TableClients({ changeRecipients, page, setPage }: TableClientsProps) {
     {
       id: 'enable',
       accessorKey: 'enable',
-      header: 'Status do cliente',
+      header: 'Status do apoiador',
       size: 250,
       accessorFn: (row) => (
         <Chip
@@ -617,7 +617,7 @@ function TableClients({ changeRecipients, page, setPage }: TableClientsProps) {
   return (
     <Paper className="w-full h-full flex flex-col p-2">
       <Typography variant="h6" className="p-4">
-        Clientes - {getValues('clientsRecipientsCount')} participando
+        Apoiadores - {getValues('clientsRecipientsCount')} participando
       </Typography>
       <Box className="px-4 pb-3" sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <Typography variant="body2" color="text.secondary" fontWeight={500}>
