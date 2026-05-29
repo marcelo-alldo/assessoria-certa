@@ -1,121 +1,28 @@
 import { useState, useEffect } from 'react';
-// import { MessageCircle, Calendar, Users, Shield, Zap, CheckCircle, XCircle, Award, BarChart, Sparkles, Star } from 'lucide-react';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
-import RocketLaunchOutlinedIcon from '@mui/icons-material/RocketLaunchOutlined';
-import GroupOutlinedIcon from '@mui/icons-material/GroupOutlined';
-import MapsUgcOutlinedIcon from '@mui/icons-material/MapsUgcOutlined';
-import StarBorderOutlinedIcon from '@mui/icons-material/StarBorderOutlined';
-import CalendarMonthOutlinedIcon from '@mui/icons-material/CalendarMonthOutlined';
-import SmartToyOutlinedIcon from '@mui/icons-material/SmartToyOutlined';
-import InsertChartOutlinedIcon from '@mui/icons-material/InsertChartOutlined';
-import TaskAltOutlinedIcon from '@mui/icons-material/TaskAltOutlined';
-import GppGoodOutlinedIcon from '@mui/icons-material/GppGoodOutlined';
-import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
-import CancelOutlinedIcon from '@mui/icons-material/CancelOutlined';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import GppBadOutlinedIcon from '@mui/icons-material/GppBadOutlined';
-import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
-import WorkspacePremiumOutlinedIcon from '@mui/icons-material/WorkspacePremiumOutlined';
-import { Box, Button, CircularProgress, IconButton, Typography } from '@mui/material';
+import SmartToyOutlinedIcon from '@mui/icons-material/SmartToyOutlined';
+import GroupOutlinedIcon from '@mui/icons-material/GroupOutlined';
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import ImageOutlinedIcon from '@mui/icons-material/ImageOutlined';
+import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
+import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
+import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import RocketLaunchOutlinedIcon from '@mui/icons-material/RocketLaunchOutlined';
+import PeopleAltOutlinedIcon from '@mui/icons-material/PeopleAltOutlined';
+import TrendingUpOutlinedIcon from '@mui/icons-material/TrendingUp';
+import SavingsOutlinedIcon from '@mui/icons-material/SavingsOutlined';
+import HubOutlinedIcon from '@mui/icons-material/HubOutlined';
+import AutoModeOutlinedIcon from '@mui/icons-material/AutoModeOutlined';
+import { Box, Button, Chip, Container, Divider, Grid, IconButton, Paper, Stack, Typography } from '@mui/material';
 import { Link, useNavigate } from 'react-router';
-import { useGetSubscriptionsQuery } from '@/store/api/subscriptionApi';
-import DefaultConfirmModal from '@/components/DefaultConfirmModal';
-import TablePricingPage from '@/components/checkout-subscriptions/TablePricingPage';
-import { TableDataItemType } from '@/components/checkout-subscriptions/TablePricingTable';
 
 export default function Preview() {
-  const [activeTab, setActiveTab] = useState('anual');
   const [scrolled, setScrolled] = useState(false);
-  const [openModal, setOpenModal] = useState(false);
-  const [selectedPlanData, setSelectedPlanData] = useState<{
-    period: 'month' | 'year';
-    title: string;
-    price: string;
-    priceYearly: string;
-    uid: string;
-  }>({ period: 'year', title: '', price: '', priceYearly: '', uid: '' });
 
   const navigate = useNavigate();
 
   const contact1Formatted = import.meta.env.VITE_APP_CONTACT_1 ? '55' + import.meta.env.VITE_APP_CONTACT_1.replace(/\D/g, '') : '';
-  const contact2Formatted = import.meta.env.VITE_APP_CONTACT_2 ? '55' + import.meta.env.VITE_APP_CONTACT_2.replace(/\D/g, '') : '';
-
-  const { data: subscriptionsData, isLoading: isLoadingSubscriptions } = useGetSubscriptionsQuery('type=DEFAULT', {
-    refetchOnMountOrArgChange: true,
-  });
-
-  const [tableData, setTableData] = useState<TableDataItemType[]>([
-    {
-      monthlyPrice: '-',
-      yearlyPrice: '-',
-      title: 'Atendimento',
-      buttonTitle: 'Assinar',
-      isPopular: false,
-      features: {
-        leadsContacts: 'até 1000',
-        flows: '0',
-        ai: 'Sem',
-        attendants: 'até 5',
-        whatsapp: 'WhatsApp API Oficial',
-        functions: 'Padrões',
-      },
-    },
-    {
-      monthlyPrice: '-',
-      yearlyPrice: '-',
-      title: 'Padrão',
-      buttonTitle: 'Assinar',
-      isPopular: true,
-      features: {
-        leadsContacts: 'até 2.000',
-        flows: '1',
-        ai: 'Com',
-        attendants: 'até 10',
-        flowType: 'Fluxo padrão',
-        calendar: 'Google Calendar',
-        whatsapp: 'WhatsApp API Oficial',
-        functions: 'Padrões',
-      },
-    },
-    {
-      monthlyPrice: '-',
-      yearlyPrice: '-',
-      title: 'Customizada',
-      buttonTitle: 'Assinar',
-      isPopular: false,
-      features: {
-        leadsContacts: 'até 5.000',
-        flows: 'até 3',
-        ai: 'Com',
-        attendants: 'até 20',
-        flowType: 'Fluxo personalizado',
-        calendar: 'Google Calendar',
-        whatsapp: 'WhatsApp API Oficial',
-        functions: 'Avançadas',
-      },
-    },
-  ]);
-
-  useEffect(() => {
-    if (subscriptionsData?.data?.length) {
-      setTableData((prev) =>
-        prev.map((item) => {
-          const subscription = subscriptionsData.data.find((sub) => sub?.name === item?.title);
-
-          if (subscription) {
-            return {
-              ...item,
-              monthlyPrice: subscription.price,
-              yearlyPrice: subscription.priceYearly,
-            };
-          }
-
-          return item;
-        }),
-      );
-    }
-  }, [subscriptionsData]);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
@@ -173,470 +80,627 @@ export default function Preview() {
 
   const features = [
     {
-      icon: <MapsUgcOutlinedIcon sx={{ fontSize: 40 }} />,
-      title: 'Chat Centralizado',
-      description: 'Todos os atendimentos em uma única plataforma. Todos os colaboradores em um único lugar.',
+      icon: <SmartToyOutlinedIcon sx={{ fontSize: 44, color: '#6AABFF' }} />,
+      title: 'Atendimento Automatizado Inteligente',
+      description: 'Responde eleitores em tempo real, garantindo agilidade e padronização na comunicação. Disponível 24 horas, 7 dias por semana.',
     },
     {
-      icon: <CalendarMonthOutlinedIcon sx={{ fontSize: 40 }} />,
-      title: 'Mensagens Agendadas',
-      description: 'Programe campanhas, lembretes e follow-ups. Envie no momento perfeito para cada contato.',
+      icon: <LocationOnOutlinedIcon sx={{ fontSize: 44, color: '#6AABFF' }} />,
+      title: 'Distribuição Estratégica por Região',
+      description: 'Encaminhamento automático para assessores humanos conforme a região (COREDE), otimizando o tempo da equipe.',
     },
     {
-      icon: <GroupOutlinedIcon sx={{ fontSize: 40 }} />,
-      title: 'Gestão Completa de Contatos',
-      description: 'Segmentação avançada, tags personalizadas e histórico completo de interações em tempo real.',
+      icon: <PeopleAltOutlinedIcon sx={{ fontSize: 44, color: '#6AABFF' }} />,
+      title: 'Pré-Campanha Estruturada',
+      description: 'Apresentações institucionais, fortalecimento do relacionamento e preparação da base de eleitores antes do período oficial.',
     },
     {
-      icon: <SmartToyOutlinedIcon sx={{ fontSize: 40 }} />,
-      title: 'Respostas Automáticas',
-      description: 'Chatbot inteligente com IA responde 24/7. Configure templates e aumente produtividade em 400%.',
+      icon: <ImageOutlinedIcon sx={{ fontSize: 44, color: '#6AABFF' }} />,
+      title: 'Engajamento com Criação de Conteúdo',
+      description: 'O eleitor gera avatares personalizados e cria imagens prontas para redes sociais com a identidade visual da campanha.',
     },
     {
-      icon: <InsertChartOutlinedIcon sx={{ fontSize: 40 }} />,
-      title: 'Analytics Avançado',
-      description: 'Dashboard completo com métricas de conversão, tempo de resposta, ROI e performance da equipe.',
+      icon: <SendOutlinedIcon sx={{ fontSize: 44, color: '#6AABFF' }} />,
+      title: 'Automação de Materiais de Campanha',
+      description: 'Gera santinhos digitais automaticamente, envia materiais personalizados e facilita o compartilhamento orgânico da campanha.',
     },
     {
-      icon: <GppGoodOutlinedIcon sx={{ fontSize: 40 }} />,
-      title: 'Segurança Máxima',
-      description: 'API Oficial WhatsApp com criptografia de ponta a ponta.',
+      icon: <VerifiedOutlinedIcon sx={{ fontSize: 44, color: '#6AABFF' }} />,
+      title: 'Integração com WhatsApp Oficial (API)',
+      description: 'Comunicação segura, escalável e dentro das diretrizes da plataforma, garantindo maior taxa de entrega e confiabilidade.',
     },
   ];
 
-  const handleSelectPlan = (title: string) => {
-    const selectedPlan = subscriptionsData?.data.find((sub) => sub.name === title);
+  const benefits = [
+    { icon: <TrendingUpOutlinedIcon />, text: 'Escala no atendimento sem aumentar equipe' },
+    { icon: <AutoModeOutlinedIcon />, text: 'Resposta imediata para todos os eleitores' },
+    { icon: <GroupOutlinedIcon />, text: 'Organização e inteligência na distribuição de leads' },
+    { icon: <RocketLaunchOutlinedIcon />, text: 'Fortalecimento da presença digital' },
+    { icon: <HubOutlinedIcon />, text: 'Aumento do engajamento e alcance da campanha' },
+    { icon: <SavingsOutlinedIcon />, text: 'Redução de custos operacionais' },
+  ];
 
-    if (selectedPlan) {
-      setOpenModal(true);
-      setSelectedPlanData({
-        period: activeTab === 'anual' ? 'month' : 'year',
-        title: selectedPlan.name,
-        price: selectedPlan.price,
-        priceYearly: selectedPlan.priceYearly,
-        uid: selectedPlan.uid,
-      });
-    }
-  };
+  const steps = [
+    {
+      number: '01',
+      title: 'Origem dos contatos',
+      description:
+        'O sistema cadastra o contato de forma automática, salvando a origem, podendo ser: redes sociais, site oficial, eventos ou outras fontes, garantindo uma base de dados organizada.',
+    },
+    {
+      number: '02',
+      title: 'Qualificação e Distribuição',
+      description:
+        'O assistente qualifica o contato automaticamente e direciona o eleitor para o assessor humano certo, com base na região (COREDE).',
+    },
+    {
+      number: '03',
+      title: 'Histórico e Acompanhamento',
+      description: 'Mantém histórico completo das interações, garantindo continuidade no atendimento e inteligência estratégica para a campanha.',
+    },
+  ];
 
   return (
-    <div className="min-h-screen bg-black text-white overflow-x-hidden">
+    <Box sx={{ minHeight: '100vh', bgcolor: 'background.default', overflowX: 'hidden' }}>
       {/* Header */}
-      <header
-        className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/95 backdrop-blur-md shadow-2xl' : 'bg-transparent'}`}
+      <Box
+        component="header"
+        sx={{
+          position: 'fixed',
+          top: 0,
+          width: '100%',
+          zIndex: 1300,
+          transition: 'all 0.3s',
+          bgcolor: scrolled ? 'rgba(255,255,255,0.97)' : 'transparent',
+          boxShadow: scrolled ? 2 : 'none',
+          backdropFilter: scrolled ? 'blur(8px)' : 'none',
+        }}
       >
-        <div className="container mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-3">
-              <img src="/assets/images/logo/alldo-amarelo.png" alt="Alldo Logo" className="h-16 w-auto" />
-            </div>
-            <div className="flex items-center space-x-4">
-              <Button onClick={() => navigate('/sign-in')} color="secondary" className="px-6 py-2 rounded-full font-bold transition">
+        <Container maxWidth="lg">
+          <Stack direction="row" alignItems="center" justifyContent="space-between" py={1.5}>
+            <img src="/assets/images/logo/assessoria-certa.png" alt="Assessoria Certa" style={{ height: 80 }} />
+            <Stack direction="row" alignItems="center" spacing={1}>
+              <Button onClick={() => navigate('/sign-in')} color="primary" sx={{ fontWeight: 700, borderRadius: 99 }}>
                 Entrar
               </Button>
               <Button
                 variant="contained"
+                color="primary"
                 onClick={() => navigate('/sign-up')}
-                color="secondary"
-                className="px-6 py-2 rounded-full font-bold hover:bg-yellow-300 transition hidden md:block"
+                sx={{ fontWeight: 700, borderRadius: 99, px: 3, display: { xs: 'none', sm: 'inline-flex' } }}
               >
-                Teste Grátis
+                Quero Saber Mais
               </Button>
-            </div>
-          </div>
-        </div>
-      </header>
+            </Stack>
+          </Stack>
+        </Container>
+      </Box>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-yellow-400/20 via-transparent to-yellow-400/10"></div>
-        <div className="absolute top-20 left-10 w-72 h-72 bg-yellow-400/10 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute bottom-10 right-10 w-96 h-96 bg-yellow-400/10 rounded-full blur-3xl animate-pulse"></div>
+      <Box
+        component="section"
+        sx={{
+          pt: { xs: 14, md: 18 },
+          pb: { xs: 10, md: 14 },
+          background: 'linear-gradient(160deg, #F4F7FE 0%, #e8eeff 100%)',
+          position: 'relative',
+          overflow: 'hidden',
+        }}
+      >
+        {/* Decorative circles */}
+        <Box
+          sx={{
+            position: 'absolute',
+            top: -80,
+            right: -80,
+            width: 400,
+            height: 400,
+            borderRadius: '50%',
+            bgcolor: 'secondary.light',
+            opacity: 0.18,
+            filter: 'blur(60px)',
+          }}
+        />
+        <Box
+          sx={{
+            position: 'absolute',
+            bottom: -60,
+            left: -60,
+            width: 300,
+            height: 300,
+            borderRadius: '50%',
+            bgcolor: 'secondary.main',
+            opacity: 0.12,
+            filter: 'blur(50px)',
+          }}
+        />
 
-        <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center space-x-2 bg-yellow-400/10 border border-yellow-400/30 rounded-full px-4 py-2 mb-6">
-              <VerifiedOutlinedIcon color="secondary" />
-              <Typography component={'span'} color="secondary" className=" text-sm font-semibold">
-                Integração Oficial WhatsApp Business API
-              </Typography>
-            </div>
+        <Container maxWidth="md" sx={{ position: 'relative', zIndex: 1, textAlign: 'center' }}>
+          <Chip
+            icon={<WhatsAppIcon sx={{ color: '#25D366 !important' }} />}
+            label="WhatsApp Business API Oficial"
+            variant="outlined"
+            sx={{ mb: 3, fontWeight: 700, fontSize: 14, borderColor: 'secondary.dark', color: 'primary.main' }}
+          />
 
-            <Typography component={'p'} className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Transforme Seu{' '}
-              <Typography component={'span'} color="secondary" className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-                Atendimento
-              </Typography>{' '}
-              com IA
-            </Typography>
-            <Typography component={'p'} className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              CRM integrado oficialmente ao WhatsApp, automatize mensagens e potencialize suas vendas em até 300%
-            </Typography>
+          <Typography
+            variant="h1"
+            sx={{
+              fontSize: { xs: '2.4rem', md: '3.6rem' },
+              fontWeight: 900,
+              lineHeight: 1.15,
+              mb: 2,
+              color: 'primary.main',
+            }}
+          >
+            Assistente Inteligente de{' '}
+            <Box component="span" sx={{ color: 'primary.main', position: 'relative' }}>
+              Campanha Política
+            </Box>{' '}
+            via WhatsApp
+          </Typography>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <Typography variant="h6" sx={{ color: 'text.secondary', mb: 5, maxWidth: 680, mx: 'auto', fontWeight: 400, lineHeight: 1.7 }}>
+            A solução baseada em inteligência artificial que transforma a comunicação entre candidatos e eleitores — seu verdadeiro{' '}
+            <strong>assessor digital</strong> e chefe de gabinete automatizado.
+          </Typography>
+
+          <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent="center" mb={7} gap={2}>
+            <Button
+              variant="contained"
+              color="primary"
+              size="large"
+              startIcon={<RocketLaunchOutlinedIcon />}
+              onClick={() => navigate('/sign-up')}
+              sx={{ borderRadius: 99, px: 5, py: 1.8, fontWeight: 800, fontSize: 16 }}
+            >
+              Quero Começar Agora
+            </Button>
+            <Link
+              style={{ all: 'unset' }}
+              target="_blank"
+              to={`https://wa.me/${contact1Formatted}?text=${encodeURIComponent('Olá! Gostaria de saber mais sobre o Assistente de Campanha.')}`}
+            >
               <Button
-                variant="contained"
-                color="secondary"
-                onClick={() => navigate('/sign-up')}
-                className="p-8 rounded-full font-bold text-lg hover:bg-yellow-300 transition transform hover:scale-105 shadow-xl flex items-center justify-center space-x-2"
+                variant="outlined"
+                color="primary"
+                size="large"
+                startIcon={<WhatsAppIcon />}
+                sx={{ borderRadius: 99, px: 5, py: 1.8, fontWeight: 800, fontSize: 16, borderWidth: 2 }}
               >
-                <RocketLaunchOutlinedIcon sx={{ fontSize: '24px' }} />
-                Começar Agora - Grátis
+                Agendar Demonstração
               </Button>
-              <Link
-                style={{ all: 'unset' }}
-                target="_blank"
-                to={`https://wa.me/${contact1Formatted}?text=${encodeURIComponent('Olá! Gostaria de saber mais sobre o Alldo Assistente.')}`}
-              >
-                <Button
-                  variant="outlined"
-                  color="secondary"
-                  className="border-2 p-8 rounded-full font-bold text-lg hover:bg-yellow-400/10 transition"
-                >
-                  Agendar Demonstração
-                </Button>
-              </Link>
-            </div>
+            </Link>
+          </Stack>
 
-            <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
-              {[
-                { icon: <GroupOutlinedIcon sx={{ fontSize: '32px' }} />, value: '+10', label: 'Clientes Ativos' },
-                { icon: <MapsUgcOutlinedIcon sx={{ fontSize: '32px' }} />, value: '+200K', label: 'Mensagens Enviadas' },
-                { icon: <StarBorderOutlinedIcon sx={{ fontSize: '32px' }} />, value: '4.9/5', label: 'Avaliação' },
-              ].map((stat, idx) => (
-                <div key={idx} className="text-center">
-                  <div className="text-yellow-400 mb-2 flex justify-center">{stat.icon}</div>
-                  <div className="text-3xl font-bold text-yellow-400">{stat.value}</div>
-                  <div className="text-sm text-gray-400">{stat.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+          <Grid container spacing={3} justifyContent="center" maxWidth={560} mx="auto">
+            {[
+              { value: '24/7', label: 'Atendimento Ininterrupto' },
+              { value: '100%', label: 'API Oficial WhatsApp' },
+              { value: 'IA', label: 'Inteligência Artificial' },
+            ].map((stat) => (
+              <Grid size={{ xs: 4 }} key={stat.label}>
+                <Paper elevation={0} sx={{ p: 2, borderRadius: 3, bgcolor: 'rgba(0,0,0,0.04)', textAlign: 'center' }}>
+                  <Typography variant="h5" fontWeight={900} color="primary.main">
+                    {stat.value}
+                  </Typography>
+                  <Typography variant="caption" color="text.secondary" fontWeight={600}>
+                    {stat.label}
+                  </Typography>
+                </Paper>
+              </Grid>
+            ))}
+          </Grid>
+        </Container>
+      </Box>
+
+      {/* Como Funciona Section */}
+      <Box component="section" sx={{ py: { xs: 8, md: 12 }, bgcolor: 'background.paper' }}>
+        <Container maxWidth="lg">
+          <Box textAlign="center" mb={8}>
+            <Typography variant="overline" color="primary.main" fontWeight={800} fontSize={13} letterSpacing={2}>
+              COMO FUNCIONA
+            </Typography>
+            <Typography variant="h3" fontWeight={900} color="primary.main" mt={1} mb={2}>
+              Simples, Inteligente e Estratégico
+            </Typography>
+            <Typography variant="body1" color="text.secondary" maxWidth={560} mx="auto" fontSize={17}>
+              Da captação do primeiro contato à gestão completa do relacionamento eleitoral — tudo automatizado.
+            </Typography>
+          </Box>
+
+          <Grid container spacing={4}>
+            {steps.map((step) => (
+              <Grid size={{ xs: 12, md: 4 }} key={step.number}>
+                <Paper
+                  elevation={0}
+                  sx={{
+                    p: 4,
+                    borderRadius: 4,
+                    height: '100%',
+                    border: '2px solid',
+                    borderColor: 'divider',
+                    transition: 'all 0.25s',
+                    '&:hover': { borderColor: 'primary.main', boxShadow: 4 },
+                  }}
+                >
+                  <Typography variant="h2" sx={{ fontWeight: 900, color: 'primary.main', opacity: 0.6, lineHeight: 1, mb: 2, fontSize: '3.5rem' }}>
+                    {step.number}
+                  </Typography>
+                  <Typography variant="h6" fontWeight={800} color="primary.main" mb={1.5}>
+                    {step.title}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary" lineHeight={1.8}>
+                    {step.description}
+                  </Typography>
+                </Paper>
+              </Grid>
+            ))}
+          </Grid>
+
+          {/* Flow tags */}
+          <Box mt={6} display="flex" flexWrap="wrap" gap={1.5} justifyContent="center">
+            {['Qualifica o contato automaticamente', 'Direciona para assessor humano', 'Organiza por COREDEs', 'Mantém histórico completo'].map(
+              (tag) => (
+                <Chip
+                  key={tag}
+                  icon={<CheckCircleOutlineIcon sx={{ color: 'primary.main !important' }} />}
+                  label={tag}
+                  sx={{ fontWeight: 700, bgcolor: 'rgba(25,114,255,0.08)', border: '1px solid', borderColor: 'primary.light' }}
+                />
+              ),
+            )}
+          </Box>
+        </Container>
+      </Box>
 
       {/* Features Section */}
-      <section className="py-20 bg-gradient-to-b from-black to-gray-900">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Recursos que <span className="text-yellow-400">Impulsionam</span> Seu Negócio
-            </h2>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto">Tudo que você precisa para automatizar, gerenciar e crescer</p>
-          </div>
+      <Box component="section" sx={{ py: { xs: 8, md: 12 }, bgcolor: 'secondary.main' }}>
+        <Container maxWidth="lg">
+          <Box textAlign="center" mb={8}>
+            <Typography variant="overline" sx={{ color: 'primary.light' }} fontWeight={800} fontSize={13} letterSpacing={2}>
+              FUNCIONALIDADES
+            </Typography>
+            <Typography variant="h3" fontWeight={900} color="white" mt={1} mb={2}>
+              Tudo que Sua Campanha Precisa
+            </Typography>
+            <Typography variant="body1" sx={{ color: 'rgba(255,255,255,0.7)' }} maxWidth={560} mx="auto" fontSize={17}>
+              Seis pilares que transformam o relacionamento com eleitores em resultados eleitorais reais.
+            </Typography>
+          </Box>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <Grid container spacing={3}>
             {features.map((feature, idx) => (
-              <div
-                key={idx}
-                className="group bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 hover:from-yellow-400/10 hover:to-yellow-400/5 border border-gray-700 hover:border-yellow-400/50 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-2xl hover:shadow-yellow-400/20"
-              >
-                <div className="text-yellow-400 mb-4 group-hover:scale-110 transition-transform duration-300">{feature.icon}</div>
-                <h3 className="text-xl font-bold mb-3 group-hover:text-yellow-400 transition">{feature.title}</h3>
-                <p className="text-gray-400 leading-relaxed">{feature.description}</p>
-              </div>
+              <Grid size={{ xs: 12, sm: 6, lg: 4 }} key={idx}>
+                <Paper
+                  elevation={0}
+                  sx={{
+                    p: 4,
+                    borderRadius: 4,
+                    height: '100%',
+                    bgcolor: 'rgba(255,255,255,0.06)',
+                    border: '1px solid rgba(255,255,255,0.1)',
+                    transition: 'all 0.25s',
+                    '&:hover': { bgcolor: 'rgba(25,114,255,0.15)', borderColor: 'primary.light', transform: 'translateY(-4px)' },
+                  }}
+                >
+                  <Box mb={2}>{feature.icon}</Box>
+                  <Typography variant="h6" fontWeight={800} color="white" mb={1.5}>
+                    {feature.title}
+                  </Typography>
+                  <Typography variant="body2" sx={{ color: 'rgba(255,255,255,0.65)', lineHeight: 1.8 }}>
+                    {feature.description}
+                  </Typography>
+                </Paper>
+              </Grid>
             ))}
-          </div>
-        </div>
-      </section>
+          </Grid>
+        </Container>
+      </Box>
 
-      {/* API Comparison Section */}
-      <section className="py-20 bg-black">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Por que utilizar a API <span className="text-yellow-400">Oficial</span> do Whatsapp?
-            </h2>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto">Tecnologia certificada para proteger dados, contatos e reputação.</p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {/* API Oficial */}
-            <div className="bg-gradient-to-br from-green-500/10 to-green-500/5 rounded-2xl p-8 border-2 border-green-500 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/20 rounded-full blur-3xl"></div>
-              <div className="relative z-10">
-                <div className="flex items-center justify-between mb-6">
-                  <div className="flex items-center space-x-3">
-                    <TaskAltOutlinedIcon sx={{ fontSize: 40 }} className="text-green-500" />
-                    <h3 className="text-3xl font-bold text-green-500">API Oficial</h3>
-                  </div>
-                  <WorkspacePremiumOutlinedIcon sx={{ fontSize: '32px' }} className="text-green-500" />
-                </div>
-
-                <ul className="space-y-4">
-                  {[
-                    'Certificado oficial Meta Business Partner',
-                    '100% seguro contra banimentos permanentes',
-                    'Suporte técnico 24/7 do WhatsApp',
-                    'Recursos premium e atualizações automáticas',
-                    'Criptografia de ponta a ponta garantida',
-                    'Conformidade total com LGPD',
-                    'Proteção da reputação da sua marca',
-                    'Continuidade do negócio sem interrupções',
-                    'Integração estável com SLA de 99.9%',
-                  ].map((item, idx) => (
-                    <li key={idx} className="flex items-start space-x-3">
-                      <CheckOutlinedIcon sx={{ fontSize: '20px' }} className="text-green-500 flex-shrink-0 mt-1" />
-                      <span className="text-gray-200">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-
-            {/* API Ilegal */}
-            <div className="bg-gradient-to-br from-red-500/10 to-red-500/5 rounded-2xl p-8 border-2 border-red-500 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-red-500/20 rounded-full blur-3xl"></div>
-              <div className="relative z-10">
-                <div className="flex items-center space-x-3 mb-6">
-                  <CancelOutlinedIcon sx={{ fontSize: 40 }} className="text-red-500" />
-                  <h3 className="text-3xl font-bold text-red-500">API Não Oficial</h3>
-                </div>
-
-                <ul className="space-y-4">
-                  {[
-                    'Alto risco de banimento permanente',
-                    'Viola os termos de serviço do WhatsApp',
-                    'Sem suporte técnico ou garantias',
-                    'Instabilidade e quedas frequentes',
-                    'Dados não criptografados e vulneráveis',
-                    'Problemas legais e multas pesadas',
-                    'Perda total de base de contatos',
-                    'Interrupção completa do negócio',
-                    'Danos irreparáveis à reputação',
-                  ].map((item, idx) => (
-                    <li key={idx} className="flex items-start space-x-3">
-                      <CloseOutlinedIcon sx={{ fontSize: '20px' }} className="text-red-500 flex-shrink-0 mt-1" />
-                      <span className="text-gray-200">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className="mt-12 text-center bg-red-500/10 border border-red-500/30 rounded-2xl p-8 max-w-4xl mx-auto">
-            <GppBadOutlinedIcon sx={{ fontSize: 48 }} className="text-red-500 mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-4 text-red-500">⚠️ ATENÇÃO: Risco Real de Perder Tudo</h3>
-            <p className="text-gray-300 text-lg">
-              Empresas que usam APIs não oficiais perdem em média <strong className="text-yellow-400">R$ 150.000</strong> ao serem banidas. Não
-              arrisque seu negócio! Use apenas a API Oficial certificada pelo WhatsApp.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Pricing Section */}
-      <section className="py-20 bg-gradient-to-b from-gray-900 to-black">
-        <div className="container mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Escolha o Plano <span className="text-yellow-400">Ideal</span> Para Você
-            </h2>
-            <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">Planos flexíveis com a melhor tecnologia do mercado</p>
-
-            <div className="inline-flex items-center bg-gray-800 rounded-full p-1 mb-12">
+      {/* Benefícios Section */}
+      <Box component="section" sx={{ py: { xs: 8, md: 12 }, bgcolor: 'background.default' }}>
+        <Container maxWidth="lg">
+          <Grid container spacing={6} alignItems="center">
+            <Grid size={{ xs: 12, md: 5 }}>
+              <Typography variant="overline" color="primary.main" fontWeight={800} fontSize={13} letterSpacing={2}>
+                BENEFÍCIOS
+              </Typography>
+              <Typography variant="h3" fontWeight={900} color="primary.main" mt={1} mb={2}>
+                O que o Candidato Ganha
+              </Typography>
+              <Typography variant="body1" color="text.secondary" lineHeight={1.9} mb={4}>
+                Ao adotar o Assistente Inteligente de Campanha, o candidato passa a contar com uma estrutura digital de alta performance — sem
+                precisar aumentar equipe ou custos operacionais.
+              </Typography>
               <Button
-                onClick={() => setActiveTab('mensal')}
-                className={`px-8 py-5 rounded-full font-bold transition ${
-                  activeTab === 'mensal' ? 'bg-yellow-400 text-black' : 'text-gray-400 hover:text-white'
-                }`}
-              >
-                Mensal
-              </Button>
-              <Button
-                onClick={() => setActiveTab('anual')}
-                className={`px-8 py-5 rounded-full font-bold transition ${
-                  activeTab === 'anual' ? 'bg-yellow-400 text-black' : 'text-gray-400 hover:text-white'
-                }`}
-              >
-                Anual
-                <span className="ml-2 text-xs bg-green-500 text-white px-2 py-1 rounded-full">-20%</span>
-              </Button>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            {isLoadingSubscriptions
-              ? [1, 2, 3].map((_, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-2xl p-8 border relative animate-pulse flex items-center justify-center"
-                  >
-                    <CircularProgress color="secondary" className="mx-auto" />
-                  </div>
-                ))
-              : tableData.map((item, idx) => {
-                  const displayPrice = activeTab === 'mensal' ? item.monthlyPrice : item.yearlyPrice !== '-' ? Number(item.yearlyPrice) / 12 : '-';
-
-                  const savings =
-                    activeTab === 'anual' && item.monthlyPrice !== '-' && item.yearlyPrice !== '-'
-                      ? Number(item.monthlyPrice) * 12 - Number(item.yearlyPrice)
-                      : null;
-
-                  const featureList = item.features
-                    ? (Object.entries(item.features) as [string, string][])
-                        .filter(([, v]) => v)
-                        .map(([k, v]) => {
-                          if (k === 'leadsContacts') return `${v} Leads / Contatos ativos`;
-
-                          if (k === 'flows') return `${v} Fluxo de atendimento`;
-
-                          if (k === 'ai') return `${v} Inteligência Artificial`;
-
-                          if (k === 'attendants') return `${v} Atendentes`;
-
-                          if (k === 'whatsapp') return `Atendimento via ${v}`;
-
-                          if (k === 'functions') return `Funções ${v}`;
-
-                          return v;
-                        })
-                    : [];
-
-                  return (
-                    <div
-                      key={idx}
-                      className={`bg-gradient-to-br rounded-2xl p-8 border relative transform transition-all duration-300 hover:-translate-y-2 ${
-                        item.isPopular
-                          ? 'from-yellow-400/20 to-yellow-400/5 border-yellow-400 border-2 scale-105 shadow-2xl shadow-yellow-400/20'
-                          : 'from-gray-800 to-gray-900 border-gray-700 hover:border-yellow-400/50'
-                      }`}
-                    >
-                      {item.isPopular && (
-                        <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                          <span className="bg-yellow-400 text-black px-6 py-2 rounded-full font-bold text-sm">MAIS VENDIDO</span>
-                        </div>
-                      )}
-
-                      {savings !== null && savings > 0 && (
-                        <div className="inline-block bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full mb-4">
-                          ECONOMIZE R$ {savings}
-                        </div>
-                      )}
-
-                      <div className={item.isPopular ? 'mt-4' : ''}>
-                        <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
-                        <div className="flex items-baseline mb-1">
-                          <span className="text-5xl font-bold text-yellow-400">R$ {displayPrice}</span>
-                          <span className="text-gray-400 ml-2">/ mês</span>
-                        </div>
-                        <p className="text-sm text-gray-400 mb-6">
-                          R$ {activeTab === 'mensal' ? Number(item.monthlyPrice) * 12 : item.yearlyPrice} pago por ano
-                        </p>
-
-                        <div className="border-t border-gray-700 my-6"></div>
-
-                        <ul className="space-y-4 mb-8">
-                          {featureList.map((feature, fidx) => (
-                            <li key={fidx} className="flex items-start space-x-3">
-                              <CheckOutlinedIcon sx={{ fontSize: '20px' }} className="text-yellow-400 flex-shrink-0 mt-1" />
-                              <span className="text-gray-300">{feature}</span>
-                            </li>
-                          ))}
-                        </ul>
-
-                        <Button
-                          onClick={() => handleSelectPlan(item.title)}
-                          variant="contained"
-                          color="secondary"
-                          className="w-full py-5 rounded-full font-bold hover:bg-yellow-300 transition"
-                        >
-                          Começar Agora
-                        </Button>
-                      </div>
-                    </div>
+                variant="contained"
+                color="primary"
+                size="large"
+                startIcon={<WhatsAppIcon />}
+                onClick={() => {
+                  window.open(
+                    `https://wa.me/${contact1Formatted}?text=${encodeURIComponent('Olá! Quero saber mais sobre o Assistente de Campanha.')}`,
+                    '_blank',
                   );
-                })}
-          </div>
-        </div>
-      </section>
+                }}
+                sx={{ borderRadius: 99, px: 4, py: 1.6, fontWeight: 800 }}
+              >
+                Falar com Especialista
+              </Button>
+            </Grid>
+
+            <Grid size={{ xs: 12, md: 7 }}>
+              <Grid container spacing={2}>
+                {benefits.map((benefit, idx) => (
+                  <Grid size={{ xs: 12, sm: 6 }} key={idx}>
+                    <Paper
+                      elevation={0}
+                      sx={{
+                        p: 2.5,
+                        borderRadius: 3,
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: 2,
+                        border: '1px solid',
+                        borderColor: 'divider',
+                        bgcolor: 'background.paper',
+                        transition: 'all 0.2s',
+                        '&:hover': { borderColor: 'primary.main', boxShadow: 2 },
+                      }}
+                    >
+                      <Box
+                        sx={{
+                          width: 44,
+                          height: 44,
+                          borderRadius: 2,
+                          bgcolor: 'primary.main',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          flexShrink: 0,
+                          '& svg': { fontSize: 22, color: '#fff' },
+                        }}
+                      >
+                        {benefit.icon}
+                      </Box>
+                      <Typography variant="body2" fontWeight={700} color="primary.main">
+                        {benefit.text}
+                      </Typography>
+                    </Paper>
+                  </Grid>
+                ))}
+              </Grid>
+            </Grid>
+          </Grid>
+        </Container>
+      </Box>
+
+      {/* Diferencial Section */}
+      <Box component="section" sx={{ py: { xs: 8, md: 12 }, bgcolor: 'secondary.main' }}>
+        <Container maxWidth="lg">
+          <Grid container spacing={6} alignItems="center">
+            {/* Texto principal */}
+            <Grid size={{ xs: 12, md: 5 }}>
+              <Typography variant="overline" sx={{ color: 'primary.light' }} fontWeight={800} fontSize={13} letterSpacing={2}>
+                DIFERENCIAL ESTRATÉGICO
+              </Typography>
+              <Typography variant="h3" fontWeight={900} color="white" mt={1} mb={3} lineHeight={1.2}>
+                Uma central de inteligência eleitoral — ativa 24h
+              </Typography>
+              <Typography variant="body1" sx={{ color: 'rgba(255,255,255,0.65)', lineHeight: 1.9 }}>
+                Enquanto a equipe dorme, o Assistente está captando, qualificando e nutrindo eleitores. Ele não apenas responde perguntas — ele
+                executa a estratégia da campanha de forma autônoma, inteligente e escalável.
+              </Typography>
+            </Grid>
+
+            {/* 3 pilares */}
+            <Grid size={{ xs: 12, md: 7 }}>
+              <Stack spacing={3}>
+                {[
+                  {
+                    number: '01',
+                    title: 'Inteligência Política Aplicada',
+                    description:
+                      'Entende o contexto eleitoral, identifica o perfil de cada eleitor e adapta a comunicação em tempo real — com precisão e consistência de mensagem.',
+                  },
+                  {
+                    number: '02',
+                    title: 'Relacionamento em Escala Real',
+                    description:
+                      'Atende simultaneamente centenas de eleitores com a mesma qualidade de um assessor dedicado, sem filas, sem espera e sem custo adicional de equipe.',
+                  },
+                  {
+                    number: '03',
+                    title: 'Estratégia que se Executa Sozinha',
+                    description:
+                      'Desde a abordagem inicial até o envio de materiais de campanha personalizados — cada etapa da jornada eleitoral é conduzida de forma autônoma.',
+                  },
+                ].map((pillar) => (
+                  <Box
+                    key={pillar.number}
+                    sx={{
+                      display: 'flex',
+                      gap: 3,
+                      p: 3,
+                      borderRadius: 3,
+                      border: '1px solid rgba(255,255,255,0.1)',
+                      transition: 'all 0.25s',
+                      '&:hover': { bgcolor: 'rgba(25,114,255,0.12)', borderColor: 'primary.light' },
+                    }}
+                  >
+                    <Typography
+                      sx={{
+                        fontWeight: 900,
+                        fontSize: '2rem',
+                        lineHeight: 1,
+                        color: 'primary.light',
+                        opacity: 0.8,
+                        flexShrink: 0,
+                        width: 48,
+                      }}
+                    >
+                      {pillar.number}
+                    </Typography>
+                    <Box>
+                      <Typography variant="subtitle1" fontWeight={800} color="white" mb={0.5}>
+                        {pillar.title}
+                      </Typography>
+                      <Typography variant="body2" sx={{ color: 'rgba(255,255,255,0.55)', lineHeight: 1.75 }}>
+                        {pillar.description}
+                      </Typography>
+                    </Box>
+                  </Box>
+                ))}
+              </Stack>
+            </Grid>
+          </Grid>
+        </Container>
+      </Box>
 
       {/* CTA Section */}
-      <Box className="py-20 bg-gradient-to-br from-yellow-400 to-yellow-500 relative overflow-hidden">
-        <div className="absolute inset-0 bg-black/5"></div>
-        <div className="absolute top-0 left-0 w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-black/10 rounded-full blur-3xl"></div>
+      <Box component="section" sx={{ py: { xs: 8, md: 12 }, bgcolor: 'primary.main', position: 'relative', overflow: 'hidden' }}>
+        <Box
+          sx={{
+            position: 'absolute',
+            top: -100,
+            right: -100,
+            width: 350,
+            height: 350,
+            borderRadius: '50%',
+            bgcolor: 'rgba(0,0,0,0.08)',
+            filter: 'blur(40px)',
+          }}
+        />
+        <Box
+          sx={{
+            position: 'absolute',
+            bottom: -80,
+            left: -80,
+            width: 300,
+            height: 300,
+            borderRadius: '50%',
+            bgcolor: 'rgba(0,0,0,0.06)',
+            filter: 'blur(40px)',
+          }}
+        />
 
-        <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center space-x-2 bg-black/20 rounded-full px-6 py-2 mb-6">
-              <WhatsAppIcon sx={{ fontSize: 20 }} className="text-black" />
-              <span className="text-black font-bold">Meta Business Partner Oficial</span>
-            </div>
+        <Container maxWidth="md" sx={{ position: 'relative', zIndex: 1, textAlign: 'center' }}>
+          <Box
+            sx={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: 1,
+              bgcolor: 'rgba(0,0,0,0.1)',
+              borderRadius: 99,
+              px: 3,
+              py: 1,
+              mb: 3,
+            }}
+          >
+            <WhatsAppIcon sx={{ fontSize: 20 }} />
+            <Typography fontWeight={700} fontSize={14}>
+              WhatsApp Business API Oficial
+            </Typography>
+          </Box>
 
-            <h2 className="text-5xl md:text-6xl font-bold text-black mb-6">Pronto Para Decolar?</h2>
-            <p className="text-2xl text-black/80 mb-8 max-w-2xl mx-auto">Junte-se a +10.000 empresas que confiam na API Oficial do WhatsApp</p>
+          <Typography variant="h2" fontWeight={900} color="white" mb={2} sx={{ fontSize: { xs: '2.2rem', md: '3rem' } }}>
+            Pronto para Transformar sua Campanha?
+          </Typography>
+          <Typography variant="h6" sx={{ color: 'rgba(255,255,255,0.8)', mb: 5, fontWeight: 400, maxWidth: 580, mx: 'auto' }}>
+            Comece agora e tenha o seu assessor digital trabalhando por você 24 horas por dia.
+          </Typography>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent="center" gap={2}>
+            <Button
+              variant="contained"
+              size="large"
+              startIcon={<RocketLaunchOutlinedIcon />}
+              onClick={() => navigate('/sign-up')}
+              sx={{
+                borderRadius: 99,
+                px: 5,
+                py: 1.8,
+                fontWeight: 800,
+                fontSize: 16,
+                bgcolor: 'white',
+                color: 'primary.main',
+                '&:hover': { bgcolor: 'rgba(255,255,255,0.9)' },
+              }}
+            >
+              Quero Começar Agora
+            </Button>
+            <Link
+              style={{ all: 'unset' }}
+              target="_blank"
+              to={`https://wa.me/${contact1Formatted}?text=${encodeURIComponent('Olá! Gostaria de agendar uma demonstração do Assistente de Campanha.')}`}
+            >
               <Button
-                onClick={() => navigate('/sign-up')}
-                className="bg-black text-yellow-400 px-12 p-8 rounded-full font-bold text-xl hover:bg-gray-900 transition transform hover:scale-105 shadow-2xl flex items-center justify-center space-x-2"
+                variant="outlined"
+                size="large"
+                startIcon={<WhatsAppIcon />}
+                sx={{
+                  borderRadius: 99,
+                  px: 5,
+                  py: 1.8,
+                  fontWeight: 800,
+                  fontSize: 16,
+                  borderWidth: 2,
+                  borderColor: 'white',
+                  color: 'white',
+                  '&:hover': { bgcolor: 'rgba(255,255,255,0.1)' },
+                }}
               >
-                <RocketLaunchOutlinedIcon sx={{ fontSize: 28 }} />
-                <span>Começar Teste Gratuito</span>
+                Agendar Demonstração
               </Button>
-              <Link
-                style={{ all: 'unset' }}
-                target="_blank"
-                to={`https://wa.me/${contact1Formatted}?text=${encodeURIComponent('Olá! Gostaria de saber mais sobre o Alldo Assistente.')}`}
-              >
-                <Button className="bg-white text-black px-12 py-8 rounded-full font-bold text-xl hover:bg-gray-100 transition transform hover:scale-105 shadow-2xl">
-                  Falar com Especialista
-                </Button>
-              </Link>
-            </div>
-
-            <p className="mt-6 text-black/70 text-sm">✓ Sem cartão de crédito &nbsp; ✓ Teste por 7 dias &nbsp; ✓ Suporte em português</p>
-          </div>
-        </div>
+            </Link>
+          </Stack>
+        </Container>
       </Box>
 
       {/* Footer */}
-      <footer className="bg-black border-t border-gray-800 py-12">
-        <div className="container mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
-            <div className="flex items-center space-x-3">
-              <div className="text-center">
-                <img src="/assets/images/logo/alldo-amarelo.png" alt="Alldo Logo" className="h-16 w-auto" />
-                <p className="text-gray-400 text-xs">Alldo Assistente - CRM Inteligente</p>
-              </div>
-            </div>
+      <Box component="footer" sx={{ bgcolor: 'secondary.main', py: 6 }}>
+        <Container maxWidth="lg">
+          <Stack direction={{ xs: 'column', md: 'row' }} alignItems="center" justifyContent="space-between" spacing={3}>
+            <Box textAlign={{ xs: 'center', md: 'left' }}>
+              <img src="/assets/images/logo/assessoria-certa.png" alt="Assessoria Certa" style={{ height: 48, filter: 'brightness(0) invert(1)' }} />
+              <Typography variant="caption" sx={{ color: 'rgba(255,255,255,0.5)', display: 'block', mt: 0.5 }}>
+                Assistente Inteligente de Campanha Política
+              </Typography>
+            </Box>
 
-            <div className="flex items-center space-x-6">
-              <div className="flex items-center space-x-2 bg-white text-black px-4 py-2 rounded-full font-bold">
-                <img src="/assets/images/logo/meta.png" alt="Logo Meta" className="h-12 w-auto" />
-              </div>
-            </div>
-          </div>
+            <Stack direction="row" alignItems="center" spacing={1} sx={{ bgcolor: 'white', borderRadius: 2, px: 2, py: 1 }}>
+              <img src="/assets/images/logo/meta.png" alt="Meta" style={{ height: 40 }} />
+            </Stack>
+          </Stack>
 
-          <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400 text-sm">
-            <p>© 2025 Alldo Assistente - CRM Inteligente. Todos os direitos reservados.</p>
-            <p className="mt-2">
-              WhatsApp Business API Oficial - Certificado Meta Business Partner{' '}
-              <Button onClick={() => navigate('/terms-privacy')} color="secondary">
+          <Divider sx={{ borderColor: 'rgba(255,255,255,0.1)', my: 4 }} />
+
+          <Stack direction={{ xs: 'column', sm: 'row' }} alignItems="center" justifyContent="space-between" spacing={2}>
+            <Typography variant="caption" sx={{ color: 'rgba(255,255,255,0.4)' }}>
+              © {new Date().getFullYear()} Assessoria Certa. Todos os direitos reservados.
+            </Typography>
+            <Stack direction="row" spacing={1}>
+              <Button
+                onClick={() => navigate('/terms-privacy')}
+                size="small"
+                sx={{ fontWeight: 700, color: 'rgba(255,255,255,0.6)', '&:hover': { color: 'white' } }}
+              >
                 Termos de uso
-              </Button>{' '}
-              |{' '}
-              <Button onClick={() => navigate('/terms-privacy')} color="secondary">
-                Política de privacidade
               </Button>
-            </p>
-          </div>
-        </div>
-      </footer>
+              <Button
+                onClick={() => navigate('/terms-privacy')}
+                size="small"
+                sx={{ fontWeight: 700, color: 'rgba(255,255,255,0.6)', '&:hover': { color: 'white' } }}
+              >
+                Privacidade
+              </Button>
+            </Stack>
+          </Stack>
+        </Container>
+      </Box>
+
       <ScrollToTopButton />
-      <DefaultConfirmModal
-        open={openModal}
-        title={''}
-        message={<TablePricingPage selectedPlanData={selectedPlanData} tableData={tableData} mode="DEFAULT" />}
-        cancelText="Cancelar"
-        onCancel={() => setOpenModal(false)}
-        confirmColor="primary"
-        maxWidth="md"
-        removeConfirm
-        hideCancel
-      />
-    </div>
+    </Box>
   );
 }
