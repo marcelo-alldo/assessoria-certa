@@ -663,7 +663,7 @@ export default function Preview() {
         <Container maxWidth="lg">
           <Stack direction={{ xs: 'column', md: 'row' }} alignItems="center" justifyContent="space-between" spacing={3}>
             <Box textAlign={{ xs: 'center', md: 'left' }}>
-              <img src="/assets/images/logo/assessoria-certa.png" alt="Assessoria Certa" style={{ height: 48, filter: 'brightness(0) invert(1)' }} />
+              <img src="/assets/images/logo/assessoria-certa.png" alt="Assessoria Certa" style={{ height: 80, filter: 'brightness(0) invert(1)' }} />
               <Typography variant="caption" sx={{ color: 'rgba(255,255,255,0.5)', display: 'block', mt: 0.5 }}>
                 Assistente Inteligente de Campanha Política
               </Typography>
