@@ -251,7 +251,7 @@ export default function Preview() {
               color="primary"
               size="large"
               startIcon={<RocketLaunchOutlinedIcon />}
-              onClick={() => navigate('/sign-up')}
+              onClick={() => navigate('/sign-up?mode=ASSESSOR&subscription=ad576a7f-bd87-42e5-a443-6547c8e3b9ae')}
               sx={{ borderRadius: 99, px: 5, py: 1.8, fontWeight: 800, fontSize: 16 }}
             >
               Quero Começar Agora
@@ -616,7 +616,7 @@ export default function Preview() {
               variant="contained"
               size="large"
               startIcon={<RocketLaunchOutlinedIcon />}
-              onClick={() => navigate('/sign-up')}
+              onClick={() => navigate('/sign-up?mode=ASSESSOR&subscription=ad576a7f-bd87-42e5-a443-6547c8e3b9ae')}
               sx={{
                 borderRadius: 99,
                 px: 5,

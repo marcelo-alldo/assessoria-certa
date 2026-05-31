@@ -25,7 +25,7 @@ const schema = z
     name: z.string().nonempty('Por favor, insira seu nome completo.'),
     email: z.string().email('Insira um e-mail válido.').nonempty('O campo de e-mail é obrigatório.'),
     phone: z.string().regex(/^\(\d{2}\) \d{4,5}-\d{4}$/, 'Telefone inválido'),
-    mode: z.enum(['DEFAULT', 'OPTICO'] as const, {
+    mode: z.enum(['DEFAULT', 'OPTICO', 'ASSESSOR'] as const, {
       errorMap: () => ({ message: 'Modo de cadastro inválido.' }),
     }),
     subscription: z.string().optional(),
@@ -145,7 +145,7 @@ function JwtSignUpForm() {
 
   useEffect(() => {
     if (searchParams.get('mode')) {
-      const mode = searchParams.get('mode') as 'DEFAULT' | 'OPTICO';
+      const mode = searchParams.get('mode') as 'DEFAULT' | 'OPTICO' | 'ASSESSOR';
       const subscriptionUid = searchParams.get('subscription');
       setValue('mode', mode, { shouldDirty: true });
 

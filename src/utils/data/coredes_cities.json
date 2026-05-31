@@ -1,0 +1,3979 @@
+{
+"ac_coredes_cities": [
+	{
+		"uid" : "7bd1c8d5-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Aceguá",
+		"city_uid" : "063abfae-d76a-40d4-9640-3eb608a1315a",
+		"corede_uid" : "35b9263d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1cdd4-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Água Santa",
+		"city_uid" : "19ee1247-a773-4855-b4e1-f4116e1be76c",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1d08b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Agudo",
+		"city_uid" : "a3e3512f-d2f7-4afa-8d48-da832bb27091",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1d347-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ajuricaba",
+		"city_uid" : "422a4da4-0faa-4ad1-901f-b8415524feeb",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1d516-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Alecrim",
+		"city_uid" : "a42ebd0f-1d5f-43f0-9fe2-9b47a49c3301",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1d6d8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Alegrete",
+		"city_uid" : "88d09234-f2b3-479e-820d-25c61111cb16",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1d892-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Alegria",
+		"city_uid" : "0f015ee5-b2cb-462a-a58e-58a676749264",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1da49-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Almirante Tamandaré do Sul",
+		"city_uid" : "87427c48-0bbb-4fe9-8046-3569170d19fd",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1dc09-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Alpestre",
+		"city_uid" : "33095229-f0fb-4e68-8b82-6d1642a84364",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1ddba-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Alto Alegre",
+		"city_uid" : "c1b8d6eb-15fa-4e08-9c84-29b9e2e47b16",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1df6b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Alto Feliz",
+		"city_uid" : "099bd55c-d242-487c-8a19-6f1cd7ff34b7",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1e0fb-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Alvorada",
+		"city_uid" : "882eaa6f-54e3-4e29-98ab-a7ff0b82668b",
+		"corede_uid" : "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1e29e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Amaral Ferrador",
+		"city_uid" : "58b4d491-76f1-4fac-9506-baf01d85de73",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1e443-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ametista do Sul",
+		"city_uid" : "850755bf-a587-49c5-a88e-48dc51580b5f",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1e5e9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "André da Rocha",
+		"city_uid" : "0001a3e6-47e8-4a75-bc90-35c56a9b694f",
+		"corede_uid" : "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1e79a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Anta Gorda",
+		"city_uid" : "d663ff6e-93c2-4b3c-b401-817aaa08a099",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1e940-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Antônio Prado",
+		"city_uid" : "79c30106-5fb4-4726-b722-d4b8987becf7",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1eae3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Arambaré",
+		"city_uid" : "3494c927-4d9d-4b10-9274-7aff3ffbd22d",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1ec79-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Araricá",
+		"city_uid" : "43266e16-d287-4033-84c4-1def594afe02",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1ee09-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Aratiba",
+		"city_uid" : "51a3ad94-4428-466b-9cbf-f528b3811d00",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1efa1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Arroio do Meio",
+		"city_uid" : "7ccae0e5-5f74-4865-8961-9b5e66d66f5e",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1f136-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Arroio do Padre",
+		"city_uid" : "d1ad2262-a83c-4758-ab5d-86da2dc010d1",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1f2ce-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Arroio do Sal",
+		"city_uid" : "80441c6c-fba0-47e2-9036-4be3adb68b35",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1f47f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Arroio do Tigre",
+		"city_uid" : "5a7be002-ee3b-4ed0-8990-8015cd0c2749",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1f61e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Arroio dos Ratos",
+		"city_uid" : "cafa091c-e0a1-492e-bdbb-5dd116f3df9c",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1f7c6-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Arroio Grande",
+		"city_uid" : "3807395a-3be5-4617-8cf9-62abeb4d137a",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1f977-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Arvorezinha",
+		"city_uid" : "a8874a3e-d89b-439c-a01e-36c3e3eb6fe4",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1fb07-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Augusto Pestana",
+		"city_uid" : "d1406a52-9fc4-4fbc-8e11-f70dee32e4eb",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1fcae-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Áurea",
+		"city_uid" : "abe34124-920f-4a76-9c6b-0750375f6fa1",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1fe47-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Bagé",
+		"city_uid" : "3b64c69f-f185-40da-a010-00fdd27e3e74",
+		"corede_uid" : "35b9263d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd1ffe1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Balneário Pinhal",
+		"city_uid" : "5e3a7cba-540e-4eba-9904-46be51b848d5",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd20188-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Barão",
+		"city_uid" : "d545e67e-164d-4c5a-8a6f-5eee743e7691",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd20321-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Barão de Cotegipe",
+		"city_uid" : "0bcf549f-e2b0-48db-9d37-11788ec77aa2",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd204cd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Barão do Triunfo",
+		"city_uid" : "d86511f7-667f-4daa-ad91-3493f57b0bdf",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd20670-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Barra do Guarita",
+		"city_uid" : "43a47ef9-014a-4342-9899-63c73a46f5c7",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2085a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Barra do Quaraí",
+		"city_uid" : "b9c26ada-9f39-4272-bd1e-88a0201ca6cd",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd209f7-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Barra do Ribeiro",
+		"city_uid" : "ad51dae9-ef76-43ee-be0a-cf4c08a0fdd3",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd20b87-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Barra do Rio Azul",
+		"city_uid" : "d5354be4-108b-46f2-901b-6363174b80dd",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd20d2f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Barra Funda",
+		"city_uid" : "fad32184-5a3c-466c-8858-0eaebe748d0d",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd20ed9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Barracão",
+		"city_uid" : "cde4e057-9adf-46a0-88c1-72b956624266",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd21080-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Barros Cassal",
+		"city_uid" : "0dbb5a2f-c58d-426d-b1f4-937d0dab1e3c",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2121a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Benjamin Constant do Sul",
+		"city_uid" : "0a081b6c-d855-454c-837c-109235b2f040",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd213d1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Bento Gonçalves",
+		"city_uid" : "b08408c7-0be8-4b7e-bd76-f5cbd63ba675",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2156b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Boa Vista das Missões",
+		"city_uid" : "10aa75f2-ad17-48bb-a632-6bb82c06d319",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2170a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Boa Vista do Buricá",
+		"city_uid" : "418ce180-e2b3-4c3c-aed9-69c7973925ca",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2189f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Boa Vista do Cadeado",
+		"city_uid" : "af192745-f4c2-4967-a2ec-9c4a56dba1c1",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd21a44-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Boa Vista do Incra",
+		"city_uid" : "69034ee6-e0aa-44eb-8d3b-5bedc1c4effa",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd21be3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Boa Vista do Sul",
+		"city_uid" : "610159ba-966c-4e29-840e-fcf51beef253",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd21d8b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Bom Jesus",
+		"city_uid" : "3d4390f5-eec5-4cc5-b644-fed5d2d28cbd",
+		"corede_uid" : "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd21f39-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Bom Princípio",
+		"city_uid" : "f749c7cc-2683-498c-a937-373ed13d944e",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd220d4-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Bom Progresso",
+		"city_uid" : "cb102345-fb44-4ae4-a889-6a2f18f54139",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd22314-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Bom Retiro do Sul",
+		"city_uid" : "47fdd63a-ee24-4b70-9f85-eafbae464b45",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd224cd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Boqueirão do Leão",
+		"city_uid" : "f9fe4bfe-aca4-4a1d-ae16-e0174855e778",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd22686-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Bossoroca",
+		"city_uid" : "07fa96ff-8e71-40b5-b0ef-b2184b4d5721",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2281f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Bozano",
+		"city_uid" : "d3528c76-342a-4ac0-baf0-bb402a80b41f",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd229ca-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Braga",
+		"city_uid" : "17cb57c1-5f95-48e4-b9fd-0462da1fe20b",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd22b5f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Brochier",
+		"city_uid" : "0dcc5890-9dd5-4a79-a398-305f8fb1d3e9",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd22d03-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Butiá",
+		"city_uid" : "66249fa9-eeba-4a8a-9c2a-baaaaa645d50",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd22eab-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Caçapava do Sul",
+		"city_uid" : "ceb2fea5-0ddc-4b6c-944d-6c7613e83156",
+		"corede_uid" : "35b9263d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd23049-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cacequi",
+		"city_uid" : "c7956571-3757-4121-9531-906be0323a76",
+		"corede_uid" : "35b943b6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd231e1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cachoeira do Sul",
+		"city_uid" : "0acb31f4-2691-49ed-a48e-25bb50f83956",
+		"corede_uid" : "35b9447b-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd23370-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cachoeirinha",
+		"city_uid" : "6200b754-5732-4b1a-9462-d4e8e3b9c159",
+		"corede_uid" : "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd23509-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cacique Doble",
+		"city_uid" : "da083c99-1baa-4acb-85c4-b7593630466c",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd236b1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Caibaté",
+		"city_uid" : "118156b5-7a91-4cbe-a98e-e1ce10a66bee",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2384f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Caiçara",
+		"city_uid" : "e1d9c3cb-70ff-4c06-82af-d64155cf1f48",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd23a0e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Camaquã",
+		"city_uid" : "b463d23e-7346-4b8d-85fb-0baf953b8075",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd23bd8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Camargo",
+		"city_uid" : "5233887a-075c-4a3d-a070-a7377e6667a5",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd23d9f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cambará do Sul",
+		"city_uid" : "9f323586-f4bc-476b-947d-3a4a4ce47766",
+		"corede_uid" : "35b94541-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd23f4e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Campestre da Serra",
+		"city_uid" : "b59f6d8d-76ea-4543-a002-f0709ef5ff15",
+		"corede_uid" : "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd24114-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Campina das Missões",
+		"city_uid" : "de0f7b86-404d-4152-a1c5-eeb17dbc7dae",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd242d5-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Campinas do Sul",
+		"city_uid" : "1000af68-e910-4b3f-98ca-ead7be29d50f",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd24490-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Campo Bom",
+		"city_uid" : "d0c87811-cb21-46b4-b363-904c53bc4509",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2464f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Campo Novo",
+		"city_uid" : "77b9266e-8d02-4b51-8247-418c3a8d849c",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd24811-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Campos Borges",
+		"city_uid" : "28d12474-232a-4a3f-a89f-79ccdb29fc96",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd249d8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Candelária",
+		"city_uid" : "973e8d28-5d0f-4396-9ba1-d9a13abf1bd4",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd24b94-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cândido Godói",
+		"city_uid" : "b53b338d-2e1d-4cf0-8e91-fd902a79719e",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd25161-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Candiota",
+		"city_uid" : "3c538b83-96cf-4ac4-b097-e113f2429e44",
+		"corede_uid" : "35b9263d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd25353-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Canela",
+		"city_uid" : "4c71a4f5-3551-47de-aba5-fbb161a7d9ef",
+		"corede_uid" : "35b94541-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd25501-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Canguçu",
+		"city_uid" : "404199cd-0525-44e4-9bd4-0f6316372074",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd256a6-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Canoas",
+		"city_uid" : "64aa22b7-2b72-412c-aac2-08fe19eaed2e",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd25857-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Canudos do Vale",
+		"city_uid" : "5c07f8c9-78af-4c1a-89e4-90c158a65bab",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd25a11-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Capão Bonito do Sul",
+		"city_uid" : "f27e5a18-cc74-4108-bbe9-d56b3f732910",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd25bd2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Capão da Canoa",
+		"city_uid" : "a43203fc-6036-4541-84ef-09fa795f3215",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd25d6c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Capão do Cipó",
+		"city_uid" : "5a6db36d-169b-4b33-80ac-23dc7d3c9eba",
+		"corede_uid" : "35b943b6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd25f1e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Capão do Leão",
+		"city_uid" : "a7652c62-5597-4896-98bd-c27430b16b1d",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd260cb-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Capela de Santana",
+		"city_uid" : "bb45d995-3b30-4b7b-a88e-7b2968f6f311",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd26284-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Capitão",
+		"city_uid" : "e654a8c4-42f6-4db8-9c9d-4171f70d815f",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd26420-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Capivari do Sul",
+		"city_uid" : "60098577-c0cd-4ae6-9b84-68ef9998348d",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd265d1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Caraá",
+		"city_uid" : "e0814730-7efb-48ab-8967-7bc75c1d35fa",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd26776-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Carazinho",
+		"city_uid" : "6473db98-7982-46fb-b0e9-485c01200760",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2691a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Carlos Barbosa",
+		"city_uid" : "f983a4db-a485-421d-8caa-d70367a8d81e",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd26ad8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Carlos Gomes",
+		"city_uid" : "dd79f496-a420-4b2f-92da-c03ba64c745e",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd26c87-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Casca",
+		"city_uid" : "b986ea02-0721-4534-b32e-5a6b41f88725",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd26e3d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Caseiros",
+		"city_uid" : "34246f2c-e77b-404c-bc12-44248c338dd2",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd26ff7-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Catuípe",
+		"city_uid" : "584e98a3-0980-46ac-8bdb-1ab3975b5e2b",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2719e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Caxias do Sul",
+		"city_uid" : "0524ab76-957c-419e-918d-daf3f998746a",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd27359-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Centenário",
+		"city_uid" : "8a5f4ae4-409d-45e0-a783-c2de251d953b",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd27524-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cerrito",
+		"city_uid" : "08a16a59-e03a-4cb4-ae54-4bc3a4e34902",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd27bfd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cerro Branco",
+		"city_uid" : "6e02113a-405b-4d74-8fda-ba99f0362bc9",
+		"corede_uid" : "35b9447b-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd27de7-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cerro Grande",
+		"city_uid" : "012dbd2a-5ee7-4997-9330-320acb7bcc5c",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd27fa9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cerro Grande do Sul",
+		"city_uid" : "2129d189-a330-4e7b-af36-c43181ad6fe0",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2815a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cerro Largo",
+		"city_uid" : "86e84ae1-e905-4a2b-9298-c405adb83327",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd28306-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Chapada",
+		"city_uid" : "6f752c32-17be-4879-bc2c-88f30d594671",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd284b2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Charqueadas",
+		"city_uid" : "76be6cf0-e80f-4c67-b644-f779a8b9c349",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd28651-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Charrua",
+		"city_uid" : "027e914c-1d7b-4f3e-af18-e54e80a35fdf",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2883e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Chiapetta",
+		"city_uid" : "a9e3f4fc-3ba6-4ebb-8f05-35e292adef2c",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd289db-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Chuí",
+		"city_uid" : "b66edbb4-d681-4956-9ca8-1b82a9a5bdc8",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd28b81-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Chuvisca",
+		"city_uid" : "4faf84a1-1e8c-47c6-9e5e-a8bf2748c067",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd28d41-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cidreira",
+		"city_uid" : "2b9cf69c-43e1-49b7-9020-64068e8986ac",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd28eee-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ciríaco",
+		"city_uid" : "6b5c5708-7c71-419b-b216-ede9cea0e237",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd290aa-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Colinas",
+		"city_uid" : "ecc68e76-6df9-46a9-9652-6f767ed3f511",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd29253-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Colorado",
+		"city_uid" : "63296996-5600-4319-abc0-cdab7e700d0e",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd29408-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Condor",
+		"city_uid" : "2d2f167d-8e35-4058-8700-1c61b3863969",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd295e0-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Constantina",
+		"city_uid" : "776f899a-0de6-432f-a0c8-75c481bc878f",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2979c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Coqueiro Baixo",
+		"city_uid" : "e0148917-66ce-4853-995c-265e980f1ee2",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd29943-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Coqueiros do Sul",
+		"city_uid" : "547abe29-0cac-49a3-b2d9-d11d92fc1bd0",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd29aff-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Coronel Barros",
+		"city_uid" : "1f981924-6825-4a5d-82a2-c2b631edcba5",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd29c91-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Coronel Bicaco",
+		"city_uid" : "01be1588-b1e4-4fe2-ba7d-f2b13ba42f41",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd29e44-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Coronel Pilar",
+		"city_uid" : "38521093-8ea1-44e5-b322-c71cd4541779",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd29ff9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cotiporã",
+		"city_uid" : "080f59aa-6dae-443e-84b7-95923d35f657",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2a1c8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Coxilha",
+		"city_uid" : "40dc344e-5d53-4765-ab56-170a40488842",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2a38f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Crissiumal",
+		"city_uid" : "4a6a1a63-3e79-46eb-90ce-e3da18cc99a1",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2a537-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cristal",
+		"city_uid" : "7b38c413-2eea-43ac-983a-0787ef0f905b",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2a6ea-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cristal do Sul",
+		"city_uid" : "eefea796-aa8f-4135-af49-6fcc79af7bcb",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2a88f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cruz Alta",
+		"city_uid" : "7ec2bb18-d0d1-44c4-8e4b-6604f7319cc7",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2aa38-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cruzaltense",
+		"city_uid" : "111b88bd-c484-456b-8f96-f035b72eaf68",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2abfd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Cruzeiro do Sul",
+		"city_uid" : "ca96fe33-f4f0-49c7-8b90-74e364125d96",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2adbd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "David Canabarro",
+		"city_uid" : "b265e3fc-4355-4696-8d15-bbc672fb14e8",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2af98-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Derrubadas",
+		"city_uid" : "0d19c083-635d-42f0-bdb7-f4715d4a7a35",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2b353-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Dezesseis de Novembro",
+		"city_uid" : "0292ef22-7a7e-4df1-bdd4-c46b2cf351fe",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2b565-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Dilermando de Aguiar",
+		"city_uid" : "22ba2d48-0bda-45a0-b7dd-3f3ea573dafb",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2b719-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Dois Irmãos",
+		"city_uid" : "246f35dd-4fb2-42b3-8ffb-1de00d68067e",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2b8ce-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Dois Irmãos das Missões",
+		"city_uid" : "4a39f280-9a51-4063-b9dd-a514537c94ad",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2ba95-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Dois Lajeados",
+		"city_uid" : "bdbf8812-a213-4155-942c-d669cf9c768c",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2bc56-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Dom Feliciano",
+		"city_uid" : "9cdf6eb1-fa52-494e-ba0e-127e12dc35f2",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2be6d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Dom Pedrito",
+		"city_uid" : "6cdaa399-eb57-43e2-9f77-6aa26039f65c",
+		"corede_uid" : "35b9263d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2c01d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Dom Pedro de Alcântara",
+		"city_uid" : "191b815b-01a1-4b54-a0b6-39fbe1536f32",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2c1b6-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Dona Francisca",
+		"city_uid" : "b38f9754-4b6c-4903-9c18-f2009611955b",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2c35f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Doutor Maurício Cardoso",
+		"city_uid" : "462514bb-907d-413c-b7bc-20b77e379d0f",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2c51d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Doutor Ricardo",
+		"city_uid" : "eaef6606-d449-4002-a2eb-0fa33d248d0b",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2c6d9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Eldorado do Sul",
+		"city_uid" : "b814b85d-5356-4332-9fb9-09a04d4f4ba4",
+		"corede_uid" : "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2c88d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Encantado",
+		"city_uid" : "3c54c0e5-56d8-4d36-9181-d843f18bb80f",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2ca6a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Encruzilhada do Sul",
+		"city_uid" : "f48ae945-b928-423a-9db6-b9ea93dddb38",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2cd31-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Engenho Velho",
+		"city_uid" : "37455f08-99d4-41c7-ab36-3c5c56bf4a6d",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2cf01-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Entre Rios do Sul",
+		"city_uid" : "81105140-13fc-4a9b-ac4a-d9f8d2d38396",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2d0c2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Entre-Ijuís",
+		"city_uid" : "11798849-81fa-4e11-ac5f-9387b83121c7",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2d485-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Erebango",
+		"city_uid" : "5f0bc038-fc2e-46e4-a0ae-6aa7881065ec",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2d65d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Erechim",
+		"city_uid" : "39ad878e-5b6b-42af-bc95-c55b38a6926e",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2d82c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ernestina",
+		"city_uid" : "dd1c9843-8a5b-4857-8b39-4ed6f62b0e1a",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2d9dc-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Erval Grande",
+		"city_uid" : "5f5beb75-041e-4f7f-aa4b-34947ed9d114",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2dbb1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Erval Seco",
+		"city_uid" : "770c19e8-d3c8-4bdf-89b0-420fa81f78cd",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2dd62-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Esmeralda",
+		"city_uid" : "b392eadb-23aa-4788-8c5c-c3fbdfba35d7",
+		"corede_uid" : "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2df11-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Esperança do Sul",
+		"city_uid" : "6051d84a-1202-481f-8c3c-c9aebc57152b",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2e0ec-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Espumoso",
+		"city_uid" : "4a7d3026-73de-48e0-9b13-bd7bc2fd799b",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2e2a9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Estação",
+		"city_uid" : "e5e80120-8cd7-45e1-9b10-e1d18f6bb599",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2e46e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Estância Velha",
+		"city_uid" : "247937e9-2c40-4585-95e2-1444151e8d4a",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2e631-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Esteio",
+		"city_uid" : "8de5701a-d730-4020-8f80-1be507540ed7",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2e7f5-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Estrela",
+		"city_uid" : "988e2373-4391-4654-83fb-cfdb9267b7f2",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2e9bb-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Estrela Velha",
+		"city_uid" : "20a9c5e4-160d-4d62-8af2-28d9cc2b1fe2",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2eb79-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Eugênio de Castro",
+		"city_uid" : "f5b29601-dbd8-4a5e-9d9a-d9d2ec4be2ad",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2ed37-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Fagundes Varela",
+		"city_uid" : "cba5abde-5cb4-4737-bcf3-0f85a07ff6ed",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2ef02-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Farroupilha",
+		"city_uid" : "2ddba463-1aa5-421b-9f92-aae0ee8f9a1c",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2f0cc-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Faxinal do Soturno",
+		"city_uid" : "3c8b01bd-b091-4440-9d0e-62d32528ad26",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2f28f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Faxinalzinho",
+		"city_uid" : "55b206e5-2826-4131-b4be-a102518584f1",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2f441-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Fazenda Vilanova",
+		"city_uid" : "ca05877d-9915-4ac8-8ef2-84d75d9b649c",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2f5f7-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Feliz",
+		"city_uid" : "31985baf-98d4-44f0-9e8c-396b6ec04625",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2f7b3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Flores da Cunha",
+		"city_uid" : "bb20a52d-1c54-4f97-a2f6-a5eea971b89f",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2fa16-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Floriano Peixoto",
+		"city_uid" : "99c4b632-1adc-42da-a2da-96f4403f400c",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2fbfd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Fontoura Xavier",
+		"city_uid" : "aa70ac0f-69b6-4f1a-bdb6-94f17eefac38",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2fdaa-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Formigueiro",
+		"city_uid" : "31d4d820-ab4c-4ead-97c3-69870afd393a",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd2ff5c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Forquetinha",
+		"city_uid" : "bcda70ab-6a60-455a-acb6-be8823667d80",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3011a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Fortaleza dos Valos",
+		"city_uid" : "54d96be9-57dc-414c-9ef9-7c94c391e932",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd302c3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Frederico Westphalen",
+		"city_uid" : "134b11fc-6e9c-4829-89b1-3fe80509cb5a",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3046c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Garibaldi",
+		"city_uid" : "02cd1576-9c54-497a-8cf1-9df27cf7a196",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd30620-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Garruchos",
+		"city_uid" : "581d7a12-facf-4f63-8822-e375ba7f2fce",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd307e4-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Gaurama",
+		"city_uid" : "4b10b97f-a093-4824-95f0-f75a24272cf0",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd309ae-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "General Câmara",
+		"city_uid" : "7e8cdfaf-c3b4-407d-85e6-77abaaf8ac9d",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd30b5b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Gentil",
+		"city_uid" : "6c53fb26-a07b-49b7-8ca5-ee0b70c344c8",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd30d30-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Getúlio Vargas",
+		"city_uid" : "79030104-1002-436c-b256-09f976a036dc",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd30f23-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Giruá",
+		"city_uid" : "7293561e-6950-45d3-b602-69c91bd839fa",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd310ec-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Glorinha",
+		"city_uid" : "10b2f8d3-9e3e-45b1-8b05-bf3915776e9a",
+		"corede_uid" : "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd31296-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Gramado",
+		"city_uid" : "ae9b8e9c-91c0-42ba-8de7-92fedf9936ed",
+		"corede_uid" : "35b94541-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3143b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Gramado dos Loureiros",
+		"city_uid" : "b1cf474e-b107-4ccc-bf7b-5133184077d1",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd315ef-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Gramado Xavier",
+		"city_uid" : "c5f27d65-63dd-44ed-89f1-4b23e863eee2",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd31795-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Gravataí",
+		"city_uid" : "755a6037-7f57-485f-8c95-94449c88764a",
+		"corede_uid" : "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3194a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Guabiju",
+		"city_uid" : "d32d197d-1ec0-4948-bc8f-17b798d4e4de",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd31b12-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Guaíba",
+		"city_uid" : "38d7387c-9c5c-437d-ae9c-92e894312d20",
+		"corede_uid" : "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd31cd3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Guaporé",
+		"city_uid" : "468a5707-2e40-4f01-b214-e00dfa64fa16",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd31e98-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Guarani das Missões",
+		"city_uid" : "0f57df2f-0fc5-4604-adaf-da6aee828394",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3204a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Harmonia",
+		"city_uid" : "7b4ff3dc-72f6-4617-b030-be13f9fd6d6e",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd321ed-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Herval",
+		"city_uid" : "d25ea554-d952-4d3a-8c80-a5dc5a6689f7",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd32388-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Herveiras",
+		"city_uid" : "383a12ef-8f23-46ae-8f68-e6852d8adc80",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3257e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Horizontina",
+		"city_uid" : "e7445755-1458-4e07-b746-46279059912b",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd32748-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Hulha Negra",
+		"city_uid" : "ff95f1b5-b450-4fd6-8a22-d1e27c8445f1",
+		"corede_uid" : "35b9263d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd328ee-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Humaitá",
+		"city_uid" : "68489271-1e1a-4abe-be80-05e9c5cb9bb6",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd32aaa-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ibarama",
+		"city_uid" : "b2fd9dbf-6dc6-4016-b208-b336c867a609",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd32c6c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ibiaçá",
+		"city_uid" : "b44abcef-8885-45b5-8e72-0d9097e89c16",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd32e15-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ibiraiaras",
+		"city_uid" : "5728f1a2-12bd-43b1-b14f-cae81030d3eb",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd32fe9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ibirapuitã",
+		"city_uid" : "78fa78c6-853b-4a3a-9bf1-31f184d97b29",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd33192-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ibirubá",
+		"city_uid" : "4bb9e57a-6f64-4034-a516-78bfcb35063e",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd33343-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Igrejinha",
+		"city_uid" : "6c2c8df3-81ee-43ee-89bd-15e0eb126b03",
+		"corede_uid" : "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd33508-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ijuí",
+		"city_uid" : "169f19fa-0bf5-4ff0-8470-c8d8130d364c",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd336be-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ilópolis",
+		"city_uid" : "9c5cb8e2-1ed7-416f-b485-709b8d296c0e",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3389e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Imbé",
+		"city_uid" : "42ad6135-8849-460b-8c70-dc92b18e2d3f",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd33a41-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Imigrante",
+		"city_uid" : "116b5b82-3e19-4ecc-9fca-21f48863ff2b",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd344c0-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Independência",
+		"city_uid" : "e510d4a7-ffca-4bcb-8489-ad0068613c87",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd346b5-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Inhacorá",
+		"city_uid" : "6d6d7f7a-03b7-4681-b99f-33cfcf1349f3",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd34863-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ipê",
+		"city_uid" : "b7912e79-a664-470c-9fd7-586ac49893ed",
+		"corede_uid" : "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd34a09-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ipiranga do Sul",
+		"city_uid" : "ba9e4c28-3050-437d-af1f-140be1785bd7",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd34bcd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Iraí",
+		"city_uid" : "6ad6e844-b6e4-4dde-9ae4-0533b6a9dc60",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd34d98-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Itaara",
+		"city_uid" : "99831472-faba-4e11-b981-e0b85885f12b",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd34f56-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Itacurubi",
+		"city_uid" : "031fa51f-a47d-4aa8-aedd-c4f0ee76aaef",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd35108-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Itapuca",
+		"city_uid" : "0c8c67c3-8591-4869-8d5a-88093268c5aa",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd352dd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Itaqui",
+		"city_uid" : "85c8dafc-8ebd-43c6-9a18-e53c458a15fd",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3549e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Itati",
+		"city_uid" : "2afcf6b8-33b2-4ab1-94cd-c903853dd402",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd35649-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Itatiba do Sul",
+		"city_uid" : "0d39d226-fdc2-4ec7-aabb-aaee757796f2",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd357fd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ivorá",
+		"city_uid" : "c624c2c5-389a-4938-9d31-d18923ae6c4f",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd35ae6-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ivoti",
+		"city_uid" : "6693c01a-d8ac-44be-9ab4-20fac22b7d74",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd35cb0-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Jaboticaba",
+		"city_uid" : "64af1983-844d-41ce-b001-480670225465",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd35e5c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Jacuizinho",
+		"city_uid" : "7b3b7b67-de66-4474-bcf3-1108c663cfc2",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3601b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Jacutinga",
+		"city_uid" : "db0cd549-408c-40f8-90e3-e350815df3d2",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd361e1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Jaguarão",
+		"city_uid" : "84c5eb41-b170-452c-b28b-7ff1e1705673",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3638f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Jaguari",
+		"city_uid" : "f36046dd-8952-46a9-8d97-25dabbfb987c",
+		"corede_uid" : "35b943b6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3652f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Jaquirana",
+		"city_uid" : "f0a1709b-1048-450c-b3af-9a5de969a74a",
+		"corede_uid" : "35b94541-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd366d7-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Jari",
+		"city_uid" : "0ed59479-eeb7-4040-b5e8-808d51f4c4df",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3689d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Jóia",
+		"city_uid" : "d45e79fe-9082-4709-8671-7b862673ef05",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd36a65-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Júlio de Castilhos",
+		"city_uid" : "c5150717-a4d6-45a5-b27d-a97b61a5772a",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd36c2d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Lagoa Bonita do Sul",
+		"city_uid" : "d8985fdc-99f2-4e96-8b1d-952395e4b56d",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd36dea-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Lagoa dos Três Cantos",
+		"city_uid" : "aef2c5b1-f883-4590-8bc9-940823cf3ce9",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd36f94-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Lagoa Vermelha",
+		"city_uid" : "5c01748e-a887-4ac9-aac7-99d7956597fc",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd37133-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Lagoão",
+		"city_uid" : "836c4754-b80f-45dd-bd2a-c31acd0a7593",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd372f4-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Lajeado",
+		"city_uid" : "459db73c-5d6e-426f-b58e-fcc05eac7a3f",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd374b2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Lajeado do Bugre",
+		"city_uid" : "9fb71c89-417b-47dd-b1b1-a1cfd4b5703b",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd37662-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Lavras do Sul",
+		"city_uid" : "414861cd-bbfc-408e-b021-c875f50cf606",
+		"corede_uid" : "35b9263d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd37818-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Liberato Salzano",
+		"city_uid" : "368ef770-0d0f-4641-9afd-8c15efa8f7f3",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd379f3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Lindolfo Collor",
+		"city_uid" : "8ba07b49-324e-442e-89f4-6feec249d8d5",
+		"corede_uid" : "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd37bbc-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Linha Nova",
+		"city_uid" : "7f2a5bf2-78fd-4010-b534-1d1ac9b4e5b5",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd37da2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Maçambará",
+		"city_uid" : "e03dfcd0-4d98-4de8-ad7b-1b64060d3247",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd37f66-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Machadinho",
+		"city_uid" : "c6ffce55-0940-4dac-beed-90fe091ed048",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd38108-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Mampituba",
+		"city_uid" : "6926ccdc-0bbd-4f2c-b97c-2e9a5f3af16d",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd382cd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Manoel Viana",
+		"city_uid" : "c9c44b8e-a983-4600-8d84-15fdb9dcd00e",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd38481-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Maquiné",
+		"city_uid" : "9b3fd0e0-ebd0-4f65-85f0-4daf4387829a",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd38641-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Maratá",
+		"city_uid" : "00829695-8bf8-41d5-b32a-54f67d0c8f03",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd387f6-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Marau",
+		"city_uid" : "d2630897-4371-41f2-9d27-5466fddfc26c",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd38b54-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Marcelino Ramos",
+		"city_uid" : "dbb3cc65-f4e9-44ba-a4c5-0f5c1a161d72",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd38d28-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Mariana Pimentel",
+		"city_uid" : "9a3cf3d7-5bee-41bd-9a64-9d0aa6eab0aa",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd38efe-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Mariano Moro",
+		"city_uid" : "0840487f-0180-4345-9588-31f9c296f263",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd390d9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Marques de Souza",
+		"city_uid" : "f8ccd939-32c5-4cba-a2c7-f4f71abbfbde",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd392ad-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Mata",
+		"city_uid" : "47b83f69-8764-46d2-94a5-33f3c5b2179c",
+		"corede_uid" : "35b943b6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3946d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Mato Castelhano",
+		"city_uid" : "ce6c914a-aa0d-4345-89ff-7991b78d377c",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd39620-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Mato Leitão",
+		"city_uid" : "400c5b13-e9a0-44fc-9f99-80afbbc25721",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd397d9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Mato Queimado",
+		"city_uid" : "328cc3c6-bb37-47cd-a123-fc6806d03e4b",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd39995-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Maximiliano de Almeida",
+		"city_uid" : "534e1af1-fd0b-4025-a953-7fe18ce57df7",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd39b69-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Minas do Leão",
+		"city_uid" : "2ac0d71d-de10-4391-9d56-ee9a8a047207",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd39d2d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Miraguaí",
+		"city_uid" : "9d289b52-b00e-44f9-85c4-044c2b58f7ec",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd39eed-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Montauri",
+		"city_uid" : "d3840bf8-43a2-49ce-8a41-c9eb296933fb",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3a0a8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Monte Alegre dos Campos",
+		"city_uid" : "499f76dd-390b-4069-bb8c-de7882a7f8aa",
+		"corede_uid" : "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3a25d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Monte Belo do Sul",
+		"city_uid" : "8429a5f7-2d07-4efe-991b-128e28d28d5a",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3a432-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Montenegro",
+		"city_uid" : "deffd425-100a-4a7d-9f2d-cece3cf5b456",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3a5f3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Mormaço",
+		"city_uid" : "63b6cbdc-e512-4bdd-bad0-62993df02aad",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3a7ca-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Morrinhos do Sul",
+		"city_uid" : "ec9e7828-4f94-440c-9f5f-48d995636a0a",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3a9ad-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Morro Redondo",
+		"city_uid" : "713e7e04-bf72-4c6e-b7f1-d8477d6ecf86",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3ab79-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Morro Reuter",
+		"city_uid" : "51b3e76d-4319-4f26-83ad-18a04afd3d73",
+		"corede_uid" : "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3ad34-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Mostardas",
+		"city_uid" : "b4805bfe-5faa-4d6f-a0e4-9eb7e064ab33",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3af06-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Muçum",
+		"city_uid" : "c48f1f73-623c-4158-8cce-e531e00d7f97",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3b0bc-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Muitos Capões",
+		"city_uid" : "363da90a-1ad5-488d-83d8-de653a4fe507",
+		"corede_uid" : "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3b277-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Muliterno",
+		"city_uid" : "3958a191-ad42-425d-bb13-8d9148cc25e3",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3b428-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Não-Me-Toque",
+		"city_uid" : "0e7b4ef0-7c0b-45bd-9620-1d2e670504e1",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3b5f2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nicolau Vergueiro",
+		"city_uid" : "e8730f98-29e2-45e2-8c8c-3adca495e8f9",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3b7c1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nonoai",
+		"city_uid" : "556d4290-3728-493d-a392-657b50bc1f1b",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3b986-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Alvorada",
+		"city_uid" : "bf4b427e-75a4-498c-860c-8833018e8d0e",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3bb61-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Araçá",
+		"city_uid" : "7f964f09-1535-4af9-b4db-47680d212dad",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3bd22-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Bassano",
+		"city_uid" : "bfff78e7-d54f-43bc-9208-b35a91ecf263",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3bef3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Boa Vista",
+		"city_uid" : "182364cf-8078-46dd-87fd-fa4ea8fc136b",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3c0b3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Bréscia",
+		"city_uid" : "3166013d-f6d9-47c6-835a-394c1d9d79d7",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3c26f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Candelária",
+		"city_uid" : "edb7f5db-078c-49ca-94d3-a40271bf741e",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3c40c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Esperança do Sul",
+		"city_uid" : "3589e311-9be6-461a-8357-00dbf6d8e2e8",
+		"corede_uid" : "35b943b6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3c5b8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Hartz",
+		"city_uid" : "1dbc0639-c3ec-4286-9ab5-6a0daecc92bb",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3c762-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Pádua",
+		"city_uid" : "6b783fac-3fcb-454d-a8b0-0fd7d574ef46",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3c92c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Palma",
+		"city_uid" : "dc54a1cc-6b5d-4ecb-aa2b-ba26ef5bb6be",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3caf9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Petrópolis",
+		"city_uid" : "49fc75f6-c374-4b6d-b64f-2aa2802fbd2b",
+		"corede_uid" : "35b94541-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3ccb2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Prata",
+		"city_uid" : "15bc019b-8001-45a4-b9c6-74198cca8d5f",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3ce74-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Ramada",
+		"city_uid" : "c7ef8340-98a7-469e-9b72-7fe6d395e088",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3d039-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Roma do Sul",
+		"city_uid" : "0cbe8168-f9a1-4c19-af77-dee3b3f8e331",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3d203-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Nova Santa Rita",
+		"city_uid" : "3fdc851a-ad88-4909-8ef1-efd5b999001a",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3d3bb-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Novo Barreiro",
+		"city_uid" : "fe7a7e2b-b5f4-418f-ad8b-f2b23ca6aeb3",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3d594-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Novo Cabrais",
+		"city_uid" : "70896cc2-5a2d-4278-915f-6633ebedd150",
+		"corede_uid" : "35b9447b-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3d737-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Novo Hamburgo",
+		"city_uid" : "dd0bf9c7-0ea6-42ce-8455-a9e59255ce7c",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3d8ee-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Novo Machado",
+		"city_uid" : "4b6a3c9b-77d3-434f-b4af-ac55f71b9076",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3daae-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Novo Tiradentes",
+		"city_uid" : "30619fe2-2a5a-4631-b6db-ec278e3d8c73",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3dc60-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Novo Xingu",
+		"city_uid" : "441a7ce5-84b8-4a27-bb48-bd6e1473605d",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3de19-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Osório",
+		"city_uid" : "86e77d93-e7e1-4cf5-b48f-1e99c7bca7c4",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3dfd8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Paim Filho",
+		"city_uid" : "a509b083-131d-4be9-a57f-41abc4750f16",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3e18e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Palmares do Sul",
+		"city_uid" : "89b83dd6-f83a-4353-9695-32fcd17f8460",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3e355-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Palmeira das Missões",
+		"city_uid" : "98013493-923c-4942-bfc2-db6dba78a4b9",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3e512-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Palmitinho",
+		"city_uid" : "54e1b746-46c8-4943-b80f-9bfa8fbef63b",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3e6d0-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Panambi",
+		"city_uid" : "1ae53789-075e-4230-be89-0e68227387f5",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3e881-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pantano Grande",
+		"city_uid" : "b0110757-eedd-48a5-98c6-ec001a9ea918",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3ea4e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Paraí",
+		"city_uid" : "26dddf82-ef65-4ff7-a172-a0ff23afc45e",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3ec17-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Paraíso do Sul",
+		"city_uid" : "4a8cb269-0750-4ac2-ab5e-6f8bf992cc33",
+		"corede_uid" : "35b9447b-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3edc8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pareci Novo",
+		"city_uid" : "ebf52a9a-fd16-42e5-bd03-5efc8947e470",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3ef7e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Parobé",
+		"city_uid" : "194014b9-2e4b-4085-ae7e-c0ac11930ceb",
+		"corede_uid" : "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3f134-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Passa Sete",
+		"city_uid" : "27f5a8fa-9056-45ae-b876-79e8d77be1e7",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3f302-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Passo do Sobrado",
+		"city_uid" : "8efc765f-3122-43ad-8669-7cf37e4b4ecc",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3f4d3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Passo Fundo",
+		"city_uid" : "a07db96a-1f1a-4c8c-bf58-f77422f57a82",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3f72c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Paulo Bento",
+		"city_uid" : "f3a4f062-d2b7-430d-9cce-d171a08dbf03",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3f8ff-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Paverama",
+		"city_uid" : "367c7b5d-d31f-429d-8ceb-1077d7f4eeb2",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3fadd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pedras Altas",
+		"city_uid" : "99a4c449-0bd6-4e37-93f8-8bf05f0d571f",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3fcd2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pedro Osório",
+		"city_uid" : "a7c84a34-10b6-4343-98cb-a0a8160d3b95",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd3fe8b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pejuçara",
+		"city_uid" : "460c558d-b35a-41ef-82eb-cdd0f553a98a",
+		"corede_uid" : "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd40044-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pelotas",
+		"city_uid" : "01cca21a-7981-4727-9a7a-65a0f9b0f8dd",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd401f3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Picada Café",
+		"city_uid" : "357d956c-91d3-437f-bf29-56ce163430e4",
+		"corede_uid" : "35b94541-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4039e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pinhal",
+		"city_uid" : "8e45b1cc-351d-449b-96ad-ed63f4d836ec",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd40565-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pinhal da Serra",
+		"city_uid" : "c5c23dd1-96a5-4c8e-8f37-933ca75c1692",
+		"corede_uid" : "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4073d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pinhal Grande",
+		"city_uid" : "4c11034d-ec2b-4dd8-ae7c-20121a74f40e",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd408fe-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pinheirinho do Vale",
+		"city_uid" : "e046766e-07c1-44b5-b205-59c91ef2161a",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd40aaa-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pinheiro Machado",
+		"city_uid" : "9c68a90e-f9ca-46a6-ab44-3d2fb9a93cec",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd40c49-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pinto Bandeira",
+		"city_uid" : "47f9fa24-ab4b-4d12-abd6-0bd0b09b6672",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd40e0e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pirapó",
+		"city_uid" : "b4faa5bf-54c0-4784-bcc0-459853046051",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd40fc7-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Piratini",
+		"city_uid" : "d4a4a602-1c5d-411c-96f8-26c14258815a",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4119b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Planalto",
+		"city_uid" : "83aa5c4b-6ed8-4ae3-a0f6-d7f87ad8a274",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd41351-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Poço das Antas",
+		"city_uid" : "45e21855-3121-40d0-bf65-593b445b8541",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd41511-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pontão",
+		"city_uid" : "ad426cf6-c180-4adb-81fe-45087b8d9e8a",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd416c0-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ponte Preta",
+		"city_uid" : "eb089665-3609-4765-8202-cbcf66be3257",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd44b14-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Portão",
+		"city_uid" : "23a812f5-7601-44ee-85cb-85b245aa5a19",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd44db1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Porto Alegre",
+		"city_uid" : "7bafc72f-c4e5-4c23-ac41-de0a415b20b7",
+		"corede_uid" : "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd44f82-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Porto Lucena",
+		"city_uid" : "d0789e64-3c62-4f53-86ba-ef08127dfaef",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd45156-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Porto Mauá",
+		"city_uid" : "dc2fa6a7-dedd-4f4f-890a-67ce966418f8",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd45332-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Porto Vera Cruz",
+		"city_uid" : "6e859262-e7fa-47c4-b93f-39c7745d7bb6",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4550b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Porto Xavier",
+		"city_uid" : "1cc8d267-a2ad-47a7-ab6a-7bc7f97aa61a",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd456de-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Pouso Novo",
+		"city_uid" : "d43689c2-6d72-48f9-b012-190f599952d0",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd458ed-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Presidente Lucena",
+		"city_uid" : "fcf979fc-5f7e-457c-a36b-1fdd39958540",
+		"corede_uid" : "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd45ab7-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Progresso",
+		"city_uid" : "66b66df3-ef70-437d-a17d-b747a88cd1d4",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd45c8a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Protásio Alves",
+		"city_uid" : "fda1f321-4e15-4a04-a0f6-80e690252f5c",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd45e96-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Putinga",
+		"city_uid" : "2b55de34-e20f-4487-87e3-1f4759ef42a2",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4607a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Quaraí",
+		"city_uid" : "18655b02-04b8-4576-baef-269fd5ec4738",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4623e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Quatro Irmãos",
+		"city_uid" : "6c00da85-e6a7-4ebf-a046-f99e8651c4f1",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd46412-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Quevedos",
+		"city_uid" : "59a9475d-d8c0-44a0-8b6d-ae33883e5614",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd465f7-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Quinze de Novembro",
+		"city_uid" : "04b7a4f5-f673-41fe-b2f5-375ed2d2f013",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd467c8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Redentora",
+		"city_uid" : "c4a2dc79-2370-4218-a973-b42c78d30ac5",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4698e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Relvado",
+		"city_uid" : "d0872522-68f8-4e12-a618-e8557a72fc6b",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd46d8f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Restinga Sêca",
+		"city_uid" : "0ba14fad-7d49-42b4-9c7b-416cf5d4c1b2",
+		"corede_uid" : "35b9447b-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd46f6f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Rio dos Índios",
+		"city_uid" : "fba7c884-b8f9-4f4c-9ab0-ef78d3214aaf",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd47165-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Rio Grande",
+		"city_uid" : "56580aa8-84b4-43c2-8aa4-61706300419f",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd47344-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Rio Pardo",
+		"city_uid" : "e8a8e3f1-24cc-4aa2-9e21-41f14543bc54",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd47536-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Riozinho",
+		"city_uid" : "d003b048-63f1-4fbd-99a7-d65bb72f0d7c",
+		"corede_uid" : "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd477af-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Roca Sales",
+		"city_uid" : "4a264559-c550-467d-8b76-c6188c830048",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4798f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Rodeio Bonito",
+		"city_uid" : "e2af120c-70ea-45cc-b454-af085727ff9f",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd47b50-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Rolador",
+		"city_uid" : "f8d82e00-3f77-4b50-bb01-ca09475f27af",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd47d2c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Rolante",
+		"city_uid" : "8beb2967-82a3-419f-9c4c-193bd9aabff6",
+		"corede_uid" : "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd47ef9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ronda Alta",
+		"city_uid" : "f20a75ef-45eb-437a-89d6-6e302374cb17",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd480cf-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Rondinha",
+		"city_uid" : "2bbf7c73-cbb6-4d14-8a73-bc3b3def50f6",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4830a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Roque Gonzales",
+		"city_uid" : "9d109f1a-0f10-4f1a-bdf0-f06a974648fd",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd484ef-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Rosário do Sul",
+		"city_uid" : "1357d9c0-95b0-4dc4-905b-4358d4942228",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd486de-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sagrada Família",
+		"city_uid" : "2eabf7b8-20b3-40fa-ae0f-165eea6ba6fe",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd488aa-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Saldanha Marinho",
+		"city_uid" : "ba543774-2b88-408f-adf3-e431be1e0d30",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd48a66-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Salto do Jacuí",
+		"city_uid" : "35bafd2e-660f-47d7-a6f9-ef257c847029",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd48c4e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Salvador das Missões",
+		"city_uid" : "8d77cc83-1e34-4329-91f9-ab97b08f1d16",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd48e29-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Salvador do Sul",
+		"city_uid" : "c475732a-c963-4227-9157-cae58f1b93bd",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd49010-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sananduva",
+		"city_uid" : "0860893f-a17e-4cb6-b98c-f95cb33a36b4",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd491e7-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santa Bárbara do Sul",
+		"city_uid" : "ffb1a988-48af-4888-af5a-03e962031777",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd49435-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santa Cecília do Sul",
+		"city_uid" : "d45526e8-8f65-4b78-af15-70b68a1a3550",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd495f4-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santa Clara do Sul",
+		"city_uid" : "e5ffa775-07fc-4606-8c32-931f236ea610",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd497de-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santa Cruz do Sul",
+		"city_uid" : "2d2266cd-a0b0-4556-9c18-71d1540c871c",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd499c7-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santa Margarida do Sul",
+		"city_uid" : "d9630481-42cb-477f-a675-7d0e000aabeb",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd49b9f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santa Maria",
+		"city_uid" : "40cc6c20-3fe8-4a5e-ac50-d318118ed6d8",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd49d73-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santa Maria do Herval",
+		"city_uid" : "1d5feb4d-ddb7-4274-a4d8-3deca82ecbd8",
+		"corede_uid" : "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd49f41-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santa Rosa",
+		"city_uid" : "6ac40e9d-7047-47e3-93fa-aa479de09e7c",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4a0f4-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santa Tereza",
+		"city_uid" : "3febba9f-8ad0-4335-a6f2-2b6d12d7b831",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4a2b1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santa Vitória do Palmar",
+		"city_uid" : "d8cf7b69-83ce-4772-bedb-b21e7142d773",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4a488-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santana da Boa Vista",
+		"city_uid" : "dc9353a0-ce9c-4b3f-b2a1-6eb15529f92c",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4a67d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sant'Ana do Livramento",
+		"city_uid" : "f7db4c28-e3a7-4d8d-9043-94f5d0c659e1",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4a85a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santiago",
+		"city_uid" : "ac9e6b3f-1dd4-4185-bf04-3ea4391b9357",
+		"corede_uid" : "35b943b6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4aa0f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santo Ângelo",
+		"city_uid" : "02f040d4-2423-4f0d-a47a-1214287b88a4",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4abe9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santo Antônio da Patrulha",
+		"city_uid" : "88d5177d-e40e-4c82-9a4c-e39faa483e17",
+		"corede_uid" : "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4adbf-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santo Antônio das Missões",
+		"city_uid" : "2c5577e8-b765-497b-bd7e-0cf3add1015a",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4af90-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santo Antônio do Palma",
+		"city_uid" : "b5f01173-9f8e-4419-9c12-8d6b950364c7",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4b155-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santo Antônio do Planalto",
+		"city_uid" : "c98e145f-8544-4b03-a5c5-512472769985",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4b324-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santo Augusto",
+		"city_uid" : "49eb35a8-c167-48de-8e14-fcf079f62552",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4b50f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santo Cristo",
+		"city_uid" : "dc0eec5d-a272-4d37-aca1-5d624261d02d",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4b6c3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Santo Expedito do Sul",
+		"city_uid" : "5d5add13-a5da-4614-a63c-dada5ad948c2",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4b892-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Borja",
+		"city_uid" : "8274617d-1582-4d0a-94e4-5b039b633160",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4ba82-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Domingos do Sul",
+		"city_uid" : "a21b5d12-5d05-4b8c-bef8-85d7a89b5e58",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4bc58-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Francisco de Assis",
+		"city_uid" : "73d17ba0-4c92-41c3-9bbb-ddaed71bfe8b",
+		"corede_uid" : "35b943b6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4be21-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Francisco de Paula",
+		"city_uid" : "50ea1388-a747-4d84-9d03-a72dd05d13c3",
+		"corede_uid" : "35b94541-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4bfdd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Gabriel",
+		"city_uid" : "ce6409d9-c514-4143-a5e2-5883d41bd0f5",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4c480-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Jerônimo",
+		"city_uid" : "c8494dca-f081-4fc7-b7a0-32ac66d3e5d1",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4c66b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São João da Urtiga",
+		"city_uid" : "122eade0-cf72-4148-8f8c-006abf13b02f",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4cea9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São João do Polêsine",
+		"city_uid" : "f5831f3f-9676-4976-9617-dc855e0943ba",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4d317-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Jorge",
+		"city_uid" : "2a7aeacc-7f29-4f2d-a560-554060055d9a",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4d4f8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São José das Missões",
+		"city_uid" : "fc9b112a-6dcf-4fbc-8818-471233652962",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4d6e2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São José do Herval",
+		"city_uid" : "af520b00-01de-47cb-a395-350772b89bb8",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4d8a4-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São José do Hortêncio",
+		"city_uid" : "21b47e73-67aa-400b-8316-09707d9e601d",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4da5e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São José do Inhacorá",
+		"city_uid" : "846bb9a6-5a17-4dfe-9210-68fb7411c044",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4dc32-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São José do Norte",
+		"city_uid" : "582084f2-3126-486a-b4a6-e5b627b43125",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4dde3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São José do Ouro",
+		"city_uid" : "ae95d3bd-42c1-4748-8fef-c905e74c9c17",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4e096-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São José do Sul",
+		"city_uid" : "2f384f20-5ddc-4da0-98d9-cda1bf107284",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4e270-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São José dos Ausentes",
+		"city_uid" : "aeb2fe70-76fd-4ee1-b4cf-7e674c4daf1d",
+		"corede_uid" : "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4e5b3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Leopoldo",
+		"city_uid" : "6f7468c7-3e96-41de-908e-aab95dfe87a2",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4e7a5-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Lourenço do Sul",
+		"city_uid" : "f48a0a25-2b99-4517-ac93-91cc9e329bf0",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4e969-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Luiz Gonzaga",
+		"city_uid" : "badf412b-ed15-4b14-89a5-58a07305845c",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4eb41-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Marcos",
+		"city_uid" : "78d3d621-7739-4c58-bfef-7ddb094950c7",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4ed25-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Martinho",
+		"city_uid" : "a6a30eef-83dd-4d8d-a07b-ca09e9f12b40",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4eef6-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Martinho da Serra",
+		"city_uid" : "73e081a3-8430-4283-a7d4-492d044185a5",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4f0bb-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Miguel das Missões",
+		"city_uid" : "54c12b61-b61b-4e9e-a1de-d07ab89a264b",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4f278-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Nicolau",
+		"city_uid" : "f1224623-9104-42e8-abdb-94d228d084be",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4f487-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Paulo das Missões",
+		"city_uid" : "91f2d25d-264d-430e-beac-cd581690e0cf",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4f656-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Pedro da Serra",
+		"city_uid" : "d77ccc6c-7283-405b-a38b-a72bb07ee3bb",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4f837-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Pedro das Missões",
+		"city_uid" : "cf2961a9-5ab2-4e91-bca6-cfaba8f468d6",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4fa0c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Pedro do Butiá",
+		"city_uid" : "83ed262e-b392-4c5c-b109-e494140eaaf8",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4fbda-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Pedro do Sul",
+		"city_uid" : "fe9649f0-f0bc-4567-82c3-c36d0017eb4f",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4fda2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Sebastião do Caí",
+		"city_uid" : "f47d3e1f-9ffd-48ba-ae81-f29ba381e2d5",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd4ff66-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Sepé",
+		"city_uid" : "82b17bdc-1867-40ea-a96f-e6b4fff71fef",
+		"corede_uid" : "35b9447b-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5012b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Valentim",
+		"city_uid" : "709bd106-2a2e-41a6-ad82-8218c8e54977",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5030d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Valentim do Sul",
+		"city_uid" : "6119eefe-c7c3-4199-922e-0a17a509053c",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd504eb-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Valério do Sul",
+		"city_uid" : "1ad0db7f-6c09-4388-b4d1-6f4b00c52326",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd50939-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Vendelino",
+		"city_uid" : "f72fd2e4-6406-4b9c-8b86-36f4cffb844f",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd50b27-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "São Vicente do Sul",
+		"city_uid" : "20617adb-8115-410b-99a5-185fc2657ec3",
+		"corede_uid" : "35b943b6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd50cd0-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sapiranga",
+		"city_uid" : "6e712d20-501c-4166-811f-99ffb8dfda9b",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd50e7e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sapucaia do Sul",
+		"city_uid" : "bbae3573-4341-4672-b224-cc8329bc30cc",
+		"corede_uid" : "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd51033-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sarandi",
+		"city_uid" : "ae2d4be0-a63e-47ab-abf9-23c9aad41daf",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd511f1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Seberi",
+		"city_uid" : "2285bb30-b0be-4eea-9ad3-880c8c59cd9b",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd513bb-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sede Nova",
+		"city_uid" : "e84060d0-0c51-4b90-ad46-5650d40971da",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5157d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Segredo",
+		"city_uid" : "feb77e70-2494-4d52-9703-0bf1552f9b6a",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd51736-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Selbach",
+		"city_uid" : "da8633d5-8657-4834-a4a3-eb14e0f29479",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd518ed-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Senador Salgado Filho",
+		"city_uid" : "f3b12b7d-9bba-43b6-a35f-3cdd8f3a5d06",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd51acf-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sentinela do Sul",
+		"city_uid" : "1a5b88b2-3019-46ec-987c-503f47ec4091",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd51cac-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Serafina Corrêa",
+		"city_uid" : "7eefd88b-79c7-4a51-9555-e4bdd10d4714",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd51e7e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sério",
+		"city_uid" : "488ea5a8-fd82-46bb-a83d-1f3c8aabfe0e",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd52047-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sertão",
+		"city_uid" : "7a79b02e-9f21-4ca9-a671-a6785b733238",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd52208-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sertão Santana",
+		"city_uid" : "77cf27ea-d291-47ef-8cb2-8e6305627713",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd523c8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sete de Setembro",
+		"city_uid" : "d58dd832-eb9a-4b92-ab44-a1fb925032af",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5257a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Severiano de Almeida",
+		"city_uid" : "d9bc5333-7ea5-45bb-9ace-a98b05f985bd",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5272d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Silveira Martins",
+		"city_uid" : "d39e704b-181e-4430-8a87-1595b09fcf20",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5299d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sinimbu",
+		"city_uid" : "2f1b8354-9cd5-4c4b-9bd0-4dfa0d88109c",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd52cb8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Sobradinho",
+		"city_uid" : "8d93a30e-b3e4-4ea2-8f5d-efc224db75bb",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd52ea1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Soledade",
+		"city_uid" : "a854591c-f17e-4806-8588-7bd9e2605401",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd53114-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tabaí",
+		"city_uid" : "9d1f8d6f-7271-4b25-961b-3fe88c6f9b7b",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd532f3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tapejara",
+		"city_uid" : "4c8bb667-b0d7-4581-bbba-bb317b2aedb9",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd534b2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tapera",
+		"city_uid" : "ea623316-ff08-4e48-a52a-02746eec8c3e",
+		"corede_uid" : "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd53672-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tapes",
+		"city_uid" : "ddf138da-71bf-4507-ac8d-155e24cf6360",
+		"corede_uid" : "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5384a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Taquara",
+		"city_uid" : "89dc6633-ef21-4bb9-997d-64de006b4911",
+		"corede_uid" : "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd53a18-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Taquari",
+		"city_uid" : "9e2d26ff-9524-4ba3-88e7-f2c3d4d9a250",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd53beb-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Taquaruçu do Sul",
+		"city_uid" : "73660ab9-e2da-4f6b-b964-44c74f3d068e",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd53db3-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tavares",
+		"city_uid" : "350a8d21-db19-42ef-8f41-0eac66ea639a",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd53f6c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tenente Portela",
+		"city_uid" : "70e4b2de-36d2-48cf-956d-f6618d8c9723",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5413c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Terra de Areia",
+		"city_uid" : "4a7db800-0f0b-46e4-ac60-7618e9ea7a92",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5431b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Teutônia",
+		"city_uid" : "0d35ee39-720e-470b-9ee3-8e0d531bdfc7",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd54507-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tio Hugo",
+		"city_uid" : "076a0de3-68e1-4607-9b5c-6d7b3faf7960",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5493c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tiradentes do Sul",
+		"city_uid" : "a6b36fcd-df6f-40fe-9a1f-bfc28ebaaf97",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd54b23-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Toropi",
+		"city_uid" : "62b7b957-d62e-411d-bb3f-c03300355031",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd54d05-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Torres",
+		"city_uid" : "0cc7edf2-d9e0-4dd3-8fad-1baab16d0603",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd54ee0-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tramandaí",
+		"city_uid" : "a0cb5c2a-8b5d-4d55-889c-7c0a4a938033",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd550aa-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Travesseiro",
+		"city_uid" : "a637fbb9-a1e0-4c4d-8b79-cadef120bb06",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd55286-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Três Arroios",
+		"city_uid" : "1517cbfd-df01-4ee4-b9c5-7305c023f256",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5544d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Três Cachoeiras",
+		"city_uid" : "2df1d1cc-f903-4f18-9265-c8601d2020bb",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd55615-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Três Coroas",
+		"city_uid" : "c76bfd31-8255-468a-9ca4-e34fb437d5ea",
+		"corede_uid" : "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd557e8-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Três de Maio",
+		"city_uid" : "4dbd0231-be98-4039-8ec8-82faeabe986d",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd55999-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Três Forquilhas",
+		"city_uid" : "87c06e5f-972b-4b65-bd74-b4acf334336d",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd55b71-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Três Palmeiras",
+		"city_uid" : "c1f29a5f-d433-451f-b45c-8710dca6f8d7",
+		"corede_uid" : "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd55d42-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Três Passos",
+		"city_uid" : "944b88bb-c201-4d70-a637-cfa411327630",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd55f0e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Trindade do Sul",
+		"city_uid" : "e8ef6f06-0d85-4445-b176-5283419d1627",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd560d9-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Triunfo",
+		"city_uid" : "3716c0ae-dcf6-4fdf-888f-f980fc1f423a",
+		"corede_uid" : "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd56285-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tucunduva",
+		"city_uid" : "7b16c442-1d18-40cc-b8b5-ec78aad9dd8d",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd56445-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tunas",
+		"city_uid" : "e3a1c051-cb2e-4c2e-92d2-f03c0e9a5765",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd56615-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tupanci do Sul",
+		"city_uid" : "94ac1b24-a371-40c7-8212-1a4ad6d7afab",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd567d1-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tupanciretã",
+		"city_uid" : "d929ce0e-9398-451c-a80c-de4a66fc8a56",
+		"corede_uid" : "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd56998-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tupandi",
+		"city_uid" : "3c0493be-a747-4eda-b773-a03533d514ca",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd56b5b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Tuparendi",
+		"city_uid" : "77dc1a4a-5cf5-42c9-ba93-b41a7181b451",
+		"corede_uid" : "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd56d18-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Turuçu",
+		"city_uid" : "44c3c058-65e0-4f9b-b8dc-f5b3a0487ba3",
+		"corede_uid" : "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd56ecc-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Ubiretama",
+		"city_uid" : "34bd2c5c-4b51-48e5-b45e-6c8f82ecd9d7",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd57089-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "União da Serra",
+		"city_uid" : "0ceae445-84f1-45f5-90e2-042dbcaf6caa",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd57264-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Unistalda",
+		"city_uid" : "ac65acd8-d46b-465a-aae2-b805c491c220",
+		"corede_uid" : "35b943b6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd57429-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Uruguaiana",
+		"city_uid" : "80ec534e-a730-4640-a909-f36307b0f17d",
+		"corede_uid" : "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd575dd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vacaria",
+		"city_uid" : "0f87f55e-9471-4a18-9b4b-9d47bcb9371e",
+		"corede_uid" : "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5778b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vale do Sol",
+		"city_uid" : "2a9a250c-85f6-4666-96ec-42640cbd201b",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5794e-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vale Real",
+		"city_uid" : "61594dd3-4d53-410a-87df-2994ffaafd17",
+		"corede_uid" : "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd57b08-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vale Verde",
+		"city_uid" : "78bd3e13-41c8-4fc8-8586-2f14e17eb752",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd57cbf-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vanini",
+		"city_uid" : "34d3eb23-02d1-4763-99ab-db94fd454b94",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd57e70-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Venâncio Aires",
+		"city_uid" : "e58a9d3c-59cb-47d0-8414-70d701bf69fc",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5803a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vera Cruz",
+		"city_uid" : "ba187d11-911d-40e4-923c-0dc0d00a0ca2",
+		"corede_uid" : "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd581ff-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Veranópolis",
+		"city_uid" : "d2c517df-b706-487d-b8cb-19a7d30d03a9",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd583dc-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vespasiano Corrêa",
+		"city_uid" : "9b8cee07-20dd-4f7b-8951-36855ffa9b67",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5859b-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Viadutos",
+		"city_uid" : "eac4751c-5e53-4a0d-bcb2-48e6ff5ff412",
+		"corede_uid" : "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5877c-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Viamão",
+		"city_uid" : "811b3a7f-141e-4f16-bc80-61b351dd0a95",
+		"corede_uid" : "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd58937-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vicente Dutra",
+		"city_uid" : "30805f67-5afd-4c29-92c8-c665b6b76bbc",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd58aff-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Victor Graeff",
+		"city_uid" : "966424c5-6589-4487-b25e-da7fab014271",
+		"corede_uid" : "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd58ccd-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vila Flores",
+		"city_uid" : "47fdf540-d9de-47bf-9e98-c73f443d9abc",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd58e8f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vila Lângaro",
+		"city_uid" : "7fc99bc2-48c3-43aa-8ef6-5b2655fb11fc",
+		"corede_uid" : "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5904a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vila Maria",
+		"city_uid" : "2c1cbbee-ca3a-4f84-9946-e9c869dadaa8",
+		"corede_uid" : "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd59219-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vila Nova do Sul",
+		"city_uid" : "3af7aa23-f9e1-404c-b662-17ccc87ddd2e",
+		"corede_uid" : "35b9447b-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd593d2-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vista Alegre",
+		"city_uid" : "ccf48d48-d25a-45f5-be14-130a94be74b1",
+		"corede_uid" : "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd59599-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vista Alegre do Prata",
+		"city_uid" : "3fa03399-7d34-4434-9d5d-68f7f14ffb9a",
+		"corede_uid" : "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5975a-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vista Gaúcha",
+		"city_uid" : "255996f2-628a-46a6-b803-47f3b729af96",
+		"corede_uid" : "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd5990f-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Vitória das Missões",
+		"city_uid" : "33b080cb-6125-4f81-8df4-746cadfdf086",
+		"corede_uid" : "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd59ada-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Westfália",
+		"city_uid" : "b288672d-9012-4b6f-8986-875582f9743b",
+		"corede_uid" : "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	},
+	{
+		"uid" : "7bd59c9d-5c33-11f1-9918-0affc5e6e72d",
+		"name" : "Xangri-lá",
+		"city_uid" : "cfdb7c04-1db4-499a-9b9d-523489cfd0b0",
+		"corede_uid" : "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+		"created_at" : "2026-05-30 14:26:01",
+		"updated_at" : "2026-05-30 14:26:01"
+	}
+]}

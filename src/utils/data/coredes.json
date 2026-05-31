@@ -1,0 +1,228 @@
+{
+  "ac_coredes": [
+    {
+      "uid": "35b9263d-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Campanha",
+      "color": "#ef4444",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b92a77-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Nordeste",
+      "color": "#f97316",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b92c1f-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Central",
+      "color": "#eab308",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b92d0f-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Noroeste Colonial",
+      "color": "#22c55e",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b92df4-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Fronteira Noroeste",
+      "color": "#10b981",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b92ed7-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Fronteira Oeste",
+      "color": "#14b8a6",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b92fb3-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Produção",
+      "color": "#06b6d4",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93080-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Médio Alto Uruguai",
+      "color": "#3b82f6",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93155-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Alto da Serra do Botucaraí",
+      "color": "#6366f1",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93223-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Vale do Caí",
+      "color": "#8b5cf6",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b932f1-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Metropolitano Delta do Jacuí",
+      "color": "#a855f7",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b933c0-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Sul",
+      "color": "#ec4899",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93492-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Campos de Cima da Serra",
+      "color": "#f43f5e",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93acf-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Vale do Taquari",
+      "color": "#84cc16",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93bc6-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Serra",
+      "color": "#0ea5e9",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93c97-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Centro-Sul",
+      "color": "#d97706",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93d6f-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Vale do Rio dos Sinos",
+      "color": "#059669",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93e3d-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Norte",
+      "color": "#2563eb",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93f0f-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Litoral",
+      "color": "#7c3aed",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b93fdc-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Vale do Rio Pardo",
+      "color": "#db2777",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b940a1-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Celeiro",
+      "color": "#16a34a",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b94166-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Rio da Várzea",
+      "color": "#0284c7",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b9422d-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Alto Jacuí",
+      "color": "#9333ea",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b942f3-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Missões",
+      "color": "#b45309",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b943b6-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Vale do Jaguari",
+      "color": "#0f766e",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b9447b-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Jacuí Centro",
+      "color": "#1d4ed8",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b94541-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Hortênsias",
+      "color": "#be185d",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    },
+    {
+      "uid": "35b94601-5c2f-11f1-9918-0affc5e6e72d",
+      "name": "Paranhana Encosta da Serra",
+      "color": "#4f46e5",
+      "state_uid": "e73da090-449d-4507-85aa-22f0376137b1",
+      "created_at": "2026-05-30 13:55:25",
+      "updated_at": "2026-05-30 13:55:25"
+    }
+  ]
+}

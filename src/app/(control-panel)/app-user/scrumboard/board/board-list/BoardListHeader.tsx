@@ -336,7 +336,7 @@ function BoardListHeader(props: BoardListHeaderProps) {
       <Box
         className={clsx('flex items-center justify-between h-12 sm:h-14 px-3', className)}
         sx={{
-          backgroundColor: (theme) => (list.type === 'DEFAULT' || list.type === 'OPTICO' ? theme.palette.primary.main : '#FFFFF'),
+          backgroundColor: (theme) => (list.type === 'DEFAULT' || list.type === 'ASSESSOR' ? theme.palette.primary.main : '#FFFFF'),
         }}
       >
         <div className="flex items-center min-w-0">
@@ -371,10 +371,14 @@ function BoardListHeader(props: BoardListHeaderProps) {
             </ClickAwayListener>
           ) : (
             <Typography
-              className={`text-base font-medium${list.type !== 'DEFAULT' && list.type !== 'OPTICO' ? ' cursor-pointer' : ''}`}
-              onClick={list.type !== 'DEFAULT' && list.type !== 'OPTICO' ? handleOpenForm : undefined}
+              className={`text-base font-medium${list.type !== 'DEFAULT' && list.type !== 'ASSESSOR' ? ' cursor-pointer' : ''}`}
+              onClick={list.type !== 'DEFAULT' && list.type !== 'ASSESSOR' ? handleOpenForm : undefined}
             >
-              {list.name}
+              {list.name.split('Lista de ')[1] === 'leads'
+                ? 'Lista de eleitores'
+                : list.name.split('Lista de ')[1] === 'clientes'
+                  ? 'Lista de apoiadores'
+                  : list.name}
             </Typography>
           )}
         </div>
@@ -395,7 +399,7 @@ function BoardListHeader(props: BoardListHeaderProps) {
               </IconButton>
             </Tooltip>
           )}
-          {list.type !== 'DEFAULT' && list.type !== 'OPTICO' && (
+          {list.type !== 'DEFAULT' && list.type !== 'ASSESSOR' && (
             <>
               <IconButton aria-haspopup="true" onClick={handleMenuClick} size="small">
                 <FuseSvgIcon size={20}>heroicons-outline:ellipsis-vertical</FuseSvgIcon>

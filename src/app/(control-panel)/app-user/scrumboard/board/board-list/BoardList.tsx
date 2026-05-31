@@ -79,7 +79,7 @@ function BoardList(props: BoardListProps) {
   }
 
   return (
-    <Draggable draggableId={step?.uid} isDragDisabled={step?.type === 'DEFAULT' || step?.type === 'OPTICO'} index={index}>
+    <Draggable draggableId={step?.uid} isDragDisabled={step?.type === 'DEFAULT' || step?.type === 'ASSESSOR'} index={index}>
       {(provided, snapshot) => (
         <div ref={provided.innerRef} {...provided.draggableProps} {...provided.dragHandleProps}>
           <StyledCard

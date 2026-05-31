@@ -18,6 +18,8 @@ import LocalOfferOutlinedIcon from '@mui/icons-material/LocalOfferOutlined';
 import ArchiveOutlinedIcon from '@mui/icons-material/ArchiveOutlined';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import WarningAmberOutlinedIcon from '@mui/icons-material/WarningAmberOutlined';
+import coredes from '@/utils/data/coredes.json';
+import coredesCities from '@/utils/data/coredes_cities.json';
 
 const StyledCard = styled(Card)(({ theme }) => ({
   transition: 'box-shadow 0.2s ease-in-out, transform 0.15s ease-in-out',
@@ -57,6 +59,7 @@ function BoardCard(props: BoardCardProps) {
 
   // Local state para menus (modal de anotações agora é centralizada)
   const [menuAnchorEl, setMenuAnchorEl] = useState<HTMLElement | null>(null);
+  const [corede, setCorede] = useState<object | null>(null);
 
   // Efeito para controlar loading baseado no centralizedLoading
   useEffect(() => {
@@ -64,6 +67,26 @@ function BoardCard(props: BoardCardProps) {
       setLoading(centralizedLoading);
     }
   }, [centralizedLoading, setLoading]);
+
+  useEffect(() => {
+    if (card.cityUid) {
+      const cityCorede = coredesCities.ac_coredes_cities.find((c) => c.city_uid === card.cityUid);
+
+      if (cityCorede) {
+        const coredeInfo = coredes.ac_coredes.find((corede) => corede.uid === cityCorede.corede_uid);
+
+        if (coredeInfo) {
+          setCorede(coredeInfo);
+        }
+      }
+    }
+  }, [card]);
+
+  useEffect(() => {
+    return () => {
+      setMenuAnchorEl(null); // Fecha o menu ao desmontar o componente
+    };
+  }, []);
 
   const theme = useTheme();
 
@@ -184,6 +207,21 @@ function BoardCard(props: BoardCardProps) {
                   {format(card?.updatedAt, 'dd/MM/yyyy HH:mm')}
                 </Typography>
               </Box>
+              {corede && (
+                <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.75, mt: 0.5 }}>
+                  <Chip
+                    label={corede?.name}
+                    size="small"
+                    sx={{
+                      backgroundColor: corede?.color,
+                      color: '#fff',
+                      fontWeight: 500,
+                      fontSize: '0.7rem',
+                      height: 20,
+                    }}
+                  />
+                </Box>
+              )}
             </Box>
 
             <Divider sx={{ mx: 1 }} />

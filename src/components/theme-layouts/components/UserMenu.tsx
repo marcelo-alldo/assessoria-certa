@@ -7,7 +7,6 @@ import Typography from '@mui/material/Typography';
 import { useState } from 'react';
 import Link from '@fuse/core/Link';
 import FuseSvgIcon from '@fuse/core/FuseSvgIcon';
-import { darken } from '@mui/material/styles';
 import clsx from 'clsx';
 import Popover, { PopoverProps } from '@mui/material/Popover';
 import useUser from '@auth/useUser';
@@ -48,12 +47,9 @@ function UserMenu(props: UserMenuProps) {
       <Button
         className={clsx('user-menu flex justify-start shrink-0 min-h-14 h-14 rounded-lg p-2 space-x-3', className)}
         sx={(theme) => ({
-          borderColor: theme.vars.palette.divider,
+          borderColor: 'rgba(255,255,255,0.2)',
           '&:hover, &:focus': {
-            backgroundColor: `rgba(${theme.vars.palette.dividerChannel} / 0.6)`,
-            ...theme.applyStyles('dark', {
-              backgroundColor: `rgba(${theme.vars.palette.dividerChannel} / 0.1)`,
-            }),
+            backgroundColor: 'rgba(255,255,255,0.1)',
           },
         })}
         onClick={userMenuClick}
@@ -72,10 +68,10 @@ function UserMenu(props: UserMenuProps) {
           />
         ) : (
           <Avatar
-            sx={(theme) => ({
-              background: (theme) => darken(theme.palette.background.default, 0.05),
-              color: theme.vars.palette.text.secondary,
-            })}
+            sx={{
+              background: 'rgba(255,255,255,0.2)',
+              color: 'white',
+            }}
             className="avatar md:mx-1"
           >
             {user?.displayName?.[0]}

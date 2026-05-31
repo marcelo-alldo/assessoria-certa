@@ -9,8 +9,18 @@ import NavbarPinToggleButton from 'src/components/theme-layouts/components/navba
 import Logo from '../../../../components/Logo';
 
 const Root = styled('div')(({ theme }) => ({
-  backgroundColor: theme.vars.palette.background.default,
-  color: theme.vars.palette.text.primary,
+  backgroundColor: theme.vars.palette.primary.main,
+  color: theme.vars.palette.primary.contrastText,
+  '& .MuiIconButton-root': {
+    color: 'rgba(255,255,255,0.85)',
+    borderColor: 'rgba(255,255,255,0.2)',
+    '&:hover': {
+      backgroundColor: 'rgba(255,255,255,0.1)',
+    },
+  },
+  '& .MuiDivider-root': {
+    borderColor: 'rgba(255,255,255,0.15)',
+  },
   '& ::-webkit-scrollbar-thumb': {
     boxShadow: `inset 0 0 0 20px ${'rgba(255, 255, 255, 0.24)'}`,
     ...theme.applyStyles('light', {

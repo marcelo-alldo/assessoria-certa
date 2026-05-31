@@ -41,8 +41,9 @@ const StyledList = styled(List)(({ theme }) => ({
   },
 
   '& .MuiListItemButton-root.active': {
-    backgroundColor: `${theme.palette.secondary.main} !important`,
+    backgroundColor: 'white !important',
     color: `${theme.palette.primary.main} !important`,
+    boxShadow: '0 1px 4px rgba(0,0,0,0.15)',
   },
 }));
 
