@@ -256,7 +256,7 @@ function ScheduledMessageHeader({ refetch, setLoading, changeRecipients, recipie
       {!state?.isView && (
         <div className="flex flex-1 items-center justify-end space-x-0 sm:space-x-3">
           {uid === 'new' ? (
-            <Button variant="contained" className="whitespace-nowrap" color="secondary" disabled={canSubmitCallBack()} onClick={handleCreate}>
+            <Button variant="contained" className="whitespace-nowrap" color="primary" disabled={canSubmitCallBack()} onClick={handleCreate}>
               <FuseSvgIcon size={20}>heroicons-outline:plus-circle</FuseSvgIcon>
               <span className="hidden sm:flex mx-2">Adicionar</span>
             </Button>

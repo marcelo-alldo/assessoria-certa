@@ -3,6 +3,7 @@ import authRoles from '@auth/authRoles';
 import { Navigate } from 'react-router';
 import Dashboard from './Dashboard';
 import Origins from './origins/Origins';
+import Avatar from './avatar/Avatar';
 
 /**
  * The Marketing page route.
@@ -21,6 +22,10 @@ const MarketingRoute: FuseRouteItemType = {
     {
       path: 'origins',
       element: <Origins />,
+    },
+    {
+      path: 'avatar',
+      element: <Avatar />,
     },
   ],
   auth: authRoles.collaborator,

@@ -381,7 +381,7 @@ function Origins() {
                   <Box className="flex flex-col pl-6 pb-6">
                     {!isUpdated && (
                       <div>
-                        <Button variant="contained" className="whitespace-nowrap" color="secondary" onClick={() => setShowForm(!showForm)}>
+                        <Button variant="contained" className="whitespace-nowrap" color="primary" onClick={() => setShowForm(!showForm)}>
                           <FuseSvgIcon size={20}>heroicons-outline:plus-circle</FuseSvgIcon>
                           <span className="hidden sm:flex mx-2">Adicionar nova origem</span>
                         </Button>

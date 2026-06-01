@@ -11,7 +11,7 @@ function MessageTemplatesHeader() {
       <PageTitle title="Modelos de Mensagem" />
 
       <div className="flex flex-1 items-center justify-end space-x-0 sm:space-x-3">
-        <Button variant="contained" onClick={() => navigate('/message-templates/new')} className="whitespace-nowrap" color="secondary">
+        <Button variant="contained" onClick={() => navigate('/message-templates/new')} className="whitespace-nowrap" color="primary">
           <FuseSvgIcon size={20}>heroicons-outline:plus-circle</FuseSvgIcon>
           <span className="hidden sm:flex mx-2">Criar Modelo de Mensagem</span>
         </Button>

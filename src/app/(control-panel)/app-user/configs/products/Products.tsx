@@ -509,11 +509,11 @@ function Products() {
                 <Button
                   variant="contained"
                   className="whitespace-nowrap"
-                  color="secondary"
+                  color="primary"
                   onClick={() => append({ name: '', description: '', price: '', files: [] })}
                 >
                   <FuseSvgIcon size={20}>heroicons-outline:plus-circle</FuseSvgIcon>
-                  <span className="hidden sm:flex mx-2">Adicionar Produto</span>
+                  <span className="hidden sm:flex mx-2">Adicionar Informativo</span>
                 </Button>
               </form>
             )}

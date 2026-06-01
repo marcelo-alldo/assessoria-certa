@@ -161,7 +161,7 @@ function BasicInfosTab() {
         )}
       />
 
-      <Controller
+      {/* <Controller
         name="lastPurchase"
         control={control}
         render={({ field }) => (
@@ -175,7 +175,7 @@ function BasicInfosTab() {
             />
           </LocalizationProvider>
         )}
-      />
+      /> */}
 
       {/* Switch para ativar/desativar cliente empresarial */}
       <Controller

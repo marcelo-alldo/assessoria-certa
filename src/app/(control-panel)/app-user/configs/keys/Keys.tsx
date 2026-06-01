@@ -116,7 +116,7 @@ function Keys() {
               <>
                 <Button
                   variant="contained"
-                  color="secondary"
+                  color="primary"
                   startIcon={<GoogleIcon />}
                   onClick={handleGoogleOAuth}
                   disabled={isLoadingCreate || isLoadingN8n || localLoading || isLoadingGoogle}

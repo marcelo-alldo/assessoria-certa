@@ -128,7 +128,7 @@ function OriginsHeader({ refetch, setLoading, uid, hasChanges, setHasChanges, sh
           disabled={!hasChanges || isLoadingCreate || isLoadingUpdate}
           onClick={() => handleSave()}
           className="whitespace-nowrap"
-          color="secondary"
+          color="primary"
         >
           <FuseSvgIcon size={20}>heroicons-outline:check-circle</FuseSvgIcon>
           <span className="hidden sm:flex mx-2">Salvar</span>

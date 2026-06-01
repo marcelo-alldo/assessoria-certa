@@ -80,6 +80,18 @@ function BoardCard(props: BoardCardProps) {
         }
       }
     }
+
+    if (card?.address?.city?.uid) {
+      const cityCorede = coredesCities.ac_coredes_cities.find((c) => c.city_uid === card.address.city.uid);
+
+      if (cityCorede) {
+        const coredeInfo = coredes.ac_coredes.find((corede) => corede.uid === cityCorede.corede_uid);
+
+        if (coredeInfo) {
+          setCorede(coredeInfo);
+        }
+      }
+    }
   }, [card]);
 
   useEffect(() => {

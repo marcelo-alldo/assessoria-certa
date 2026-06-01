@@ -105,7 +105,7 @@ function MessageTemplateHeader({ setLoading }: MessageTemplateHeaderProps) {
 
         <div className="flex items-center -mx-4">
           {isNew && (
-            <Button variant="contained" color="secondary" onClick={handleCreateClick} className="mx-4" disabled={!isValid}>
+            <Button variant="contained" color="primary" onClick={handleCreateClick} className="mx-4" disabled={!isValid}>
               <FuseSvgIcon size={20}>heroicons-outline:check-circle</FuseSvgIcon>
               <span className="mx-2">Criar</span>
             </Button>

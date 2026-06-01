@@ -330,7 +330,7 @@ function ReminderFormModal({ open, onClose, onSuccess, reminder }: ReminderFormM
             <Button
               type="submit"
               variant="contained"
-              color="secondary"
+              color="primary"
               disabled={!isValid || Object.keys(dirtyFields).length === 0 || isBusy}
               startIcon={isBusy ? <CircularProgress size={20} color="inherit" /> : null}
             >
