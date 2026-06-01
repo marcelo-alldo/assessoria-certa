@@ -210,6 +210,13 @@ const navigationConfig: FuseNavItemType[] = [
         type: 'item',
         url: 'marketing/origins',
       },
+      {
+        id: 'campaign-avatar',
+        title: 'Avatar\u00A0da\u00A0Campanha',
+        translate: 'Avatar\u00A0da\u00A0Campanha',
+        type: 'item',
+        url: 'marketing/avatar',
+      },
     ],
   },
 

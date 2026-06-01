@@ -4,6 +4,7 @@ import { Navigate } from 'react-router';
 import Dashboard from './Dashboard';
 import Origins from './origins/Origins';
 import Avatar from './avatar/Avatar';
+import AvatarComposer from '../../../(public)/avatar-composer/AvatarComposer';
 
 /**
  * The Marketing page route.

@@ -1,4 +1,4 @@
-import { styled, Typography, LinearProgress, Box, IconButton } from '@mui/material';
+import { styled, Typography, LinearProgress, Box, IconButton, Button, Tooltip } from '@mui/material';
 import FusePageSimple from '@fuse/core/FusePageSimple';
 import { FormProvider, useForm } from 'react-hook-form';
 import { z } from 'zod';
@@ -53,6 +53,7 @@ const ACCEPTED_IMAGE_TYPES = ['image/jpeg', 'image/jpg', 'image/png', 'image/web
 function Avatar() {
   const [localLoading, setLocalLoading] = useState(false);
   const [hasChanges, setHasChanges] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   const [getPresignedUrl] = useGetPresignedUrlMutation();
 
@@ -179,6 +180,18 @@ function Avatar() {
 
   const currentFile = watch('file');
   const displayUrl = currentFile?.media ? `data:${currentFile.mimeType};base64,${currentFile.media}` : currentFile?.url || null;
+
+  const handleCopyShareLink = () => {
+    const s3Url = configs?.data?.value;
+
+    if (!s3Url) return;
+
+    const shareUrl = `${window.location.origin}/criar-avatar?avatar=${encodeURIComponent(s3Url)}`;
+    navigator.clipboard.writeText(shareUrl).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  };
 
   return (
     <FormProvider {...methods}>
@@ -336,6 +349,22 @@ function Avatar() {
                     <Typography variant="caption" className="text-gray-400">
                       Formatos aceitos: JPEG, PNG, WebP. Tamanho máximo: 10MB.
                     </Typography>
+
+                    {/* Botão de compartilhar link público */}
+                    {configs?.data?.value && (
+                      <Tooltip title={copied ? 'Link copiado!' : 'Copiar link público para criação do avatar'} placement="top">
+                        <Button
+                          variant="outlined"
+                          color={copied ? 'success' : 'secondary'}
+                          size="small"
+                          startIcon={<FuseSvgIcon size={16}>{copied ? 'heroicons-outline:check' : 'heroicons-outline:link'}</FuseSvgIcon>}
+                          onClick={handleCopyShareLink}
+                          sx={{ alignSelf: 'flex-start' }}
+                        >
+                          {copied ? 'Copiado!' : 'Copiar link de compartilhamento'}
+                        </Button>
+                      </Tooltip>
+                    )}
                   </Box>
                 </Box>
               </form>
