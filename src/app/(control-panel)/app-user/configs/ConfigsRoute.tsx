@@ -7,6 +7,7 @@ import Keys from './keys/Keys';
 import Status from './status/Status';
 import Whatsapp from './whatsapp/Whatsapp';
 import Testing from './testing/Testing';
+import Pauta from './pauta/Pauta';
 
 /**
  * The Configs page route.
@@ -37,6 +38,10 @@ const ConfigsRoute: FuseRouteItemType = {
     {
       path: 'about',
       element: <About />,
+    },
+    {
+      path: 'pauta',
+      element: <Pauta />,
     },
     {
       path: 'testing',
