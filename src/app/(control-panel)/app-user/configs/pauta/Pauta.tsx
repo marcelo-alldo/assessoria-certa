@@ -1,6 +1,6 @@
 import { styled, Typography, TextField, LinearProgress } from '@mui/material';
 import FusePageSimple from '@fuse/core/FusePageSimple';
-import AboutHeader from './AboutHeader';
+import PautaHeader from './PautaHeader';
 import { useForm, FormProvider, Controller } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
@@ -20,26 +20,26 @@ const Root = styled(FusePageSimple)(({ theme }) => ({
 }));
 
 const schema = z.object({
-  about: z.string().min(10, 'O campo Sobre deve ser mais detalhado.').max(2000, 'O campo Sobre deve ter no máximo 2000 caracteres.'),
+  pauta: z.string().min(10, 'O campo Pauta deve ser mais detalhado.').max(2000, 'O campo Pauta deve ter no máximo 2000 caracteres.'),
 });
 
 type FormType = z.infer<typeof schema>;
 
 const defaultValues: FormType = {
-  about: '',
+  pauta: '',
 };
 /**
- * The About.
+ * The Pauta.
  */
 
-function About() {
+function Pauta() {
   const [localLoading, setLocalLoading] = useState(false);
 
   const {
     data: configs,
     isLoading: isLoadingConfigs,
     refetch: refetchConfigs,
-  } = useGetConfigsQuery('key=ABOUT', { refetchOnMountOrArgChange: true });
+  } = useGetConfigsQuery('key=PAUTA', { refetchOnMountOrArgChange: true });
 
   const methods = useForm<FormType>({
     resolver: zodResolver(schema),
@@ -49,12 +49,12 @@ function About() {
 
   const { reset, control, formState, watch } = methods;
   const { errors } = formState;
-  const aboutValue = watch('about') || '';
+  const pautaValue = watch('pauta') || '';
 
   useEffect(() => {
     if (configs) {
       reset({
-        about: configs?.data?.value || '',
+        pauta: configs?.data?.value || '',
       });
     }
   }, [configs, reset]);
@@ -63,7 +63,7 @@ function About() {
     <FormProvider {...methods}>
       <Root
         scroll="content"
-        header={<AboutHeader setLoading={setLocalLoading} refetch={refetchConfigs} uid={configs?.data?.uid} />}
+        header={<PautaHeader setLoading={setLocalLoading} refetch={refetchConfigs} uid={configs?.data?.uid} />}
         content={
           <div className="flex flex-1 flex-col h-full">
             {(isLoadingConfigs || localLoading) && (
@@ -74,11 +74,11 @@ function About() {
             {!isLoadingConfigs && (
               <div className="flex flex-1 flex-col h-full p-8 max-w-2xl">
                 <Typography variant="body1" className="mb-4">
-                  Este texto será utilizado pela inteligência artificial para responder dúvidas sobre o candidato. Seja claro, detalhado e inclua
-                  informações relevantes sobre a sua vida e carreira.
+                  Este texto será utilizado pela inteligência artificial para responder dúvidas dos eleitores automaticamente. Seja claro, detalhado e
+                  inclua informações relevantes sobre sua campanha, propostas, diferenciais e missão.
                 </Typography>
                 <Controller
-                  name="about"
+                  name="pauta"
                   control={control}
                   render={({ field }) => (
                     <TextField
@@ -89,9 +89,9 @@ function About() {
                       fullWidth
                       variant="outlined"
                       className="mb-4"
-                      placeholder="Descreva aqui sobre o candidato..."
-                      error={!!errors.about}
-                      helperText={errors.about?.message || `${aboutValue.length}/2000 caracteres`}
+                      placeholder="Descreva aqui sobre sua campanha..."
+                      error={!!errors.pauta}
+                      helperText={errors.pauta?.message || `${pautaValue.length}/2000 caracteres`}
                       inputProps={{
                         maxLength: 2000,
                       }}
@@ -107,4 +107,4 @@ function About() {
   );
 }
 
-export default About;
+export default Pauta;

@@ -151,6 +151,12 @@ const navigationConfig: FuseNavItemType[] = [
         url: '/configs/about',
       },
       {
+        id: 'pauta',
+        title: 'Pauta',
+        type: 'item',
+        url: '/configs/pauta',
+      },
+      {
         id: 'products',
         title: 'Informativos',
         translate: 'Informativos',
