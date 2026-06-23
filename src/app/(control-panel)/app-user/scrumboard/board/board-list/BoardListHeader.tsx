@@ -378,7 +378,9 @@ function BoardListHeader(props: BoardListHeaderProps) {
                 ? 'Lista de eleitores'
                 : list.name.split('Lista de ')[1] === 'clientes'
                   ? 'Lista de apoiadores'
-                  : list.name}
+                  : list.name === 'Adicionar a Clientes'
+                    ? 'Adicionar a Apoiadores'
+                    : list.name}
             </Typography>
           )}
         </div>
